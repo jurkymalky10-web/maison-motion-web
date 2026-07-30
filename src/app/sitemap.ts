@@ -2,7 +2,17 @@ import type { MetadataRoute } from "next";
 import { siteConfig } from "@/lib/site";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const routes = ["", "/portfolio", "/portfolio/bmw-m3", "/services", "/about", "/contact"];
+  const routes = [
+    "",
+    "/portfolio",
+    "/portfolio/bmw-m3",
+    "/portfolio/audi-rs5",
+    "/portfolio/audi-rs6",
+    "/portfolio/lamborghini-huracan",
+    "/services",
+    "/about",
+    "/contact",
+  ];
   const legalRoutes = [
     "/legal/privacy-policy",
     "/legal/terms-and-conditions",

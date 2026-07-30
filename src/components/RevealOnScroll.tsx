@@ -4,7 +4,7 @@ import { motion, type Variants } from "framer-motion";
 import type { ReactNode } from "react";
 
 const variants: Variants = {
-  hidden: { opacity: 0, y: 40 },
+  hidden: { opacity: 0, y: 24 },
   visible: { opacity: 1, y: 0 },
 };
 
@@ -27,7 +27,7 @@ export default function RevealOnScroll({
       whileInView="visible"
       viewport={{ once: true, margin: "-10% 0px -10% 0px" }}
       variants={variants}
-      transition={{ duration: 1, ease: [0.16, 1, 0.3, 1], delay }}
+      transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1], delay }}
     >
       {children}
     </MotionTag>

@@ -43,7 +43,7 @@ export default function CTASection({
           <RevealOnScroll delay={0.3}>
             <Link
               href={href}
-              className="mt-12 inline-flex items-center bg-bronze px-10 py-4 text-xs uppercase tracking-[0.25em] text-black transition-all duration-[400ms] ease-out hover:shadow-[0_0_24px_rgba(198,138,78,0.45)]"
+              className="mt-12 inline-flex items-center bg-bronze px-10 py-4 text-xs uppercase tracking-[0.25em] text-black transition-all duration-300 ease-out hover:scale-[1.02] hover:shadow-[0_0_24px_rgba(198,138,78,0.45)]"
             >
               {ctaLabel}
             </Link>

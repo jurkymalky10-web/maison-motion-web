@@ -106,7 +106,6 @@ export default function ProjectGallery({ images }: { images: GalleryImage[] }) {
                 fill
                 sizes="100vw"
                 className="object-contain"
-                priority
               />
             </motion.div>
 

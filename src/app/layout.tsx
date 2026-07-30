@@ -41,11 +41,13 @@ export const metadata: Metadata = {
     title: `${siteConfig.name} — ${siteConfig.tagline}`,
     description: siteConfig.description,
     siteName: siteConfig.name,
+    images: [{ url: "/hero/hero-1.webp" }],
   },
   twitter: {
     card: "summary_large_image",
     title: `${siteConfig.name} — ${siteConfig.tagline}`,
     description: siteConfig.description,
+    images: ["/hero/hero-1.webp"],
   },
   robots: {
     index: true,

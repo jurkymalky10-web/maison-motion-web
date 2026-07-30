@@ -41,16 +41,16 @@ export default function Hero() {
         <motion.p
           initial={{ opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1], delay: 0.3 }}
+          transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1], delay: 0.2 }}
           className="text-xs uppercase tracking-[0.4em] text-bronze"
         >
           Automotive Visual Presentation Studio
         </motion.p>
 
         <motion.h1
-          initial={{ opacity: 0, y: 32 }}
+          initial={{ opacity: 0, y: 28 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1, ease: [0.16, 1, 0.3, 1], delay: 0.45 }}
+          transition={{ duration: 0.75, ease: [0.16, 1, 0.3, 1], delay: 0.3 }}
           className="mt-7 max-w-4xl font-display text-[11.3vw] leading-[1.15] tracking-tight text-balance sm:text-[3.25rem] md:text-[4.1rem] lg:text-[4.9rem]"
         >
           First Impressions Matter.
@@ -59,9 +59,9 @@ export default function Hero() {
         </motion.h1>
 
         <motion.p
-          initial={{ opacity: 0, y: 24 }}
+          initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1, ease: [0.16, 1, 0.3, 1], delay: 0.65 }}
+          transition={{ duration: 0.75, ease: [0.16, 1, 0.3, 1], delay: 0.4 }}
           className="mt-12 max-w-[580px] text-base leading-relaxed text-foreground/60 md:text-lg"
         >
           Premium automotive photography, cinematic films and natural image
@@ -70,20 +70,20 @@ export default function Hero() {
         </motion.p>
 
         <motion.div
-          initial={{ opacity: 0, y: 24 }}
+          initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1, ease: [0.16, 1, 0.3, 1], delay: 0.85 }}
+          transition={{ duration: 0.75, ease: [0.16, 1, 0.3, 1], delay: 0.5 }}
           className="mt-14 flex flex-wrap items-center gap-6"
         >
           <Link
             href="/portfolio"
-            className="inline-flex items-center bg-bronze px-8 py-4 text-xs uppercase tracking-[0.25em] text-black transition-all duration-[400ms] ease-out hover:shadow-[0_0_24px_rgba(198,138,78,0.45)]"
+            className="inline-flex items-center bg-bronze px-8 py-4 text-xs uppercase tracking-[0.25em] text-black transition-all duration-300 ease-out hover:scale-[1.02] hover:shadow-[0_0_24px_rgba(198,138,78,0.45)]"
           >
             View Portfolio
           </Link>
           <Link
             href="/contact"
-            className="inline-flex items-center border border-foreground/30 px-8 py-4 text-xs uppercase tracking-[0.25em] text-foreground transition-all duration-[400ms] ease-out hover:border-bronze hover:text-bronze hover:shadow-[0_0_24px_rgba(198,138,78,0.3)]"
+            className="inline-flex items-center border border-foreground/30 px-8 py-4 text-xs uppercase tracking-[0.25em] text-foreground transition-all duration-300 ease-out hover:scale-[1.02] hover:border-bronze hover:text-bronze hover:shadow-[0_0_24px_rgba(198,138,78,0.3)]"
           >
             Request Presentation
           </Link>
@@ -94,7 +94,7 @@ export default function Hero() {
         style={{ opacity }}
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ delay: 1.4, duration: 1 }}
+        transition={{ delay: 0.8, duration: 0.6 }}
         className="absolute inset-x-0 bottom-10 z-10 hidden flex-col items-center gap-3 md:flex"
       >
         <span className="text-[10px] uppercase tracking-[0.3em] text-foreground/40">

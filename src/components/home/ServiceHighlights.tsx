@@ -20,8 +20,11 @@ const highlights = [
 
 export default function ServiceHighlights() {
   return (
-    <section className="relative bg-black py-16 md:py-24">
+    <section className="relative bg-black py-16 md:py-24" aria-labelledby="services-heading">
       <div className="container-lux">
+        <h2 id="services-heading" className="sr-only">
+          Our Services
+        </h2>
         <div className="grid grid-cols-1 gap-x-12 gap-y-12 md:grid-cols-3">
           {highlights.map((item, i) => (
             <RevealOnScroll key={item.index} delay={0.08 * i}>
