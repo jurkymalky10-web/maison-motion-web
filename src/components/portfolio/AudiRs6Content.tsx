@@ -95,7 +95,7 @@ export default function AudiRs6Content({
                 <video
                   controls
                   preload="metadata"
-                  loading="lazy"
+                
                   playsInline
                   poster={HERO}
                   className="h-full w-full object-cover"
