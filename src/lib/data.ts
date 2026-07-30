@@ -164,28 +164,3 @@ export const processSteps = [
   },
 ];
 
-export const stats = [
-  { value: 180, suffix: "+", label: "Vehicles presented" },
-  { value: 42, suffix: "", label: "Brand partners" },
-  { value: 12, suffix: "", label: "Countries filmed" },
-  { value: 9, suffix: "", label: "Years in craft" },
-];
-
-export const values = [
-  {
-    title: "First Impressions, Engineered",
-    description: "A buyer forms an opinion of a car before they ever read the spec sheet. We treat that moment as the deliverable, not an afterthought to it.",
-  },
-  {
-    title: "Trust, Built Frame by Frame",
-    description: "No stock footage, no borrowed locations, no exaggeration in the grade. What a client sees in the final film is what stood in front of the camera.",
-  },
-  {
-    title: "Presentation as Craft",
-    description: "Light, angle and timing are decided before a single frame is shot — the same discipline a marque applies to the vehicle itself.",
-  },
-  {
-    title: "Attention to the Unnoticed",
-    description: "A smudge on chrome, a stray reflection, a shadow in the wrong place — the difference between ordinary and exceptional is rarely the obvious thing.",
-  },
-];

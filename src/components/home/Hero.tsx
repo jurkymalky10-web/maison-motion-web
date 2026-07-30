@@ -81,13 +81,13 @@ export default function Hero() {
             href="/portfolio"
             className="inline-flex items-center bg-bronze px-8 py-4 text-xs uppercase tracking-[0.25em] text-black transition-all duration-[400ms] ease-out hover:shadow-[0_0_24px_rgba(198,138,78,0.45)]"
           >
-            View Our Work
+            View Portfolio
           </Link>
           <Link
             href="/contact"
             className="inline-flex items-center border border-foreground/30 px-8 py-4 text-xs uppercase tracking-[0.25em] text-foreground transition-all duration-[400ms] ease-out hover:border-bronze hover:text-bronze hover:shadow-[0_0_24px_rgba(198,138,78,0.3)]"
           >
-            Request a Presentation
+            Request Presentation
           </Link>
         </motion.div>
       </motion.div>
