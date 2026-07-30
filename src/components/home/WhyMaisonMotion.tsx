@@ -20,7 +20,7 @@ export default function WhyMaisonMotion() {
           </h2>
         </RevealOnScroll>
 
-        <div className="mt-16 grid grid-cols-2 gap-x-8 gap-y-10 md:grid-cols-4 md:gap-x-10">
+        <div className="mt-16 grid grid-cols-1 gap-x-8 gap-y-10 sm:grid-cols-2 md:grid-cols-4 md:gap-x-10">
           {points.map((point, i) => (
             <RevealOnScroll key={point.title} delay={0.06 * i}>
               <div className="h-px w-10 bg-bronze" />

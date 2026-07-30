@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import Image from "next/image";
 import { AnimatePresence, motion } from "framer-motion";
 import RevealOnScroll from "@/components/RevealOnScroll";
@@ -14,11 +14,15 @@ export interface GalleryImage {
 export default function ProjectGallery({ images }: { images: GalleryImage[] }) {
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
 
-  const close = () => setActiveIndex(null);
-  const showPrev = () =>
-    setActiveIndex((i) => (i === null ? null : (i - 1 + images.length) % images.length));
-  const showNext = () =>
-    setActiveIndex((i) => (i === null ? null : (i + 1) % images.length));
+  const close = useCallback(() => setActiveIndex(null), []);
+  const showPrev = useCallback(
+    () => setActiveIndex((i) => (i === null ? null : (i - 1 + images.length) % images.length)),
+    [images.length]
+  );
+  const showNext = useCallback(
+    () => setActiveIndex((i) => (i === null ? null : (i + 1) % images.length)),
+    [images.length]
+  );
 
   useEffect(() => {
     if (activeIndex === null) return;
@@ -33,7 +37,7 @@ export default function ProjectGallery({ images }: { images: GalleryImage[] }) {
       window.removeEventListener("keydown", onKeyDown);
       document.body.style.overflow = "";
     };
-  }, [activeIndex]);
+  }, [activeIndex, close, showPrev, showNext]);
 
   return (
     <>
