@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="bronzeRing" x1="20" y1="10" x2="180" y2="190" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#E8B27C" />
+      <stop offset="45%" stop-color="#C68A4E" />
+      <stop offset="100%" stop-color="#6B4023" />
+    </linearGradient>
+  </defs>
+
+  <g fill="none" stroke="url(#bronzeRing)" stroke-width="5" stroke-linecap="round">
+    <path d="M 183.19 111.69 A 84 84 0 0 1 111.69 183.19" />
+    <path d="M 88.31 183.19 A 84 84 0 0 1 16.81 111.69" />
+    <path d="M 16.81 88.31 A 84 84 0 0 1 88.31 16.81" />
+    <path d="M 111.69 16.81 A 84 84 0 0 1 183.19 88.31" />
+  </g>
+
+  <rect x="90" y="13" width="20" height="6" rx="3" fill="url(#bronzeRing)" />
+  <rect x="90" y="181" width="20" height="6" rx="3" fill="url(#bronzeRing)" />
+  <rect x="13" y="90" width="6" height="20" rx="3" fill="url(#bronzeRing)" />
+  <rect x="181" y="90" width="6" height="20" rx="3" fill="url(#bronzeRing)" />
+
+  <g fill="url(#bronzeRing)" font-family="'Bodoni Moda', 'Times New Roman', Georgia, serif" font-weight="700">
+    <text x="32" y="136" font-size="98">M</text>
+    <g transform="translate(204,0) scale(-1,1)">
+      <text x="32" y="136" font-size="98">M</text>
+    </g>
+  </g>
+</svg>
