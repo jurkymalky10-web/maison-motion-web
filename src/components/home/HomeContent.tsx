@@ -2,7 +2,6 @@
 
 import Hero from "./Hero";
 import ServiceHighlights from "./ServiceHighlights";
-import PortfolioPreview from "./PortfolioPreview";
 import WhyMaisonMotion from "./WhyMaisonMotion";
 import CTASection from "@/components/CTASection";
 
@@ -11,7 +10,6 @@ export default function HomeContent() {
     <>
       <Hero />
       <ServiceHighlights />
-      <PortfolioPreview />
       <WhyMaisonMotion />
       <CTASection
         eyebrow="By Private Consultation"
