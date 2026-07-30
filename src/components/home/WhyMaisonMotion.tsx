@@ -9,7 +9,7 @@ const points = [
 
 export default function WhyMaisonMotion() {
   return (
-    <section className="relative bg-black py-24 md:py-32">
+    <section className="relative bg-black py-20 md:py-28">
       <div className="container-lux">
         <RevealOnScroll className="max-w-2xl">
           <p className="text-xs uppercase tracking-[0.35em] text-bronze">Why Maison Motion</p>

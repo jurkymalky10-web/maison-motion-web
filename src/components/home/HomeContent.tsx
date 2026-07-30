@@ -16,6 +16,7 @@ export default function HomeContent() {
         title="Reserve Your Presentation."
         subtitle="We accept a limited number of productions each season. Tell us about the vehicle, and we'll confirm availability within one business day."
         ctaLabel="Request a Private Consultation"
+        paddingClassName="py-24 md:py-36"
       />
     </>
   );

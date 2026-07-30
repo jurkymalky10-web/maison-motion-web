@@ -20,7 +20,7 @@ const highlights = [
 
 export default function ServiceHighlights() {
   return (
-    <section className="relative bg-black py-20 md:py-28">
+    <section className="relative bg-black py-16 md:py-24">
       <div className="container-lux">
         <div className="grid grid-cols-1 gap-x-12 gap-y-12 md:grid-cols-3">
           {highlights.map((item, i) => (

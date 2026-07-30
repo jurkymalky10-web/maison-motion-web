@@ -64,11 +64,9 @@ export default function Hero() {
           transition={{ duration: 1, ease: [0.16, 1, 0.3, 1], delay: 0.65 }}
           className="mt-12 max-w-[580px] text-base leading-relaxed text-foreground/60 md:text-lg"
         >
-          We create premium automotive presentations through professional
-          photography, cinematic video and natural image enhancement. Every
-          vehicle is presented with authenticity, attention to detail and a
-          premium visual standard designed to help private sellers and
-          dealerships make a stronger first impression.
+          Premium automotive photography, cinematic films and natural image
+          enhancement. Designed to help every vehicle make an unforgettable
+          first impression.
         </motion.p>
 
         <motion.div

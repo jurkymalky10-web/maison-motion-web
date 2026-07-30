@@ -10,6 +10,7 @@ export default function CTASection({
   ctaLabel = "Start a Project",
   href = "/contact",
   assurances = ["Reply within one business day", "By private consultation", "Worldwide production"],
+  paddingClassName = "py-32 md:py-44",
 }: {
   eyebrow?: string;
   title?: string;
@@ -17,9 +18,10 @@ export default function CTASection({
   ctaLabel?: string;
   href?: string;
   assurances?: string[];
+  paddingClassName?: string;
 }) {
   return (
-    <section className="relative overflow-hidden bg-black py-32 md:py-44">
+    <section className={`relative overflow-hidden bg-black ${paddingClassName}`}>
       <GradientArt hue={["#C68A4E", "#0d0d0d"]} showSweep={false} />
       <div className="container-lux relative z-10 flex justify-center">
         <div className="relative w-full max-w-3xl px-8 py-16 text-center md:px-16 md:py-20">
