@@ -63,6 +63,7 @@ export const portfolioItems: PortfolioItem[] = [
     category: "Photography",
     year: "2023",
     hue: ["#9a9a9a", "#050505"],
+    href: "/portfolio/porsche-911",
     services: ["Photography"],
   },
   {

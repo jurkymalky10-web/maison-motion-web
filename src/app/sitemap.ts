@@ -10,6 +10,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/portfolio/audi-rs5",
     "/portfolio/audi-rs6",
     "/portfolio/lamborghini-huracan",
+    "/portfolio/porsche-911",
     "/services",
     "/about",
     "/contact",
