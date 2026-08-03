@@ -253,9 +253,7 @@
     "sendEmail": "E-Mail senden",
     "visitFacebook": "Facebook besuchen",
     "responseTimeLabel": "Antwortzeit",
-    "responseTimeValue": "Innerhalb von 24 Stunden",
-    "locationLabel": "Standort",
-    "locationValue": "Slowakei — landesweit verfügbar"
+    "responseTimeValue": "Innerhalb von 24 Stunden"
   },
   "legal": {
     "privacy": {

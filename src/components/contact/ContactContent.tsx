@@ -44,15 +44,9 @@ export default function ContactContent() {
             </a>
           </RevealOnScroll>
 
-          <RevealOnScroll delay={0.15} className="mt-20 grid grid-cols-1 gap-12 sm:grid-cols-2">
-            <div>
-              <p className="text-xs uppercase tracking-[0.25em] text-bronze">{t("responseTimeLabel")}</p>
-              <p className="mt-4 text-lg text-foreground/70">{t("responseTimeValue")}</p>
-            </div>
-            <div>
-              <p className="text-xs uppercase tracking-[0.25em] text-bronze">{t("locationLabel")}</p>
-              <p className="mt-4 text-lg text-foreground/70">{t("locationValue")}</p>
-            </div>
+          <RevealOnScroll delay={0.15} className="mt-20">
+            <p className="text-xs uppercase tracking-[0.25em] text-bronze">{t("responseTimeLabel")}</p>
+            <p className="mt-4 text-lg text-foreground/70">{t("responseTimeValue")}</p>
           </RevealOnScroll>
         </div>
       </section>

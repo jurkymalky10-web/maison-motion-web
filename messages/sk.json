@@ -253,9 +253,7 @@
     "sendEmail": "Odoslať e-mail",
     "visitFacebook": "Navštíviť Facebook",
     "responseTimeLabel": "Čas odpovede",
-    "responseTimeValue": "Do 24 hodín",
-    "locationLabel": "Lokalita",
-    "locationValue": "Slovensko — dostupné po celej krajine"
+    "responseTimeValue": "Do 24 hodín"
   },
   "legal": {
     "privacy": {

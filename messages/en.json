@@ -253,9 +253,7 @@
     "sendEmail": "Send Email",
     "visitFacebook": "Visit Facebook",
     "responseTimeLabel": "Response Time",
-    "responseTimeValue": "Within 24 hours",
-    "locationLabel": "Location",
-    "locationValue": "Slovakia — Available Nationwide"
+    "responseTimeValue": "Within 24 hours"
   },
   "legal": {
     "privacy": {
