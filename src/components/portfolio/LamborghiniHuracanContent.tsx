@@ -94,7 +94,7 @@ export default function LamborghiniHuracanContent() {
 
   return (
     <>
-      <section className="relative h-[100vh] min-h-[720px] w-full overflow-hidden bg-black">
+      <section className="relative h-[68vh] min-h-[500px] w-full overflow-hidden bg-black md:h-[100vh] md:min-h-[720px]">
         <Image
           src={HERO}
           alt="Lamborghini Huracán — cinematic automotive presentation"

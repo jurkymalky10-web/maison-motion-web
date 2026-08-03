@@ -35,7 +35,7 @@ export default function GradientArt({
       )}
 
       <svg
-        className="absolute inset-0 h-full w-full opacity-[0.056]"
+        className="absolute inset-0 h-full w-full opacity-[0.02] md:opacity-[0.056]"
         aria-hidden
       >
         <defs>

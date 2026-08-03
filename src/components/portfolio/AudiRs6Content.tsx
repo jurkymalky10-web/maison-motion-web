@@ -30,7 +30,7 @@ export default function AudiRs6Content({
 
   return (
     <>
-      <section className="relative h-[85vh] min-h-[560px] w-full overflow-hidden bg-black">
+      <section className="relative h-[58vh] min-h-[440px] w-full overflow-hidden bg-black md:h-[85vh] md:min-h-[560px]">
         <Image
           src={HERO}
           alt="Audi RS6 — premium vehicle presentation"

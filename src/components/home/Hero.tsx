@@ -20,7 +20,7 @@ export default function Hero() {
   const opacity = useTransform(scrollYProgress, [0, 0.8], [1, 0]);
 
   return (
-    <section ref={ref} className="relative h-[100svh] min-h-[720px] overflow-hidden bg-black">
+    <section ref={ref} className="relative h-[68svh] min-h-[480px] overflow-hidden bg-black md:h-[100svh] md:min-h-[720px]">
       <motion.div style={{ y, scale }} className="absolute inset-0">
         <Image
           src="/hero/hero-1.webp"
@@ -28,7 +28,7 @@ export default function Hero() {
           fill
           priority
           sizes="100vw"
-          className="object-cover object-right hero-image-bright"
+          className="object-cover object-[80%_center] hero-image-bright md:object-right"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-black/35 via-black/20 to-black/55" />
         <div className="absolute inset-0 bg-gradient-to-r from-black/40 via-black/10 to-transparent" />
@@ -38,7 +38,7 @@ export default function Hero() {
 
       <motion.div
         style={{ opacity }}
-        className="container-lux relative z-10 flex h-full flex-col justify-center pt-28"
+        className="container-lux relative z-10 flex h-full flex-col justify-center pt-20 md:pt-28"
       >
         <motion.p
           initial={{ opacity: 0, y: 16 }}

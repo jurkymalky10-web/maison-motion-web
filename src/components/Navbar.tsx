@@ -44,7 +44,7 @@ export default function Navbar() {
             alt="Maison Motion Studio"
             width={1536}
             height={1024}
-            className="h-16 w-auto md:h-24"
+            className="h-20 w-auto md:h-24"
           />
         </Link>
 
@@ -84,26 +84,30 @@ export default function Navbar() {
           </Link>
         </div>
 
-        <button
-          aria-label="Toggle menu"
-          aria-expanded={open}
-          aria-controls="mobile-menu"
-          onClick={() => setOpen((v) => !v)}
-          className="md:hidden relative z-50 flex h-10 w-10 flex-col items-center justify-center gap-1.5"
-        >
-          <motion.span
-            animate={open ? { rotate: 45, y: 6 } : { rotate: 0, y: 0 }}
-            className="h-px w-6 bg-foreground"
-          />
-          <motion.span
-            animate={open ? { opacity: 0 } : { opacity: 1 }}
-            className="h-px w-6 bg-foreground"
-          />
-          <motion.span
-            animate={open ? { rotate: -45, y: -6 } : { rotate: 0, y: 0 }}
-            className="h-px w-6 bg-foreground"
-          />
-        </button>
+        <div className="flex items-center gap-4 md:hidden">
+          <LanguageSwitcher />
+
+          <button
+            aria-label="Toggle menu"
+            aria-expanded={open}
+            aria-controls="mobile-menu"
+            onClick={() => setOpen((v) => !v)}
+            className="relative z-50 flex h-10 w-10 flex-col items-center justify-center gap-1.5"
+          >
+            <motion.span
+              animate={open ? { rotate: 45, y: 6 } : { rotate: 0, y: 0 }}
+              className="h-px w-6 bg-foreground"
+            />
+            <motion.span
+              animate={open ? { opacity: 0 } : { opacity: 1 }}
+              className="h-px w-6 bg-foreground"
+            />
+            <motion.span
+              animate={open ? { rotate: -45, y: -6 } : { rotate: 0, y: 0 }}
+              className="h-px w-6 bg-foreground"
+            />
+          </button>
+        </div>
       </div>
 
       <AnimatePresence>
@@ -135,15 +139,6 @@ export default function Navbar() {
                   </Link>
                 </motion.div>
               ))}
-
-              <motion.div
-                initial={{ opacity: 0, y: 16 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.05 * navLinks.length, duration: 0.5 }}
-                className="pt-4"
-              >
-                <LanguageSwitcher />
-              </motion.div>
             </div>
           </motion.div>
         )}
