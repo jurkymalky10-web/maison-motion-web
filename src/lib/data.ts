@@ -53,6 +53,7 @@ export const portfolioItems: PortfolioItem[] = [
     category: "Cinematic Video",
     year: "2024",
     hue: ["#C68A4E", "#0d0d0d"],
+    href: "/portfolio/bmw-m5",
     services: ["Cinematic Video"],
   },
   {

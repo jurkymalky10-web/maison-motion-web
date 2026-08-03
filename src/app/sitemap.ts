@@ -6,6 +6,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "",
     "/portfolio",
     "/portfolio/bmw-m3",
+    "/portfolio/bmw-m5",
     "/portfolio/audi-rs5",
     "/portfolio/audi-rs6",
     "/portfolio/lamborghini-huracan",
