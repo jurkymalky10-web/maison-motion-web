@@ -36,7 +36,7 @@ export default function Navbar() {
       <div className="container-lux flex h-28 items-center justify-between">
         <Link href="/" className="flex items-center" aria-label="Maison Motion Studio — Home">
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/brand/logo-header.svg" alt="Maison Motion Studio" className="h-[70px] w-auto md:h-20" />
+          <img src="/brand/logo-master.png" alt="Maison Motion Studio" className="h-16 w-auto md:h-24" />
         </Link>
 
         <nav className="hidden md:flex items-center gap-12">

@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(npm *)",
+      "Skill(run)",
+      "PowerShell(Get-Command *)",
+      "PowerShell(Remove-Item *)",
+      "PowerShell(Rename-Item *)",
+      "Bash(curl -s http://localhost:3000/portfolio/audi-rs5 -o /tmp_audi_rs5.html)",
+      "Bash(wc -l /tmp_audi_rs5.html)",
+      "Bash(grep -o \"Original Photo\\\\|Vehicle Presentation\\\\|Back to Portfolio\\\\|Model Year\\\\|Displacement\\\\|2,894 cc\\\\|2.9L TFSI V6\" /tmp_audi_rs5.html)",
+      "Bash(curl -sv http://localhost:3000/portfolio/audi-rs5)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" \"http://localhost:3000/portfolio/lamborghini-huracan\")",
+      "Bash(curl -s \"http://localhost:3000/portfolio/lamborghini-huracan?_=$\\(date +%s\\)\")",
+      "Bash(curl -s -o /dev/null -w \"/services status: %{http_code}\\\\n\" \"http://localhost:3000/services\")",
+      "Bash(curl -s \"http://localhost:3000/services?_=$\\(date +%s\\)\")",
+      "Bash(nohup npm run dev)",
+      "Bash(disown)",
+      "Bash(npx tsc *)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)"
+    ]
+  }
+}
