@@ -42,6 +42,12 @@ export default function PricingContent() {
             </h2>
           </RevealOnScroll>
 
+          <RevealOnScroll delay={0.08} className="mx-auto mt-6 max-w-xl text-center">
+            <p className="text-base leading-relaxed text-foreground/60 md:text-lg">
+              {t("startingPrice.subtitle")}
+            </p>
+          </RevealOnScroll>
+
           <RevealOnScroll delay={0.1} className="mt-16 text-center">
             <p className="text-xs uppercase tracking-[0.3em] text-bronze">
               {t("startingPrice.includesHeading")}
