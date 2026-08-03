@@ -3,6 +3,7 @@
     "home": "Domov",
     "portfolio": "Portfólio",
     "services": "Služby",
+    "pricing": "Cenník",
     "about": "O nás",
     "contact": "Kontakt",
     "enquire": "Kontaktujte nás"
@@ -254,6 +255,51 @@
     "visitFacebook": "Navštíviť Facebook",
     "responseTimeLabel": "Čas odpovede",
     "responseTimeValue": "Do 24 hodín"
+  },
+  "pricing": {
+    "pageHeader": {
+      "eyebrow": "Investícia a cenník",
+      "title": "Investícia a cenník",
+      "subtitle": "Každý projekt je prispôsobený vášmu konkrétnemu vozidlu a vašim individuálnym požiadavkám."
+    },
+    "intro": {
+      "paragraph": "Či už máte jasnú predstavu o tom, ako by malo byť vaše vozidlo prezentované, alebo radšej necháte celý tvorivý proces na nás, vytvoríme prémiovú vizuálnu prezentáciu navrhnutú tak, aby vaše vozidlo ukázala v tom najlepšom svetle."
+    },
+    "startingPrice": {
+      "headingPre": "Ceny začínajú od ",
+      "headingAccent": "149 €",
+      "includesHeading": "Každý projekt od 149 € zahŕňa:",
+      "items": [
+        "10 profesionálne upravených fotografií vo vysokom rozlíšení",
+        "Prémiová výmena prostredia prispôsobená vášmu vozidlu",
+        "Profesionálna farebná korekcia",
+        "Realistické osvetlenie, tiene a odrazy",
+        "Odstránenie rušivých prvkov tam, kde je to potrebné",
+        "Špičková retuš pre prémiový výsledný vzhľad",
+        "Finálne obrázky dodané v plnom rozlíšení",
+        "Obrázky optimalizované pre online inzertné portály a sociálne siete"
+      ]
+    },
+    "noHiddenFees": {
+      "heading": "Žiadne skryté poplatky.",
+      "paragraph": "Každá cenová ponuka je prediskutovaná a schválená ešte pred začatím akejkoľvek práce, čo zaručuje úplnú transparentnosť počas celého procesu."
+    },
+    "visionInMind": {
+      "heading": "Máte konkrétnu predstavu?",
+      "paragraph1": "Neváhajte nám povedať o svojich nápadoch, preferovanom prostredí, atmosfére, štýle alebo akýchkoľvek konkrétnych detailoch, ktoré by ste chceli vo finálnom výsledku vidieť.",
+      "paragraph2": "Ak radšej necháte tvorivé smerovanie na nás, starostlivo vyberieme dokonalé prostredie, osvetlenie, kompozíciu a celkový vizuálny štýl, aby sme vytvorili prezentáciu, ktorá vášmu vozidlu najlepšie vyhovuje."
+    },
+    "lookingForMore": {
+      "heading": "Hľadáte niečo viac?",
+      "paragraph1": "Ak potrebujete ďalšie fotografie, filmové videá, pokročilé vizuálne efekty, vlastné prostredia alebo úplne individuálnu automobilovú prezentáciu, pripravíme vám osobnú cenovú ponuku na základe vašich individuálnych požiadaviek.",
+      "paragraph2": "Jednoducho nám pošlite niekoľko fotografií svojho vozidla spolu s krátkym popisom svojho nápadu a my vám pripravíme individuálnu ponuku šitú presne na mieru vášmu projektu."
+    },
+    "cta": {
+      "eyebrow": "Začnime",
+      "title": "Chcete prezentovať svoje vozidlo?",
+      "subtitle": "Každý projekt začína rozhovorom o vašom vozidle a prezentácii, ktorú si zaslúži.",
+      "ctaLabel": "Vyžiadať cenovú ponuku"
+    }
   },
   "legal": {
     "privacy": {

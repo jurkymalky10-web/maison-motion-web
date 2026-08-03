@@ -3,6 +3,7 @@
     "home": "Home",
     "portfolio": "Portfolio",
     "services": "Services",
+    "pricing": "Pricing",
     "about": "About",
     "contact": "Contact",
     "enquire": "Enquire"
@@ -254,6 +255,51 @@
     "visitFacebook": "Visit Facebook",
     "responseTimeLabel": "Response Time",
     "responseTimeValue": "Within 24 hours"
+  },
+  "pricing": {
+    "pageHeader": {
+      "eyebrow": "Investment & Pricing",
+      "title": "Investment & Pricing",
+      "subtitle": "Every project is tailored to your specific vehicle and your individual requirements."
+    },
+    "intro": {
+      "paragraph": "Whether you already have a clear vision of how you'd like your vehicle to be presented or prefer to leave the entire creative process to us, we'll create a premium visual presentation designed to showcase your vehicle at its very best."
+    },
+    "startingPrice": {
+      "headingPre": "Pricing starts from ",
+      "headingAccent": "€149",
+      "includesHeading": "Every project starting at €149 includes:",
+      "items": [
+        "10 professionally edited high-resolution photographs",
+        "Premium environment replacement tailored to your vehicle",
+        "Professional color grading",
+        "Realistic lighting, shadows, and reflections",
+        "Removal of distracting elements where necessary",
+        "High-end retouching for a premium finish",
+        "Final images delivered in full resolution",
+        "Images optimized for online marketplaces and social media"
+      ]
+    },
+    "noHiddenFees": {
+      "heading": "No hidden fees.",
+      "paragraph": "Every quotation is discussed and approved before any work begins, ensuring complete transparency throughout the entire process."
+    },
+    "visionInMind": {
+      "heading": "Have a vision in mind?",
+      "paragraph1": "Feel free to share your ideas, preferred environment, atmosphere, style, or any specific details you'd like to see in the final result.",
+      "paragraph2": "If you'd rather leave the creative direction to us, we'll carefully select the perfect environment, lighting, composition, and overall visual style to create a presentation that best suits your vehicle."
+    },
+    "lookingForMore": {
+      "heading": "Looking for something more?",
+      "paragraph1": "If you require additional photographs, cinematic videos, advanced visual effects, custom environments, or a fully bespoke automotive presentation, we'll prepare a personalized quotation based on your individual requirements.",
+      "paragraph2": "Simply send us a few photographs of your vehicle together with a brief description of your idea, and we'll provide a custom proposal tailored specifically to your project."
+    },
+    "cta": {
+      "eyebrow": "Get Started",
+      "title": "Ready to Present Your Vehicle?",
+      "subtitle": "Every project begins with a conversation about your vehicle and the presentation it deserves.",
+      "ctaLabel": "Request a Quote"
+    }
   },
   "legal": {
     "privacy": {

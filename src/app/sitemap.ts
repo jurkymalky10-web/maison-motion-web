@@ -12,6 +12,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/portfolio/lamborghini-huracan",
     "/portfolio/porsche-911",
     "/services",
+    "/pricing",
     "/about",
     "/contact",
   ];

@@ -3,6 +3,7 @@
     "home": "Start",
     "portfolio": "Portfolio",
     "services": "Leistungen",
+    "pricing": "Preise",
     "about": "Über uns",
     "contact": "Kontakt",
     "enquire": "Anfragen"
@@ -254,6 +255,51 @@
     "visitFacebook": "Facebook besuchen",
     "responseTimeLabel": "Antwortzeit",
     "responseTimeValue": "Innerhalb von 24 Stunden"
+  },
+  "pricing": {
+    "pageHeader": {
+      "eyebrow": "Investition & Preise",
+      "title": "Investition & Preise",
+      "subtitle": "Jedes Projekt wird auf Ihr spezifisches Fahrzeug und Ihre individuellen Anforderungen zugeschnitten."
+    },
+    "intro": {
+      "paragraph": "Ob Sie bereits eine klare Vorstellung davon haben, wie Ihr Fahrzeug präsentiert werden soll, oder den gesamten kreativen Prozess lieber uns überlassen — wir erstellen eine Premium-Bildpräsentation, die Ihr Fahrzeug von seiner besten Seite zeigt."
+    },
+    "startingPrice": {
+      "headingPre": "Preise ab ",
+      "headingAccent": "149 €",
+      "includesHeading": "Jedes Projekt ab 149 € beinhaltet:",
+      "items": [
+        "10 professionell bearbeitete Fotografien in hoher Auflösung",
+        "Premium-Umgebungsaustausch, abgestimmt auf Ihr Fahrzeug",
+        "Professionelle Farbkorrektur",
+        "Realistisches Licht, Schatten und Reflexionen",
+        "Entfernung störender Elemente, sofern erforderlich",
+        "Hochwertige Retusche für ein premium Finish",
+        "Finale Bilder in voller Auflösung geliefert",
+        "Für Online-Marktplätze und soziale Medien optimierte Bilder"
+      ]
+    },
+    "noHiddenFees": {
+      "heading": "Keine versteckten Kosten.",
+      "paragraph": "Jedes Angebot wird besprochen und freigegeben, bevor mit der Arbeit begonnen wird — für vollständige Transparenz im gesamten Prozess."
+    },
+    "visionInMind": {
+      "heading": "Haben Sie eine Vorstellung?",
+      "paragraph1": "Teilen Sie uns gerne Ihre Ideen, die gewünschte Umgebung, Atmosphäre, den Stil oder jegliche spezifischen Details mit, die Sie im Endergebnis sehen möchten.",
+      "paragraph2": "Wenn Sie die kreative Leitung lieber uns überlassen, wählen wir sorgfältig die perfekte Umgebung, Beleuchtung, Bildkomposition und den gesamten visuellen Stil, um eine Präsentation zu schaffen, die zu Ihrem Fahrzeug passt."
+    },
+    "lookingForMore": {
+      "heading": "Suchen Sie mehr?",
+      "paragraph1": "Wenn Sie zusätzliche Fotografien, filmische Videos, fortgeschrittene visuelle Effekte, individuelle Umgebungen oder eine vollständig maßgeschneiderte Automobilpräsentation benötigen, erstellen wir Ihnen ein persönliches Angebot basierend auf Ihren individuellen Anforderungen.",
+      "paragraph2": "Senden Sie uns einfach ein paar Fotos Ihres Fahrzeugs zusammen mit einer kurzen Beschreibung Ihrer Idee, und wir erstellen Ihnen ein maßgeschneidertes Angebot speziell für Ihr Projekt."
+    },
+    "cta": {
+      "eyebrow": "Jetzt starten",
+      "title": "Bereit, Ihr Fahrzeug zu präsentieren?",
+      "subtitle": "Jedes Projekt beginnt mit einem Gespräch über Ihr Fahrzeug und die Präsentation, die es verdient.",
+      "ctaLabel": "Angebot anfragen"
+    }
   },
   "legal": {
     "privacy": {
