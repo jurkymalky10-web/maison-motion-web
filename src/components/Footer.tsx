@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
 import { navLinks, siteConfig } from "@/lib/site";
@@ -23,8 +24,13 @@ export default function Footer() {
       <div className="container-lux py-20">
         <div className="grid grid-cols-1 gap-14 md:grid-cols-4">
           <div className="md:col-span-2">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/brand/logo-master.png" alt="Maison Motion Studio" className="h-16 w-auto" />
+            <Image
+              src="/brand/logo-master.png"
+              alt="Maison Motion Studio"
+              width={1536}
+              height={1024}
+              className="h-16 w-auto"
+            />
             <p className="mt-6 max-w-sm text-sm leading-relaxed text-foreground/60">
               {tFooter("description")}
             </p>
