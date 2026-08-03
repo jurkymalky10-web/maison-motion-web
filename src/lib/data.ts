@@ -57,15 +57,6 @@ export const portfolioItems: PortfolioItem[] = [
     services: ["Cinematic Video"],
   },
   {
-    slug: "mercedes-amg-c63-s",
-    title: "Mercedes-AMG C63 S",
-    subtitle: "Natural AI-assisted enhancement preserving the original vehicle while improving lighting, reflections, background and overall presentation.",
-    category: "Image Enhancement",
-    year: "2024",
-    hue: ["#E8B27C", "#0d0d0d"],
-    services: ["Image Enhancement"],
-  },
-  {
     slug: "porsche-911",
     title: "Porsche 911",
     subtitle: "Premium outdoor automotive photography created to highlight the vehicle's character with authentic lighting and elegant composition.",
