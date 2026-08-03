@@ -1,34 +1,20 @@
+import { useTranslations } from "next-intl";
 import RevealOnScroll from "@/components/RevealOnScroll";
 
-const highlights = [
-  {
-    index: "01",
-    title: "Professional Photography",
-    description: "Premium automotive photography optimized for marketplaces, dealerships and private sellers.",
-  },
-  {
-    index: "02",
-    title: "Cinematic Video",
-    description: "Short cinematic automotive films that showcase every vehicle with premium presentation.",
-  },
-  {
-    index: "03",
-    title: "Image Enhancement",
-    description: "Natural AI-assisted enhancement preserving the original vehicle while improving visual impact.",
-  },
-];
-
 export default function ServiceHighlights() {
+  const t = useTranslations("home.services");
+  const items = t.raw("items") as { title: string; description: string }[];
+
   return (
     <section className="relative bg-black py-16 md:py-24" aria-labelledby="services-heading">
       <div className="container-lux">
         <h2 id="services-heading" className="sr-only">
-          Our Services
+          {t("heading")}
         </h2>
         <div className="grid grid-cols-1 gap-x-12 gap-y-12 md:grid-cols-3">
-          {highlights.map((item, i) => (
-            <RevealOnScroll key={item.index} delay={0.08 * i}>
-              <span className="font-display text-3xl text-bronze/70">{item.index}</span>
+          {items.map((item, i) => (
+            <RevealOnScroll key={item.title} delay={0.08 * i}>
+              <span className="font-display text-3xl text-bronze/70">{String(i + 1).padStart(2, "0")}</span>
               <h3 className="mt-4 font-display text-xl tracking-tight md:text-2xl">
                 {item.title}
               </h3>

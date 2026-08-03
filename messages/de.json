@@ -1,0 +1,692 @@
+{
+  "nav": {
+    "home": "Start",
+    "portfolio": "Portfolio",
+    "services": "Leistungen",
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "enquire": "Anfragen"
+  },
+  "footer": {
+    "description": "Maison Motion Studio erstellt Premium-Fahrzeugpräsentationen durch professionelle Fotografie, filmisches Video und Bildverbesserung für private Verkäufer und Händler.",
+    "navigate": "Navigation",
+    "studio": "Studio",
+    "facebook": "Facebook",
+    "rights": "Maison Motion Studio. Alle Rechte vorbehalten."
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Studio für automobile Bildpräsentation",
+      "titleLine1": "Der erste Eindruck zählt.",
+      "titleLine2": "Wir machen ihn",
+      "titleAccent": "außergewöhnlich.",
+      "paragraph": "Premium-Automobilfotografie, filmische Videos und natürliche Bildverbesserung. Damit jedes Fahrzeug einen unvergesslichen ersten Eindruck hinterlässt.",
+      "viewPortfolio": "Portfolio ansehen",
+      "requestPresentation": "Präsentation anfragen",
+      "scroll": "Scrollen"
+    },
+    "services": {
+      "heading": "Unsere Leistungen",
+      "items": [
+        {
+          "title": "Professionelle Fotografie",
+          "description": "Premium-Automobilfotografie, optimiert für Marktplätze, Händler und private Verkäufer."
+        },
+        {
+          "title": "Filmisches Video",
+          "description": "Kurze filmische Automobilfilme, die jedes Fahrzeug mit einer Premium-Präsentation zeigen."
+        },
+        {
+          "title": "Bildverbesserung",
+          "description": "Natürliche, KI-gestützte Verbesserung, die das Originalfahrzeug bewahrt und die visuelle Wirkung steigert."
+        }
+      ]
+    },
+    "why": {
+      "eyebrow": "Warum Maison Motion",
+      "headingLine1": "Ein Fahrzeug ist eine Marke.",
+      "headingLine2": "Wir behandeln es",
+      "headingAccent": "genau so.",
+      "points": ["Premium-Präsentation", "Natürliche Bearbeitung", "Authentische Ergebnisse", "Händlerqualität"]
+    },
+    "cta": {
+      "eyebrow": "Nach persönlicher Beratung",
+      "title": "Sichern Sie sich Ihre Präsentation.",
+      "subtitle": "Wir übernehmen pro Saison nur eine begrenzte Anzahl an Projekten. Erzählen Sie uns von Ihrem Fahrzeug — wir bestätigen die Verfügbarkeit innerhalb eines Werktages.",
+      "ctaLabel": "Persönliche Beratung anfragen"
+    }
+  },
+  "portfolioListing": {
+    "pageHeader": {
+      "eyebrow": "Portfolio",
+      "title": "Fahrzeugpräsentationen",
+      "subtitle": "Eine Auswahl an Premium-Automobilpräsentationen für private Verkäufer und Händler. Jedes Projekt kombiniert professionelle Fotografie, filmisches Video und natürliche Bildverbesserung zu einem stärkeren ersten Eindruck."
+    },
+    "categories": {
+      "all": "Alle",
+      "photography": "Fotografie",
+      "cinematicVideo": "Filmisches Video",
+      "imageEnhancement": "Bildverbesserung",
+      "completePresentations": "Komplettpräsentationen"
+    },
+    "items": {
+      "audi-rs5": "Premium-filmische Fahrzeugpräsentation, die Aufmerksamkeit erzeugt und jedes Designdetail mit einem luxuriösen Werbe-Charakter zeigt.",
+      "audi-rs6": "Professionelle Automobilfotografie, verbessert durch natürliche KI-Bearbeitung und realistische Umgebungen für hochwertige Online-Fahrzeuganzeigen.",
+      "bmw-m3": "Eine komplette Premium-Präsentation aus Fotografie, filmischem Video und natürlicher Bildverbesserung für maximale visuelle Wirkung.",
+      "bmw-m5": "Luxuriöses Automobilvideo mit Fokus auf Bewegung, Atmosphäre und emotionales Storytelling, inspiriert von Premium-Herstellerwerbung.",
+      "mercedes-amg-c63-s": "Natürliche, KI-gestützte Verbesserung, die das Originalfahrzeug bewahrt und Licht, Reflexionen, Hintergrund und Gesamtpräsentation verbessert.",
+      "porsche-911": "Premium-Außenfotografie, die den Charakter des Fahrzeugs mit authentischem Licht und eleganter Komposition hervorhebt.",
+      "lamborghini-huracan": "Fotografie, filmisches Video und Premium-Bildverbesserung vereint in einer luxuriösen Fahrzeugpräsentation."
+    },
+    "cta": {
+      "eyebrow": "Ihr Fahrzeug ist als Nächstes dran",
+      "title": "Möchten Sie Ihr Auto in diesem Licht sehen?",
+      "subtitle": "Jede Produktion beginnt mit einem Gespräch über das Fahrzeug und die Geschichte, die es zu erzählen verdient."
+    }
+  },
+  "portfolioCommon": {
+    "backToPortfolio": "Zurück zum Portfolio",
+    "vehiclePresentation": "Fahrzeugpräsentation",
+    "gallery": {
+      "eyebrow": "Galerie",
+      "heading": "Die komplette Präsentation"
+    },
+    "after": {
+      "eyebrow": "Nachher"
+    },
+    "originalPhoto": "Originalfoto",
+    "before": {
+      "eyebrow": "Vorher",
+      "headingPre": "Die ",
+      "headingAccent": "originale",
+      "headingPost": " Aufnahme"
+    },
+    "difference": {
+      "eyebrow": "Der Unterschied",
+      "headingPre": "Rohe Aufnahme. ",
+      "headingAccent": "Maison",
+      "headingPost": "-Veredelung.",
+      "description": "Ziehen Sie den Regler, um das Originalbild mit der natürlichen Verbesserung von Maison Motion zu vergleichen. Jede Bearbeitung bewahrt die Authentizität des Fahrzeugs und schafft zugleich einen stärkeren ersten Eindruck.",
+      "maisonGrade": "Maison-Veredelung",
+      "original": "Original",
+      "footnote": "Jede Verbesserung ist so gestaltet, dass Originallack, Proportionen und Charakter des Fahrzeugs erhalten bleiben, während Licht, Reflexionen, Bildaufbau und Gesamtpräsentation verbessert werden."
+    },
+    "videoShowcase": {
+      "eyebrow": "Filmisches Video",
+      "headingPre": "Bewegung, ",
+      "headingAccent": "inszeniert."
+    },
+    "cinematicFilm": {
+      "title": "Filmisches Video",
+      "subtitle": "Erleben Sie den {vehicle} in filmischer Bewegung."
+    },
+    "projectOverview": {
+      "project": "Projekt",
+      "vehicle": "Fahrzeug",
+      "services": "Leistungen",
+      "year": "Jahr"
+    },
+    "specs": {
+      "engine": "Motor",
+      "power": "Leistung",
+      "transmission": "Getriebe",
+      "firstRegistered": "Erstzulassung",
+      "displacement": "Hubraum",
+      "modelYear": "Modelljahr",
+      "automatic": "Automatik"
+    },
+    "cta": {
+      "eyebrow": "Ihr Fahrzeug ist als Nächstes dran",
+      "title": "Möchten Sie Ihr eigenes Fahrzeug präsentieren?",
+      "subtitle": "Jede Präsentation beginnt mit einem Gespräch über das Fahrzeug und den Eindruck, den es hinterlassen soll.",
+      "ctaLabel": "Präsentation anfragen"
+    }
+  },
+  "bmwM3": {
+    "kicker": "Premium-Fahrzeugpräsentation",
+    "description": "Dieses BMW-M3-Projekt zeigt, wie Premium-Fotografie, filmisches Video und natürliche KI-Bildverbesserung ein Fahrzeug in eine Präsentation verwandeln können, die Aufmerksamkeit erzeugt, Vertrauen schafft und einen stärkeren ersten Eindruck hinterlässt — bei vollständigem Erhalt jedes Originaldetails.",
+    "vehicle": "BMW M3 Competition",
+    "videoCaption": "Eine filmische Inszenierung, die dem BMW M3 sein eigenes Bewegungsgefühl verleiht — mit gezieltem Licht, bedachtem Tempo und einem premium-werbetauglichen Charakter."
+  },
+  "audiRs5": {
+    "kicker": "Premium-filmische Präsentation",
+    "description": "Dieses Audi-RS5-Projekt zeigt, wie filmisches Premium-Video und natürliche KI-Bildverbesserung ein Fahrzeug in eine Präsentation verwandeln können, die Aufmerksamkeit erzeugt, Vertrauen schafft und einen stärkeren ersten Eindruck hinterlässt — bei vollständigem Erhalt jedes Originaldetails.",
+    "vehicle": "Audi RS5",
+    "videoCaption": "Eine filmische Inszenierung, die dem Audi RS5 sein eigenes Bewegungsgefühl verleiht — mit gezieltem Licht, bedachtem Tempo und einem premium-werbetauglichen Charakter."
+  },
+  "lamborghini": {
+    "heroTitle": "Lamborghini Huracán",
+    "heroSubtitle": "Filmische Automobilpräsentation"
+  },
+  "services": {
+    "pageHeader": {
+      "eyebrow": "Leistungen",
+      "title": "Premium-Fahrzeugpräsentation",
+      "subtitle": "Professionelle Automobilfotografie, filmische Fahrzeugvideos und Premium-Bildverbesserung — entwickelt, um privaten Verkäufern und Händlern zu helfen, einen stärkeren ersten Eindruck zu hinterlassen, Vertrauen aufzubauen und jedes Fahrzeug bestmöglich zu präsentieren."
+    },
+    "items": [
+      {
+        "title": "Premium-Automobilfotografie",
+        "description": "Professionelle Fahrzeugfotografie in Händlerqualität, die einen erstklassigen ersten Eindruck für private Verkäufer und Händler schafft.",
+        "deliverables": ["Außenaufnahmen", "Innenaufnahmen", "Detailaufnahmen", "Händleranzeigen"]
+      },
+      {
+        "title": "Filmisches Fahrzeugvideo",
+        "description": "Premium-filmische Videos, speziell entwickelt für Fahrzeugwerbung, Marktplätze und soziale Medien.",
+        "deliverables": ["4K-Video", "Drohnenaufnahmen", "Marktplatz-Anzeigen", "Soziale Medien"]
+      },
+      {
+        "title": "Professionelle Bildverbesserung",
+        "description": "Natürliche Premium-Bearbeitung inklusive Hintergrundaustausch, Lichtverbesserung, Farbkorrektur und authentischer Fahrzeugretusche.",
+        "deliverables": ["Hintergrundaustausch", "Lichtverbesserung", "Farbkorrektur", "Retusche"]
+      },
+      {
+        "title": "Komplette Fahrzeugpräsentation",
+        "description": "Ein komplettes Premium-Paket aus Fotografie und filmischem Video für die hochwertigste Fahrzeugpräsentation.",
+        "deliverables": ["Foto + Video", "Premium-Paket", "Marktplatz-bereit", "Händler-bereit"]
+      }
+    ],
+    "process": {
+      "eyebrow": "Unser Prozess",
+      "title": "Vom Briefing zur finalen Lieferung",
+      "titleAccent": "finalen Lieferung",
+      "subtitle": "Sechs disziplinierte Stufen führen von einem ersten Gespräch bis zur fertigen Master-Datei.",
+      "steps": [
+        { "title": "Beratung", "description": "Ein persönliches Gespräch über das Fahrzeug, die Marke und den Eindruck, den es hinterlassen soll." },
+        { "title": "Planung", "description": "Standort, Licht und Erzählweise werden zu einem maßgeschneiderten Konzept, bevor wir vor Ort eintreffen." },
+        { "title": "Fotografie", "description": "Studio- und Location-Aufnahmen mit kontrolliertem Licht, komponiert mit derselben Sorgfalt wie eine Skulptur." },
+        { "title": "Filmisches Video", "description": "Bewegung, eingefangen auf Kino-Optik, Bild für Bild inszeniert, um dem Auto seine eigene Dramatik zu verleihen." },
+        { "title": "Professionelle Bearbeitung", "description": "Unsere charakteristische Farbgestaltung wird in der Postproduktion angewendet und vereint jedes Material zu einer einheitlichen Bildsprache." },
+        { "title": "Finale Lieferung", "description": "Master-Dateien nach Spezifikation geliefert, bereit für Showroom, Händler oder globale Kampagne." }
+      ]
+    },
+    "cta": {
+      "eyebrow": "Maßgeschneiderte Projekte",
+      "title": "Erzählen Sie uns, was Sie vorhaben.",
+      "subtitle": "Jeder Auftrag wird individuell nach Fahrzeug, Markt und Termin geplant — fordern Sie ein maßgeschneidertes Angebot an.",
+      "ctaLabel": "Angebot anfragen"
+    }
+  },
+  "about": {
+    "pageHeader": {
+      "eyebrow": "Über Maison Motion",
+      "title": "Über Maison Motion",
+      "subtitle": "Wir helfen privaten Verkäufern und Händlern, Fahrzeuge mit Premium-Fotografie und filmischem Video zu präsentieren, die einen stärkeren ersten Eindruck hinterlassen."
+    },
+    "mission": {
+      "eyebrow": "01 Unsere Mission",
+      "headingPre": "Unsere ",
+      "headingAccent": "Mission",
+      "paragraph": "Maison Motion wurde mit einem Ziel gegründet: gewöhnliche Fahrzeuganzeigen in Premium-Bildpräsentationen zu verwandeln — unter Bewahrung jedes authentischen Details."
+    },
+    "whyItMatters": {
+      "eyebrow": "02 Warum es wichtig ist",
+      "headingPre": "Warum es ",
+      "headingAccent": "wichtig ist",
+      "paragraph": "Ein Käufer bildet sich innerhalb von Sekunden eine Meinung. Professionelle Präsentation schafft Vertrauen, erhöht den wahrgenommenen Wert und hilft jedem Fahrzeug, sich abzuheben."
+    },
+    "whatWeBelieve": {
+      "eyebrow": "03 Woran wir glauben",
+      "headingPre": "Woran wir ",
+      "headingAccent": "glauben",
+      "paragraph": "Jedes Fahrzeug verdient eine Premium-Präsentation, unabhängig von Preis oder Marke."
+    },
+    "process": {
+      "eyebrow": "04 Unser Prozess",
+      "headingPre": "Unser ",
+      "headingAccent": "Prozess",
+      "steps": ["Beratung", "Fotografie", "Professionelle Bearbeitung", "Filmisches Video", "Finale Lieferung"]
+    },
+    "cta": {
+      "eyebrow": "Jetzt starten",
+      "title": "Bereit, Ihr Fahrzeug bestmöglich zu präsentieren?",
+      "subtitle": "Erzählen Sie uns von Ihrem Fahrzeug — wir erstellen eine Premium-Präsentation durch professionelle Fotografie, filmisches Video und authentische Bildverbesserung, die es hervorheben lässt.",
+      "ctaLabel": "Präsentation anfragen",
+      "assurances": ["Antwort innerhalb eines Werktages", "Private Verkäufer & Händler", "Premium-Fahrzeugpräsentation"]
+    }
+  },
+  "contact": {
+    "pageHeader": {
+      "eyebrow": "Kontakt",
+      "title": "Beginnen Sie das Gespräch",
+      "subtitle": "Erzählen Sie uns von Ihrem Fahrzeug — wir antworten Ihnen persönlich innerhalb von 24 Stunden."
+    },
+    "sendEmail": "E-Mail senden",
+    "visitFacebook": "Facebook besuchen",
+    "responseTimeLabel": "Antwortzeit",
+    "responseTimeValue": "Innerhalb von 24 Stunden",
+    "locationLabel": "Standort",
+    "locationValue": "Slowakei — landesweit verfügbar"
+  },
+  "legal": {
+    "privacy": {
+      "eyebrow": "Rechtliches",
+      "title": "Datenschutzerklärung",
+      "subtitle": "Wie wir Ihre personenbezogenen Daten erheben, verwenden und schützen.",
+      "sections": [
+        {
+          "number": "01",
+          "title": "Einleitung",
+          "paragraphs": [
+            "Maison Motion Studio („wir“, „uns“, „unser“ oder das „Studio“) bietet professionelle Automobilfotografie, KI-gestützte Bildverbesserung und filmisches Automobilvideo für private Verkäufer und Händler an. Diese Datenschutzerklärung erläutert, wie wir personenbezogene Daten erheben, verwenden, offenlegen und schützen, wenn Sie unsere Website besuchen, uns per E-Mail oder Facebook kontaktieren oder unsere Dienstleistungen in Anspruch nehmen.",
+            "Wir verpflichten uns, Ihre Privatsphäre gemäß der Datenschutz-Grundverordnung (EU) 2016/679 („DSGVO“) und dem geltenden slowakischen Datenschutzrecht zu schützen."
+          ]
+        },
+        {
+          "number": "02",
+          "title": "Wer wir sind",
+          "paragraphs": ["Der für Ihre personenbezogenen Daten verantwortliche Verantwortliche ist:"],
+          "list": ["[Firmenname]", "[Firmenadresse]", "Handelsregisternummer (IČO): [IČO]", "USt-IdNr.: [USt-IdNr.]", "Kontakt: [Rechtliche E-Mail]"]
+        },
+        {
+          "number": "03",
+          "title": "Personenbezogene Daten, die wir erheben",
+          "paragraphs": ["Je nachdem, wie Sie mit uns interagieren, können wir Folgendes erheben:"],
+          "list": [
+            "Kontaktdaten wie Ihren Namen, Ihre E-Mail-Adresse und Telefonnummer.",
+            "Fahrzeuginformationen und Fotografien, die Sie uns für ein Fotografie-, Video- oder Bildverbesserungsprojekt übermitteln.",
+            "Den Inhalt der mit uns per E-Mail oder Facebook Messenger ausgetauschten Korrespondenz."
+          ],
+          "listLinkItem": {
+            "pre": "Grundlegende technische Daten, die über Cookies erfasst werden, wie Browsertyp und allgemeine Nutzung unserer Website (siehe unsere ",
+            "linkText": "Cookie-Richtlinie",
+            "post": ")."
+          }
+        },
+        {
+          "number": "04",
+          "title": "Wie wir Ihre Daten verwenden",
+          "paragraphs": ["Wir verwenden personenbezogene Daten, um:"],
+          "list": [
+            "Anfragen zu beantworten und Angebote zu erstellen.",
+            "Fotografie-, Video- und Bildverbesserungsleistungen zu planen, zu terminieren und zu liefern.",
+            "Mit Ihnen über ein aktives oder geplantes Projekt zu kommunizieren.",
+            "Buchhaltungs- und Rechtsunterlagen gemäß slowakischem Recht zu führen.",
+            "Unsere Website und Dienstleistungen zu verbessern."
+          ]
+        },
+        {
+          "number": "05",
+          "title": "Rechtsgrundlage der Verarbeitung",
+          "paragraphs": ["Wir verarbeiten personenbezogene Daten auf folgenden Rechtsgrundlagen gemäß Artikel 6 DSGVO:"],
+          "list": [
+            "Vertrag — zur Erbringung einer von Ihnen angeforderten oder vereinbarten Dienstleistung.",
+            "Einwilligung — wenn Sie uns freiwillig Informationen übermittelt haben, z. B. durch Kontaktaufnahme per E-Mail oder Facebook.",
+            "Berechtigtes Interesse — zur Führung unserer Geschäftsunterlagen und zur Beantwortung allgemeiner Anfragen.",
+            "Rechtliche Verpflichtung — zur Erfüllung buchhalterischer, steuerlicher und anderer gesetzlicher Anforderungen in der Slowakei."
+          ]
+        },
+        {
+          "number": "06",
+          "title": "E-Mail-Kommunikation",
+          "paragraphs": [
+            "Wenn Sie uns per E-Mail kontaktieren, verarbeiten wir den Inhalt dieser Korrespondenz, Ihre E-Mail-Adresse und alle Anhänge (wie Fahrzeugfotos) ausschließlich zur Beantwortung Ihrer Anfrage und zur Verwaltung eines potenziellen oder aktiven Projekts. Wir verwenden Ihre E-Mail-Adresse nicht für unerwünschte Werbung."
+          ]
+        },
+        {
+          "number": "07",
+          "title": "Facebook-Kommunikation",
+          "paragraphs": [
+            "Wenn Sie uns über unsere Facebook-Seite kontaktieren, wird Ihre Nachricht verarbeitet, um Ihre Anfrage zu beantworten und ein potenzielles oder aktives Projekt zu verwalten. Die Kommunikation über Facebook unterliegt zusätzlich den eigenen Datenschutzrichtlinien und Bedingungen von Meta, deren Prüfung wir empfehlen, da wir keine Kontrolle darüber haben, wie Meta Daten auf seiner Plattform verarbeitet."
+          ]
+        },
+        {
+          "number": "08",
+          "title": "Cookies",
+          "paragraphs": [],
+          "linkParagraph": {
+            "pre": "Unsere Website verwendet eine begrenzte Anzahl essenzieller Cookies, die für den ordnungsgemäßen Betrieb der Seite erforderlich sind. Wir sind vorbereitet, künftig Analyse- und Marketing-Cookies einzusetzen, wie in unserer ",
+            "linkText": "Cookie-Richtlinie",
+            "post": " beschrieben. Solche Cookies sind erst aktiv, wenn sie aktiviert wurden und, sofern erforderlich, Ihre Einwilligung eingeholt wurde."
+          }
+        },
+        {
+          "number": "09",
+          "title": "Datenspeicherung",
+          "paragraphs": [
+            "Wir speichern personenbezogene Daten nur so lange, wie es für die in dieser Richtlinie beschriebenen Zwecke erforderlich ist. Projektbezogene Korrespondenz und Dateien werden im Allgemeinen für einen angemessenen Zeitraum nach Lieferung aufbewahrt, um Rückfragen zu unterstützen, und können danach gelöscht werden. Für Buchhaltung und Steuern erforderliche Aufzeichnungen werden für den nach slowakischem Recht vorgeschriebenen Zeitraum aufbewahrt."
+          ]
+        },
+        {
+          "number": "10",
+          "title": "Weitergabe von Daten",
+          "paragraphs": [
+            "Wir verkaufen keine personenbezogenen Daten. Wir können begrenzte Daten an vertrauenswürdige Dienstleister weitergeben, die für den Betrieb unseres Unternehmens unbedingt erforderlich sind, wie E-Mail- und Website-Hosting-Anbieter, sowie an Meta (Facebook), sofern Sie uns über diese Plattform kontaktieren. Solche Anbieter verarbeiten Daten nur im für die Erbringung ihrer Dienstleistung an uns erforderlichen Umfang."
+          ]
+        },
+        {
+          "number": "11",
+          "title": "Ihre Rechte",
+          "paragraphs": ["Gemäß der DSGVO haben Sie das Recht:"],
+          "list": [
+            "Auf Zugang zu den über Sie gespeicherten personenbezogenen Daten.",
+            "Auf Berichtigung unrichtiger oder unvollständiger Daten.",
+            "Auf Löschung Ihrer Daten („Recht auf Vergessenwerden“).",
+            "Auf Einschränkung der Verarbeitung oder Widerspruch gegen bestimmte Verarbeitungen.",
+            "Auf Erhalt einer Kopie Ihrer Daten in einem übertragbaren Format.",
+            "Ihre Einwilligung jederzeit zu widerrufen, sofern die Verarbeitung auf Einwilligung beruht.",
+            "Eine Beschwerde bei der slowakischen Behörde für den Schutz personenbezogener Daten (Úrad na ochranu osobných údajov Slovenskej republiky) einzureichen."
+          ],
+          "paragraphsAfterList": ["Um eines dieser Rechte auszuüben, kontaktieren Sie uns bitte unter [Rechtliche E-Mail]."]
+        },
+        {
+          "number": "12",
+          "title": "Datensicherheit",
+          "paragraphs": [
+            "Wir wenden angemessene technische und organisatorische Maßnahmen an, um personenbezogene Daten vor unbefugtem Zugriff, Verlust oder Missbrauch zu schützen. Keine Übertragungs- oder Speichermethode ist vollständig sicher, und wir können keine absolute Sicherheit garantieren."
+          ]
+        },
+        {
+          "number": "13",
+          "title": "Änderungen dieser Richtlinie",
+          "paragraphs": [
+            "Wir können diese Datenschutzerklärung von Zeit zu Zeit aktualisieren, um Änderungen unserer Praktiken oder des geltenden Rechts widerzuspiegeln. Die aktualisierte Version wird auf dieser Seite mit einem überarbeiteten Gültigkeitsdatum veröffentlicht."
+          ]
+        },
+        {
+          "number": "14",
+          "title": "Kontaktieren Sie uns",
+          "paragraphs": ["Wenn Sie Fragen zu dieser Datenschutzerklärung oder zum Umgang mit Ihren personenbezogenen Daten haben, kontaktieren Sie uns bitte unter [Rechtliche E-Mail]."]
+        }
+      ]
+    },
+    "terms": {
+      "eyebrow": "Rechtliches",
+      "title": "Allgemeine Geschäftsbedingungen",
+      "subtitle": "Die Bedingungen, die für jedes mit Maison Motion Studio durchgeführte Projekt gelten.",
+      "sections": [
+        {
+          "number": "01",
+          "title": "Annahme der Bedingungen",
+          "paragraphs": [
+            "Diese Allgemeinen Geschäftsbedingungen („Bedingungen“) regeln die Nutzung der Website von Maison Motion Studio sowie alle bei uns gebuchten Leistungen. Durch die Kontaktaufnahme mit uns, die Erteilung eines Auftrags oder die Nutzung unserer Leistungen erklären Sie sich mit diesen Bedingungen einverstanden."
+          ]
+        },
+        {
+          "number": "02",
+          "title": "Angebotene Leistungen",
+          "paragraphs": ["Maison Motion Studio bietet folgende Leistungen an:"],
+          "list": [
+            "Professionelle Automobilfotografie.",
+            "KI-gestützte Bildverbesserung.",
+            "Filmisches Automobilvideo.",
+            "Komplette Fahrzeugpräsentationspakete für private Verkäufer und Händler."
+          ]
+        },
+        {
+          "number": "03",
+          "title": "Bestellvorgang",
+          "paragraphs": [
+            "Projekte beginnen mit einer Anfrage per E-Mail oder Facebook. Nach einer kurzen Beratung bestätigen wir den Projektumfang, planen einen Termin und erstellen ein Angebot. Ein Projekt gilt als bestätigt, sobald sich beide Parteien über Umfang, Preis und Termin einig sind."
+          ]
+        },
+        {
+          "number": "04",
+          "title": "Preisgestaltung",
+          "paragraphs": [
+            "Die Preise werden für jedes Projekt individuell auf Grundlage des angeforderten Leistungsumfangs kalkuliert. Alle Preise werden vor der Terminvereinbarung schriftlich kommuniziert und vereinbart. Sofern nicht anders angegeben, werden die Preise in EUR angegeben."
+          ]
+        },
+        {
+          "number": "05",
+          "title": "Lieferung",
+          "paragraphs": [
+            "Liefertermine werden für jedes Projekt individuell vereinbart und vor dem Termin schriftlich bestätigt. Die finalen Fotografien und Videos werden digital geliefert."
+          ]
+        },
+        {
+          "number": "06",
+          "title": "Pflichten des Kunden",
+          "paragraphs": ["Mit der Buchung eines Termins erklärt sich der Kunde damit einverstanden:"],
+          "list": [
+            "Sicherzustellen, dass das Fahrzeug für den vereinbarten Termin angemessen sauber, zugänglich und bereit ist.",
+            "Zu bestätigen, dass er Eigentümer des Fahrzeugs ist oder die Erlaubnis des Eigentümers hat, es fotografieren und präsentieren zu lassen.",
+            "Genaue Angaben zum Fahrzeug und zur beabsichtigten Verwendung des Inhalts zu machen.",
+            "Zu bestätigen, dass er Eigentümer ist oder die Erlaubnis zur Nutzung von an uns übermittelten Fotografien oder Materialien besitzt."
+          ]
+        },
+        {
+          "number": "07",
+          "title": "Geistiges Eigentum",
+          "paragraphs": [
+            "Sofern nicht schriftlich anders vereinbart, behält Maison Motion Studio alle Urheber- und sonstigen Rechte des geistigen Eigentums an den von uns erstellten Fotografien, Videos und verbesserten Bildern."
+          ]
+        },
+        {
+          "number": "08",
+          "title": "Lizenzierung",
+          "paragraphs": [
+            "Nach vollständiger Bezahlung erhält der Kunde eine Lizenz zur Nutzung des gelieferten Inhalts für den zum Zeitpunkt der Buchung vereinbarten Zweck, wie z. B. ein Fahrzeuginserat, eine Marktplatzanzeige oder Händlermarketing. Diese Lizenz übertragt weder Eigentum noch Urheberrecht, welche bei Maison Motion Studio verbleiben, sofern nicht schriftlich anders vereinbart."
+          ]
+        },
+        {
+          "number": "09",
+          "title": "Zahlungen",
+          "paragraphs": [
+            "Zahlungsbedingungen, einschließlich einer etwaigen Anzahlung zur Reservierung eines Termins, werden vor Arbeitsbeginn schriftlich vereinbart. Die finalen Dateien werden nach vollständigem Zahlungseingang geliefert, sofern nicht anders vereinbart."
+          ]
+        },
+        {
+          "number": "10",
+          "title": "Rückerstattungsrichtlinie",
+          "paragraphs": [
+            "Anzahlungen sind nach Terminvereinbarung grundsätzlich nicht erstattungsfähig, da Studiozeit und Ressourcen auf dieser Grundlage reserviert werden. Anfragen zur Rückerstattung außerhalb dieser Regelung werden von Fall zu Fall geprüft."
+          ]
+        },
+        {
+          "number": "11",
+          "title": "Stornierung",
+          "paragraphs": [
+            "Kunden werden gebeten, bei Stornierung oder Verschiebung eines Termins möglichst frühzeitig Bescheid zu geben. Stornierungen mit kurzer Vorlaufzeit können mit einer Stornogebühr belegt werden, die von Fall zu Fall vereinbart wird."
+          ]
+        },
+        {
+          "number": "12",
+          "title": "Haftungsbeschränkung",
+          "paragraphs": [
+            "Im gesetzlich zulässigen Höchstmaß haftet Maison Motion Studio nicht für indirekte, beiläufige oder Folgeschäden, die aus der Nutzung unserer Leistungen oder des gelieferten Inhalts entstehen. Unsere Gesamthaftung im Zusammenhang mit einem Projekt ist auf den vom Kunden für dieses Projekt gezahlten Betrag begrenzt.",
+            "Maison Motion Studio garantiert nicht den Verkauf eines Fahrzeugs oder einen bestimmten Verkaufspreis infolge unserer Leistungen."
+          ]
+        },
+        {
+          "number": "13",
+          "title": "Höhere Gewalt",
+          "paragraphs": [
+            "Maison Motion Studio haftet nicht für Verzögerungen oder Nichterfüllung, die auf Ursachen außerhalb unserer angemessenen Kontrolle zurückzuführen sind, einschließlich, aber nicht beschränkt auf widrige Wetterbedingungen, Krankheit, Unfälle, Geräteausfälle oder andere unvorhersehbare Umstände. Betroffene Termine werden so schnell wie angemessen möglich neu vereinbart."
+          ]
+        },
+        {
+          "number": "14",
+          "title": "Anwendbares Recht",
+          "paragraphs": [
+            "Diese Bedingungen unterliegen dem Recht der Slowakischen Republik und sind entsprechend auszulegen. Streitigkeiten, die sich aus oder im Zusammenhang mit diesen Bedingungen ergeben, unterliegen der ausschließlichen Zuständigkeit der zuständigen Gerichte der Slowakei."
+          ]
+        },
+        {
+          "number": "15",
+          "title": "Kontaktieren Sie uns",
+          "paragraphs": ["Fragen zu diesen Allgemeinen Geschäftsbedingungen können an [Rechtliche E-Mail] gesendet werden."]
+        }
+      ]
+    },
+    "cookies": {
+      "eyebrow": "Rechtliches",
+      "title": "Cookie-Richtlinie",
+      "subtitle": "Wie unsere Website Cookies verwendet und wie Sie diese verwalten können.",
+      "sections": [
+        {
+          "number": "01",
+          "title": "Was sind Cookies",
+          "paragraphs": [
+            "Cookies sind kleine Textdateien, die beim Besuch einer Website auf Ihrem Gerät gespeichert werden. Sie helfen Websites, korrekt zu funktionieren, und können genutzt werden, um Einstellungen zu speichern oder die Nutzung einer Seite zu verstehen."
+          ]
+        },
+        {
+          "number": "02",
+          "title": "Essenzielle Cookies",
+          "paragraphs": [
+            "Wir verwenden eine begrenzte Anzahl essenzieller Cookies, die für den ordnungsgemäßen Betrieb unserer Website unbedingt erforderlich sind, etwa zur Aufrechterhaltung grundlegender Funktionalität und Sicherheit. Diese Cookies erfordern keine Einwilligung und können nicht deaktiviert werden, da die Website ohne sie nicht ordnungsgemäß funktionieren würde."
+          ]
+        },
+        {
+          "number": "03",
+          "title": "Analyse-Cookies",
+          "paragraphs": [
+            "Derzeit verwenden wir keine Analyse-Cookies. Unsere Website ist für eine künftige Integration mit Google Analytics vorbereitet, um zu verstehen, wie Besucher unsere Seite nutzen. Sobald dies aktiviert wird, wird diese Cookie-Richtlinie aktualisiert, und, sofern gesetzlich erforderlich, wird Ihre Einwilligung eingeholt, bevor Analyse-Cookies gesetzt werden."
+          ]
+        },
+        {
+          "number": "04",
+          "title": "Marketing-Cookies",
+          "paragraphs": [
+            "Derzeit verwenden wir keine Marketing-Cookies. Unsere Website ist für eine künftige Integration mit Meta Pixel vorbereitet, um die Wirksamkeit unserer Kommunikation zu verstehen. Sobald dies aktiviert wird, wird diese Cookie-Richtlinie aktualisiert, und, sofern gesetzlich erforderlich, wird Ihre Einwilligung eingeholt, bevor Marketing-Cookies gesetzt werden."
+          ]
+        },
+        {
+          "number": "05",
+          "title": "Verwaltung von Cookies",
+          "paragraphs": [
+            "Sie können Cookies über Ihre Browsereinstellungen kontrollieren und verwalten, einschließlich der jederzeitigen Blockierung oder Löschung. Bitte beachten Sie, dass die Deaktivierung essenzieller Cookies die Funktionalität unserer Website beeinträchtigen kann. Die meisten Browser ermöglichen es, Cookies in den Datenschutz- oder Sicherheitseinstellungen einzusehen und zu verwalten."
+          ]
+        },
+        {
+          "number": "06",
+          "title": "Änderungen dieser Richtlinie",
+          "paragraphs": [
+            "Wir können diese Cookie-Richtlinie von Zeit zu Zeit aktualisieren, insbesondere bei Einführung von Analyse- oder Marketing-Cookies. Änderungen werden auf dieser Seite mit einem überarbeiteten Gültigkeitsdatum veröffentlicht."
+          ]
+        },
+        {
+          "number": "07",
+          "title": "Kontaktieren Sie uns",
+          "paragraphs": ["Fragen zu dieser Cookie-Richtlinie können an [Rechtliche E-Mail] gesendet werden."]
+        }
+      ]
+    },
+    "copyright": {
+      "eyebrow": "Rechtliches",
+      "title": "Urheberrecht & Lizenzierung",
+      "subtitle": "Eigentums- und Nutzungsrechte für unsere Arbeiten.",
+      "sections": [
+        {
+          "number": "01",
+          "title": "Eigentum an kreativen Arbeiten",
+          "paragraphs": [
+            "Maison Motion Studio besitzt alle Urheber- und sonstigen Rechte des geistigen Eigentums an den von uns erstellten Fotografien, filmischen Videos und KI-verbesserten Bildern, sofern nicht vor Projektbeginn schriftlich anders vereinbart."
+          ]
+        },
+        {
+          "number": "02",
+          "title": "An Kunden erteilte Lizenz",
+          "paragraphs": [
+            "Nach vollständiger Bezahlung erhält der Kunde eine Lizenz zur Nutzung des gelieferten Inhalts für den zum Zeitpunkt der Buchung vereinbarten Zweck, etwa die Präsentation eines Fahrzeugs zum privaten Verkauf, in einer Marktplatzanzeige oder im Händlermarketing. Diese Lizenz erlaubt dem Kunden die Nutzung des gelieferten Inhalts für diesen vereinbarten Zweck."
+          ]
+        },
+        {
+          "number": "03",
+          "title": "Nutzungsbeschränkungen",
+          "paragraphs": [
+            "Sofern nicht schriftlich anders vereinbart, darf der Kunde die gelieferten Fotografien oder Videos nicht an Dritte weiterverkaufen, unterlizenzieren oder für Zwecke außerhalb der vereinbarten Nutzung weiterverbreiten, und darf den Inhalt nicht so darstellen, als sei er von einer anderen Partei erstellt worden."
+          ]
+        },
+        {
+          "number": "04",
+          "title": "Portfolio- und Werbenutzung",
+          "paragraphs": [
+            "Maison Motion Studio darf abgeschlossene Arbeiten zu Werbezwecken in seinem Portfolio, auf seiner Website und in seinen sozialen Medien zeigen. Falls ein Kunde für ein bestimmtes Projekt Vertraulichkeit benötigt, sollte dies vor Projektbeginn schriftlich beantragt werden."
+          ]
+        },
+        {
+          "number": "05",
+          "title": "Marken Dritter",
+          "paragraphs": [
+            "Namen, Logos und Marken von Fahrzeugherstellern, die in gelieferten Fotografien oder Videos erscheinen können, bleiben Eigentum ihrer jeweiligen Inhaber. Ihr Erscheinen in unserer Arbeit impliziert keine Verbindung zu oder Billigung durch den Fahrzeughersteller."
+          ]
+        },
+        {
+          "number": "06",
+          "title": "Durchsetzung",
+          "paragraphs": [
+            "Unbefugte Nutzung, Weiterverkauf oder Weiterverbreitung unserer Arbeiten außerhalb der Bedingungen der erteilten Lizenz kann rechtliche Schritte zum Schutz unserer Rechte des geistigen Eigentums nach sich ziehen."
+          ]
+        },
+        {
+          "number": "07",
+          "title": "Kontaktieren Sie uns",
+          "paragraphs": ["Fragen zu Urheberrecht oder Lizenzierung können an [Rechtliche E-Mail] gesendet werden."]
+        }
+      ]
+    },
+    "disclaimer": {
+      "eyebrow": "Rechtliches",
+      "title": "Haftungsausschluss",
+      "subtitle": "Wichtige Informationen dazu, wie unsere Arbeit verstanden und genutzt werden sollte.",
+      "sections": [
+        {
+          "number": "01",
+          "title": "Keine Verkaufsgarantie",
+          "paragraphs": [
+            "Maison Motion Studio garantiert nicht den Verkauf eines durch unsere Fotografie-, Video- oder Bildverbesserungsleistungen präsentierten Fahrzeugs."
+          ]
+        },
+        {
+          "number": "02",
+          "title": "Keine Preisgarantie",
+          "paragraphs": [
+            "Wir garantieren nicht, dass ein Fahrzeug infolge unserer Leistungen einen bestimmten Verkaufspreis erzielt. Die endgültigen Verkaufsergebnisse hängen von Faktoren außerhalb unserer Kontrolle ab, einschließlich Marktbedingungen, dem Fahrzeug selbst und der Verhandlung des Verkäufers."
+          ]
+        },
+        {
+          "number": "03",
+          "title": "Art der KI-Verbesserung",
+          "paragraphs": [
+            "Unsere KI-gestützte Bildverbesserung soll die Präsentationsqualität eines Fahrzeugs verbessern — beispielsweise durch Licht-, Hintergrund- und Farboptimierung — unter Wahrung des authentischen Zustands und Charakters des Fahrzeugs. Die Verbesserung soll das Fahrzeug nicht falsch darstellen oder wesentliche Mängel verschleiern."
+          ]
+        },
+        {
+          "number": "04",
+          "title": "Werbematerial",
+          "paragraphs": [
+            "Alle von Maison Motion Studio gelieferten finalen Fotografien und Videos stellen Werbematerial dar, das ein Fahrzeug attraktiv präsentieren soll. Sie sind kein Ersatz für eine unabhängige technische Untersuchung, eine Fahrzeughistorienprüfung oder eine professionelle Bewertung, und potenziellen Käufern wird empfohlen, eigene Sorgfaltsprüfungen durchzuführen."
+          ]
+        },
+        {
+          "number": "05",
+          "title": "Zusicherungen des Kunden",
+          "paragraphs": [
+            "Mit der Beauftragung unserer Leistungen bestätigt der Kunde, dass er Eigentümer des präsentierten Fahrzeugs ist oder die Erlaubnis des Eigentümers hat, es fotografieren und präsentieren zu lassen, und dass er Eigentümer ist oder die Erlaubnis zur Nutzung von an uns übermittelten Fotografien oder Materialien besitzt."
+          ]
+        },
+        {
+          "number": "06",
+          "title": "Richtigkeit der vom Kunden bereitgestellten Informationen",
+          "paragraphs": [
+            "Maison Motion Studio verlässt sich auf die vom Kunden bereitgestellten Informationen zum Fahrzeug und ist nicht verantwortlich für ungenaue, unvollständige oder irreführende Informationen des Kunden, die sich anschließend im gelieferten Inhalt widerspiegeln."
+          ]
+        },
+        {
+          "number": "07",
+          "title": "Keine professionelle Beratung",
+          "paragraphs": [
+            "Nichts, was von Maison Motion Studio erstellt wird, stellt eine automobile Bewertung, Wertermittlung, Finanz- oder Rechtsberatung dar."
+          ]
+        },
+        {
+          "number": "08",
+          "title": "Beschränkung",
+          "paragraphs": [],
+          "linkParagraph": {
+            "pre": "Dieser Haftungsausschluss sollte zusammen mit unseren ",
+            "linkText": "Allgemeinen Geschäftsbedingungen",
+            "post": " gelesen werden, die die Beschränkung unserer Haftung vollständig regeln."
+          }
+        },
+        {
+          "number": "09",
+          "title": "Kontaktieren Sie uns",
+          "paragraphs": ["Fragen zu diesem Haftungsausschluss können an [Rechtliche E-Mail] gesendet werden."]
+        }
+      ]
+    }
+  }
+}

@@ -4,12 +4,15 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { AnimatePresence, motion } from "framer-motion";
 import { useEffect, useState } from "react";
+import { useTranslations } from "next-intl";
 import { navLinks } from "@/lib/site";
+import LanguageSwitcher from "./LanguageSwitcher";
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
   const pathname = usePathname();
+  const t = useTranslations("nav");
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 24);
@@ -50,7 +53,7 @@ export default function Navbar() {
                   active ? "text-bronze" : "text-foreground/70 hover:text-foreground"
                 }`}
               >
-                {link.label}
+                {t(link.key)}
                 {active ? (
                   <motion.span
                     layoutId="nav-underline"
@@ -65,12 +68,15 @@ export default function Navbar() {
           })}
         </nav>
 
-        <Link
-          href="/contact"
-          className="hidden md:inline-flex items-center border border-bronze/60 px-5 py-2.5 text-xs uppercase tracking-[0.2em] text-bronze transition-all duration-300 ease-out hover:scale-[1.03] hover:bg-bronze hover:text-black hover:shadow-[0_0_20px_rgba(198,138,78,0.4)]"
-        >
-          Enquire
-        </Link>
+        <div className="hidden items-center gap-6 md:flex">
+          <LanguageSwitcher />
+          <Link
+            href="/contact"
+            className="inline-flex items-center border border-bronze/60 px-5 py-2.5 text-xs uppercase tracking-[0.2em] text-bronze transition-all duration-300 ease-out hover:scale-[1.03] hover:bg-bronze hover:text-black hover:shadow-[0_0_20px_rgba(198,138,78,0.4)]"
+          >
+            {t("enquire")}
+          </Link>
+        </div>
 
         <button
           aria-label="Toggle menu"
@@ -119,10 +125,19 @@ export default function Navbar() {
                       pathname === link.href ? "text-bronze" : "text-foreground"
                     }`}
                   >
-                    {link.label}
+                    {t(link.key)}
                   </Link>
                 </motion.div>
               ))}
+
+              <motion.div
+                initial={{ opacity: 0, y: 16 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.05 * navLinks.length, duration: 0.5 }}
+                className="pt-4"
+              >
+                <LanguageSwitcher />
+              </motion.div>
             </div>
           </motion.div>
         )}

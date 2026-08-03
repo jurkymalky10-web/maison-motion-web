@@ -1,0 +1,692 @@
+{
+  "nav": {
+    "home": "Home",
+    "portfolio": "Portfolio",
+    "services": "Services",
+    "about": "About",
+    "contact": "Contact",
+    "enquire": "Enquire"
+  },
+  "footer": {
+    "description": "Maison Motion Studio creates premium vehicle presentations through professional photography, cinematic video and image enhancement for private sellers and dealerships.",
+    "navigate": "Navigate",
+    "studio": "Studio",
+    "facebook": "Facebook",
+    "rights": "Maison Motion Studio. All rights reserved."
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Automotive Visual Presentation Studio",
+      "titleLine1": "First Impressions Matter.",
+      "titleLine2": "We Make Them",
+      "titleAccent": "Exceptional.",
+      "paragraph": "Premium automotive photography, cinematic films and natural image enhancement. Designed to help every vehicle make an unforgettable first impression.",
+      "viewPortfolio": "View Portfolio",
+      "requestPresentation": "Request Presentation",
+      "scroll": "Scroll"
+    },
+    "services": {
+      "heading": "Our Services",
+      "items": [
+        {
+          "title": "Professional Photography",
+          "description": "Premium automotive photography optimized for marketplaces, dealerships and private sellers."
+        },
+        {
+          "title": "Cinematic Video",
+          "description": "Short cinematic automotive films that showcase every vehicle with premium presentation."
+        },
+        {
+          "title": "Image Enhancement",
+          "description": "Natural AI-assisted enhancement preserving the original vehicle while improving visual impact."
+        }
+      ]
+    },
+    "why": {
+      "eyebrow": "Why Maison Motion",
+      "headingLine1": "A Vehicle Is a Brand.",
+      "headingLine2": "We Treat It",
+      "headingAccent": "Like One.",
+      "points": ["Premium Presentation", "Natural Editing", "Authentic Results", "Dealer-Level Quality"]
+    },
+    "cta": {
+      "eyebrow": "By Private Consultation",
+      "title": "Reserve Your Presentation.",
+      "subtitle": "We accept a limited number of productions each season. Tell us about the vehicle, and we'll confirm availability within one business day.",
+      "ctaLabel": "Request a Private Consultation"
+    }
+  },
+  "portfolioListing": {
+    "pageHeader": {
+      "eyebrow": "Portfolio",
+      "title": "Vehicle Presentations",
+      "subtitle": "A selection of premium automotive presentations created for private sellers and dealerships. Every project combines professional photography, cinematic video and natural image enhancement to create a stronger first impression."
+    },
+    "categories": {
+      "all": "All",
+      "photography": "Photography",
+      "cinematicVideo": "Cinematic Video",
+      "imageEnhancement": "Image Enhancement",
+      "completePresentations": "Complete Presentations"
+    },
+    "items": {
+      "audi-rs5": "Premium cinematic vehicle presentation created to capture attention and showcase every design detail with a luxury commercial feel.",
+      "audi-rs6": "Professional automotive photography enhanced with natural AI editing and realistic environments for premium online vehicle listings.",
+      "bmw-m3": "A complete premium presentation combining photography, cinematic video and natural image enhancement for maximum visual impact.",
+      "bmw-m5": "Luxury automotive video focused on movement, atmosphere and emotional storytelling inspired by premium manufacturer advertising.",
+      "mercedes-amg-c63-s": "Natural AI-assisted enhancement preserving the original vehicle while improving lighting, reflections, background and overall presentation.",
+      "porsche-911": "Premium outdoor automotive photography created to highlight the vehicle's character with authentic lighting and elegant composition.",
+      "lamborghini-huracan": "Photography, cinematic video and premium image enhancement combined into one luxury vehicle presentation."
+    },
+    "cta": {
+      "eyebrow": "Your Vehicle, Next",
+      "title": "Ready to See Your Car in This Light?",
+      "subtitle": "Every production begins with a conversation about the vehicle and the story it deserves to tell."
+    }
+  },
+  "portfolioCommon": {
+    "backToPortfolio": "Back to Portfolio",
+    "vehiclePresentation": "Vehicle Presentation",
+    "gallery": {
+      "eyebrow": "Gallery",
+      "heading": "The Full Presentation"
+    },
+    "after": {
+      "eyebrow": "After"
+    },
+    "originalPhoto": "Original Photo",
+    "before": {
+      "eyebrow": "Before",
+      "headingPre": "The ",
+      "headingAccent": "Original",
+      "headingPost": " Capture"
+    },
+    "difference": {
+      "eyebrow": "The Difference",
+      "headingPre": "Raw Capture. ",
+      "headingAccent": "Maison",
+      "headingPost": " Grade.",
+      "description": "Drag the slider to compare the original image with Maison Motion's natural enhancement. Every edit preserves the vehicle's authenticity while creating a stronger first impression.",
+      "maisonGrade": "Maison Grade",
+      "original": "Original",
+      "footnote": "Every enhancement is designed to preserve the vehicle's original paint, proportions and character while improving lighting, reflections, composition and overall presentation."
+    },
+    "videoShowcase": {
+      "eyebrow": "Cinematic Video",
+      "headingPre": "Motion, ",
+      "headingAccent": "Directed."
+    },
+    "cinematicFilm": {
+      "title": "Cinematic Film",
+      "subtitle": "Experience the {vehicle} through cinematic motion."
+    },
+    "projectOverview": {
+      "project": "Project",
+      "vehicle": "Vehicle",
+      "services": "Services",
+      "year": "Year"
+    },
+    "specs": {
+      "engine": "Engine",
+      "power": "Power",
+      "transmission": "Transmission",
+      "firstRegistered": "First Registered",
+      "displacement": "Displacement",
+      "modelYear": "Model Year",
+      "automatic": "Automatic"
+    },
+    "cta": {
+      "eyebrow": "Your Vehicle, Next",
+      "title": "Ready to present your own vehicle?",
+      "subtitle": "Every presentation begins with a conversation about the vehicle and the impression it deserves to make.",
+      "ctaLabel": "Request a Presentation"
+    }
+  },
+  "bmwM3": {
+    "kicker": "Premium Vehicle Presentation",
+    "description": "This BMW M3 project demonstrates how premium photography, cinematic video and natural AI image enhancement can transform a vehicle into a presentation that captures attention, builds trust and creates a stronger first impression while preserving every original detail.",
+    "vehicle": "BMW M3 Competition",
+    "videoCaption": "A cinematic pass built to give the BMW M3 its own sense of movement — directed light, deliberate pacing and a premium commercial feel."
+  },
+  "audiRs5": {
+    "kicker": "Premium Cinematic Presentation",
+    "description": "This Audi RS5 project demonstrates how premium cinematic video and natural AI image enhancement can transform a vehicle into a presentation that captures attention, builds trust and creates a stronger first impression while preserving every original detail.",
+    "vehicle": "Audi RS5",
+    "videoCaption": "A cinematic pass built to give the Audi RS5 its own sense of movement — directed light, deliberate pacing and a premium commercial feel."
+  },
+  "lamborghini": {
+    "heroTitle": "Lamborghini Huracán",
+    "heroSubtitle": "Cinematic Automotive Presentation"
+  },
+  "services": {
+    "pageHeader": {
+      "eyebrow": "Services",
+      "title": "Premium Vehicle Presentation",
+      "subtitle": "Professional automotive photography, cinematic vehicle videos and premium image enhancement designed to help private sellers and dealerships create stronger first impressions, build trust and present every vehicle at its highest potential."
+    },
+    "items": [
+      {
+        "title": "Premium Automotive Photography",
+        "description": "Professional dealership-quality vehicle photography that creates a premium first impression for private sellers and dealerships.",
+        "deliverables": ["Exterior", "Interior", "Detail shots", "Dealer listings"]
+      },
+      {
+        "title": "Cinematic Vehicle Video",
+        "description": "Premium cinematic videos designed specifically for vehicle advertisements, marketplaces and social media.",
+        "deliverables": ["4K video", "Drone shots", "Marketplace ads", "Social media"]
+      },
+      {
+        "title": "Professional Image Enhancement",
+        "description": "Natural premium editing including background replacement, lighting improvement, color correction and authentic vehicle retouching.",
+        "deliverables": ["Background replacement", "Lighting enhancement", "Color correction", "Retouching"]
+      },
+      {
+        "title": "Complete Vehicle Presentation",
+        "description": "A complete premium package combining photography and cinematic video for the highest-quality vehicle presentation.",
+        "deliverables": ["Photo + video", "Premium package", "Marketplace ready", "Dealer ready"]
+      }
+    ],
+    "process": {
+      "eyebrow": "Our Process",
+      "title": "From Brief to Master Delivery",
+      "titleAccent": "Master Delivery",
+      "subtitle": "Six disciplined stages carry every commission from first conversation to finished master file.",
+      "steps": [
+        { "title": "Consultation", "description": "A private conversation about the vehicle, the brand and the impression it needs to make." },
+        { "title": "Planning", "description": "Location, light and narrative are mapped into a bespoke treatment before we ever arrive on site." },
+        { "title": "Photography", "description": "Controlled-light studio and location stills, composed with the same care given to sculpture." },
+        { "title": "Cinematic Video", "description": "Motion captured on cinema glass, directed frame by frame to give the car its own sense of drama." },
+        { "title": "Professional Editing", "description": "Our signature grading language is applied in post, unifying every asset into one tonal story." },
+        { "title": "Final Delivery", "description": "Master files delivered to specification, ready for showroom, dealership or global campaign." }
+      ]
+    },
+    "cta": {
+      "eyebrow": "Bespoke Scopes",
+      "title": "Tell Us What You're Building.",
+      "subtitle": "Every engagement is scoped around the vehicle, the market and the deadline — request a tailored proposal.",
+      "ctaLabel": "Request a Proposal"
+    }
+  },
+  "about": {
+    "pageHeader": {
+      "eyebrow": "About Maison Motion",
+      "title": "About Maison Motion",
+      "subtitle": "We help private sellers and dealerships present vehicles with premium photography and cinematic video that create stronger first impressions."
+    },
+    "mission": {
+      "eyebrow": "01 Our Mission",
+      "headingPre": "Our ",
+      "headingAccent": "Mission",
+      "paragraph": "Maison Motion was created with one goal: to transform ordinary vehicle listings into premium visual presentations while preserving every authentic detail."
+    },
+    "whyItMatters": {
+      "eyebrow": "02 Why It Matters",
+      "headingPre": "Why It ",
+      "headingAccent": "Matters",
+      "paragraph": "A buyer forms an opinion within seconds. Professional presentation builds trust, increases perceived value and helps every vehicle stand out."
+    },
+    "whatWeBelieve": {
+      "eyebrow": "03 What We Believe",
+      "headingPre": "What We ",
+      "headingAccent": "Believe",
+      "paragraph": "Every vehicle deserves premium presentation, regardless of price or brand."
+    },
+    "process": {
+      "eyebrow": "04 Our Process",
+      "headingPre": "Our ",
+      "headingAccent": "Process",
+      "steps": ["Consultation", "Photography", "Professional Editing", "Cinematic Video", "Final Delivery"]
+    },
+    "cta": {
+      "eyebrow": "Get Started",
+      "title": "Ready to present your vehicle at its best?",
+      "subtitle": "Tell us about your vehicle and we'll create a premium presentation through professional photography, cinematic video and authentic image enhancement that helps it stand out.",
+      "ctaLabel": "Request a Presentation",
+      "assurances": ["Reply within one business day", "Private sellers & dealerships", "Premium vehicle presentation"]
+    }
+  },
+  "contact": {
+    "pageHeader": {
+      "eyebrow": "Contact",
+      "title": "Start the Conversation",
+      "subtitle": "Tell us about your vehicle and we'll respond personally within 24 hours."
+    },
+    "sendEmail": "Send Email",
+    "visitFacebook": "Visit Facebook",
+    "responseTimeLabel": "Response Time",
+    "responseTimeValue": "Within 24 hours",
+    "locationLabel": "Location",
+    "locationValue": "Slovakia — Available Nationwide"
+  },
+  "legal": {
+    "privacy": {
+      "eyebrow": "Legal",
+      "title": "Privacy Policy",
+      "subtitle": "How we collect, use and protect your personal data.",
+      "sections": [
+        {
+          "number": "01",
+          "title": "Introduction",
+          "paragraphs": [
+            "Maison Motion Studio (“we”, “us”, “our”, or the “Studio”) provides professional automotive photography, AI-assisted image enhancement and cinematic automotive video for private sellers and dealerships. This Privacy Policy explains how we collect, use, disclose and safeguard personal data when you visit our website, contact us by email or Facebook, or engage our services.",
+            "We are committed to protecting your privacy in accordance with the General Data Protection Regulation (EU) 2016/679 (“GDPR”) and applicable Slovak data protection law."
+          ]
+        },
+        {
+          "number": "02",
+          "title": "Who We Are",
+          "paragraphs": ["The data controller responsible for your personal data is:"],
+          "list": ["[Business Name]", "[Business Address]", "IČO: [IČO]", "VAT Number: [VAT Number]", "Contact: [Legal Email]"]
+        },
+        {
+          "number": "03",
+          "title": "Personal Data We Collect",
+          "paragraphs": ["Depending on how you interact with us, we may collect:"],
+          "list": [
+            "Contact details such as your name, email address and phone number.",
+            "Vehicle information and photographs you submit to us for the purpose of a photography, video or image enhancement project.",
+            "The content of correspondence exchanged with us by email or Facebook Messenger."
+          ],
+          "listLinkItem": {
+            "pre": "Basic technical data collected through cookies, such as browser type and general usage of our website (see our ",
+            "linkText": "Cookie Policy",
+            "post": ")."
+          }
+        },
+        {
+          "number": "04",
+          "title": "How We Use Your Data",
+          "paragraphs": ["We use personal data to:"],
+          "list": [
+            "Respond to enquiries and provide quotes.",
+            "Plan, schedule and deliver photography, video and image enhancement services.",
+            "Communicate with you about an active or prospective project.",
+            "Maintain accounting and legal records as required by Slovak law.",
+            "Improve our website and services."
+          ]
+        },
+        {
+          "number": "05",
+          "title": "Legal Basis for Processing",
+          "paragraphs": ["We process personal data on the following legal bases under Article 6 GDPR:"],
+          "list": [
+            "Contract — to perform a service you have requested or agreed to.",
+            "Consent — where you have voluntarily provided information, for example by contacting us by email or Facebook.",
+            "Legitimate interest — to maintain our business records and respond to general enquiries.",
+            "Legal obligation — to comply with accounting, tax and other statutory requirements in Slovakia."
+          ]
+        },
+        {
+          "number": "06",
+          "title": "Email Communication",
+          "paragraphs": [
+            "When you contact us by email, we process the content of that correspondence, your email address and any attachments (such as vehicle photographs) solely to respond to your enquiry and manage a potential or active project. We do not use your email address for unsolicited marketing."
+          ]
+        },
+        {
+          "number": "07",
+          "title": "Facebook Communication",
+          "paragraphs": [
+            "If you contact us through our Facebook Page, your message is processed to respond to your enquiry and manage a potential or active project. Communication through Facebook is also subject to Meta’s own privacy policy and terms, which we encourage you to review, as we do not control how Meta processes data on its platform."
+          ]
+        },
+        {
+          "number": "08",
+          "title": "Cookies",
+          "paragraphs": [],
+          "linkParagraph": {
+            "pre": "Our website uses a limited number of essential cookies required for the site to function correctly. We are prepared to use analytics and marketing cookies in the future, as described in our ",
+            "linkText": "Cookie Policy",
+            "post": ". No such cookies are active until they are enabled and, where required, your consent is obtained."
+          }
+        },
+        {
+          "number": "09",
+          "title": "Data Retention",
+          "paragraphs": [
+            "We retain personal data only for as long as necessary for the purposes described in this Policy. Project-related correspondence and files are generally retained for a reasonable period following delivery to support any follow-up requests, after which they may be deleted. Records required for accounting and tax purposes are retained for the period mandated by Slovak law."
+          ]
+        },
+        {
+          "number": "10",
+          "title": "Sharing of Data",
+          "paragraphs": [
+            "We do not sell personal data. We may share limited data with trusted service providers strictly necessary to operate our business, such as email and website hosting providers, and Meta (Facebook), where you choose to contact us through that platform. Any such providers process data only as needed to provide their service to us."
+          ]
+        },
+        {
+          "number": "11",
+          "title": "Your Rights",
+          "paragraphs": ["Under the GDPR, you have the right to:"],
+          "list": [
+            "Access the personal data we hold about you.",
+            "Request correction of inaccurate or incomplete data.",
+            "Request erasure of your data (“right to be forgotten”).",
+            "Request restriction of, or object to, certain processing.",
+            "Request a copy of your data in a portable format.",
+            "Withdraw consent at any time, where processing is based on consent.",
+            "Lodge a complaint with the Slovak Office for Personal Data Protection (Úrad na ochranu osobných údajov Slovenskej republiky)."
+          ],
+          "paragraphsAfterList": ["To exercise any of these rights, please contact us at [Legal Email]."]
+        },
+        {
+          "number": "12",
+          "title": "Data Security",
+          "paragraphs": [
+            "We apply reasonable technical and organizational measures to protect personal data against unauthorized access, loss or misuse. No method of transmission or storage is completely secure, and we cannot guarantee absolute security."
+          ]
+        },
+        {
+          "number": "13",
+          "title": "Changes to This Policy",
+          "paragraphs": [
+            "We may update this Privacy Policy from time to time to reflect changes in our practices or applicable law. The updated version will be posted on this page with a revised effective date."
+          ]
+        },
+        {
+          "number": "14",
+          "title": "Contact Us",
+          "paragraphs": ["If you have any questions about this Privacy Policy or how we handle your personal data, please contact us at [Legal Email]."]
+        }
+      ]
+    },
+    "terms": {
+      "eyebrow": "Legal",
+      "title": "Terms & Conditions",
+      "subtitle": "The terms that govern every project undertaken with Maison Motion Studio.",
+      "sections": [
+        {
+          "number": "01",
+          "title": "Acceptance of Terms",
+          "paragraphs": [
+            "These Terms & Conditions (“Terms”) govern the use of the Maison Motion Studio website and any services booked with us. By contacting us, placing an order or using our services, you agree to be bound by these Terms."
+          ]
+        },
+        {
+          "number": "02",
+          "title": "Services Offered",
+          "paragraphs": ["Maison Motion Studio provides the following services:"],
+          "list": [
+            "Professional automotive photography.",
+            "AI-assisted image enhancement.",
+            "Cinematic automotive video.",
+            "Complete vehicle presentation packages for private sellers and dealerships."
+          ]
+        },
+        {
+          "number": "03",
+          "title": "Ordering Process",
+          "paragraphs": [
+            "Projects begin with an enquiry by email or Facebook. Following a short consultation, we confirm the scope of the project, schedule a session and provide a quote. A project is considered confirmed once both parties have agreed on scope, price and timing."
+          ]
+        },
+        {
+          "number": "04",
+          "title": "Pricing",
+          "paragraphs": [
+            "Pricing is quoted individually for each project based on the scope of work requested. All prices are communicated and agreed in writing before a session is scheduled. Unless stated otherwise, prices are quoted in EUR."
+          ]
+        },
+        {
+          "number": "05",
+          "title": "Delivery",
+          "paragraphs": [
+            "Delivery timelines are agreed individually for each project and confirmed in writing prior to the session. Final photographs and video are delivered digitally."
+          ]
+        },
+        {
+          "number": "06",
+          "title": "Client Responsibilities",
+          "paragraphs": ["By booking a session, the client agrees to:"],
+          "list": [
+            "Ensure the vehicle is reasonably clean, accessible and ready for the agreed session.",
+            "Confirm that they own the vehicle, or have the permission of the owner, to have it photographed and presented.",
+            "Provide accurate information about the vehicle and the intended use of the content.",
+            "Confirm that they own, or have permission to use, any photographs or materials submitted to us."
+          ]
+        },
+        {
+          "number": "07",
+          "title": "Intellectual Property",
+          "paragraphs": [
+            "Unless otherwise agreed in writing, Maison Motion Studio retains all copyright and intellectual property rights in the photographs, video and enhanced images it produces."
+          ]
+        },
+        {
+          "number": "08",
+          "title": "Licensing",
+          "paragraphs": [
+            "Upon full payment, the client is granted a license to use the delivered content for the agreed purpose, such as a vehicle listing, marketplace advertisement or dealership marketing. This license does not transfer ownership or copyright, which remains with Maison Motion Studio unless otherwise agreed in writing."
+          ]
+        },
+        {
+          "number": "09",
+          "title": "Payments",
+          "paragraphs": [
+            "Payment terms, including any deposit required to reserve a session, are agreed in writing before work begins. Final files are delivered once payment has been received in full, unless otherwise agreed."
+          ]
+        },
+        {
+          "number": "10",
+          "title": "Refund Policy",
+          "paragraphs": [
+            "Deposits are generally non-refundable once a session has been scheduled, as studio time and resources are reserved on that basis. Requests for a refund outside of this will be considered on a case-by-case basis."
+          ]
+        },
+        {
+          "number": "11",
+          "title": "Cancellation",
+          "paragraphs": [
+            "Clients are asked to provide as much notice as possible when cancelling or rescheduling a session. Cancellations made with limited notice may be subject to a cancellation fee, to be agreed on a case-by-case basis."
+          ]
+        },
+        {
+          "number": "12",
+          "title": "Limitation of Liability",
+          "paragraphs": [
+            "To the maximum extent permitted by law, Maison Motion Studio shall not be liable for any indirect, incidental or consequential damages arising from the use of our services or delivered content. Our total liability in connection with any project is limited to the amount paid by the client for that project.",
+            "Maison Motion Studio does not guarantee the sale of any vehicle or a specific selling price as a result of our services."
+          ]
+        },
+        {
+          "number": "13",
+          "title": "Force Majeure",
+          "paragraphs": [
+            "Maison Motion Studio shall not be held liable for any delay or failure to perform resulting from causes beyond our reasonable control, including but not limited to adverse weather, illness, accident, equipment failure or other unforeseeable circumstances. Affected sessions will be rescheduled as soon as reasonably possible."
+          ]
+        },
+        {
+          "number": "14",
+          "title": "Governing Law",
+          "paragraphs": [
+            "These Terms are governed by and construed in accordance with the laws of the Slovak Republic. Any disputes arising out of or in connection with these Terms shall be subject to the exclusive jurisdiction of the competent courts of Slovakia."
+          ]
+        },
+        {
+          "number": "15",
+          "title": "Contact Us",
+          "paragraphs": ["Questions regarding these Terms & Conditions can be sent to [Legal Email]."]
+        }
+      ]
+    },
+    "cookies": {
+      "eyebrow": "Legal",
+      "title": "Cookie Policy",
+      "subtitle": "How our website uses cookies, and how you can manage them.",
+      "sections": [
+        {
+          "number": "01",
+          "title": "What Are Cookies",
+          "paragraphs": [
+            "Cookies are small text files stored on your device when you visit a website. They help websites function correctly and can be used to remember preferences or understand how a site is used."
+          ]
+        },
+        {
+          "number": "02",
+          "title": "Essential Cookies",
+          "paragraphs": [
+            "We use a limited number of essential cookies that are strictly necessary for our website to operate correctly, such as maintaining basic site functionality and security. These cookies do not require consent and cannot be disabled, as the website would not function properly without them."
+          ]
+        },
+        {
+          "number": "03",
+          "title": "Analytics Cookies",
+          "paragraphs": [
+            "We do not currently use analytics cookies. Our website is prepared for future integration with Google Analytics to help us understand how visitors use our site. If and when this is enabled, this Cookie Policy will be updated and, where required by law, your consent will be requested before any analytics cookies are set."
+          ]
+        },
+        {
+          "number": "04",
+          "title": "Marketing Cookies",
+          "paragraphs": [
+            "We do not currently use marketing cookies. Our website is prepared for future integration with Meta Pixel to help us understand the effectiveness of our communications. If and when this is enabled, this Cookie Policy will be updated and, where required by law, your consent will be requested before any marketing cookies are set."
+          ]
+        },
+        {
+          "number": "05",
+          "title": "Managing Cookies",
+          "paragraphs": [
+            "You can control and manage cookies through your browser settings, including blocking or deleting cookies at any time. Please note that disabling essential cookies may affect the functionality of our website. Most browsers allow you to review and manage cookies in their privacy or security settings."
+          ]
+        },
+        {
+          "number": "06",
+          "title": "Changes to This Policy",
+          "paragraphs": [
+            "We may update this Cookie Policy from time to time, particularly as analytics or marketing cookies are introduced. Any changes will be posted on this page with a revised effective date."
+          ]
+        },
+        {
+          "number": "07",
+          "title": "Contact Us",
+          "paragraphs": ["Questions about this Cookie Policy can be sent to [Legal Email]."]
+        }
+      ]
+    },
+    "copyright": {
+      "eyebrow": "Legal",
+      "title": "Copyright & Licensing",
+      "subtitle": "Ownership and usage rights for the work we produce.",
+      "sections": [
+        {
+          "number": "01",
+          "title": "Ownership of Creative Work",
+          "paragraphs": [
+            "Maison Motion Studio owns all copyright and intellectual property rights in the photographs, cinematic video and AI-enhanced images it produces, unless otherwise agreed in writing prior to the start of a project."
+          ]
+        },
+        {
+          "number": "02",
+          "title": "License Granted to Clients",
+          "paragraphs": [
+            "Upon full payment, the client receives a license to use the delivered content for the purpose agreed at the time of booking, such as presenting a vehicle for private sale, on a marketplace listing, or in dealership marketing. This license permits the client to use the delivered content for that agreed purpose."
+          ]
+        },
+        {
+          "number": "03",
+          "title": "Restrictions on Use",
+          "paragraphs": [
+            "Unless otherwise agreed in writing, the client may not resell, sublicense or redistribute the delivered photographs or video to third parties for purposes beyond the agreed use, and may not present the content as having been produced by another party."
+          ]
+        },
+        {
+          "number": "04",
+          "title": "Portfolio & Promotional Use",
+          "paragraphs": [
+            "Maison Motion Studio may display completed work in its portfolio, on its website and across its social media channels for promotional purposes. If a client requires confidentiality for a specific project, this should be requested in writing before the project begins."
+          ]
+        },
+        {
+          "number": "05",
+          "title": "Third-Party Marks",
+          "paragraphs": [
+            "Vehicle manufacturer names, logos and trademarks that may appear within delivered photographs or video remain the property of their respective owners. Their appearance in our work does not imply any affiliation with, or endorsement by, the vehicle manufacturer."
+          ]
+        },
+        {
+          "number": "06",
+          "title": "Enforcement",
+          "paragraphs": [
+            "Unauthorized use, resale or redistribution of our work outside the terms of the license granted may result in legal action to protect our intellectual property rights."
+          ]
+        },
+        {
+          "number": "07",
+          "title": "Contact Us",
+          "paragraphs": ["Questions about copyright or licensing can be sent to [Legal Email]."]
+        }
+      ]
+    },
+    "disclaimer": {
+      "eyebrow": "Legal",
+      "title": "Disclaimer",
+      "subtitle": "Important information about how our work should be understood and used.",
+      "sections": [
+        {
+          "number": "01",
+          "title": "No Guarantee of Sale",
+          "paragraphs": [
+            "Maison Motion Studio does not guarantee the sale of any vehicle presented through our photography, video or image enhancement services."
+          ]
+        },
+        {
+          "number": "02",
+          "title": "No Guarantee of Price",
+          "paragraphs": [
+            "We do not guarantee that a vehicle will achieve a specific selling price as a result of our services. Final sale outcomes depend on factors outside our control, including market conditions, the vehicle itself and the seller’s negotiation."
+          ]
+        },
+        {
+          "number": "03",
+          "title": "Nature of AI Enhancement",
+          "paragraphs": [
+            "Our AI-assisted image enhancement is intended to improve the presentation quality of a vehicle — for example through lighting, background and color refinement — while respecting the authentic condition and character of the vehicle. Enhancement is not intended to misrepresent the vehicle or conceal material defects."
+          ]
+        },
+        {
+          "number": "04",
+          "title": "Marketing Material",
+          "paragraphs": [
+            "All final photographs and video delivered by Maison Motion Studio constitute marketing material intended to present a vehicle attractively. They are not a substitute for an independent mechanical inspection, vehicle history check or professional valuation, and prospective buyers are encouraged to conduct their own due diligence."
+          ]
+        },
+        {
+          "number": "05",
+          "title": "Client Warranties",
+          "paragraphs": [
+            "By engaging our services, the client confirms that they own the vehicle presented, or have the permission of the owner to have it photographed and presented, and that they own or have permission to use any photographs or materials submitted to us."
+          ]
+        },
+        {
+          "number": "06",
+          "title": "Accuracy of Client-Provided Information",
+          "paragraphs": [
+            "Maison Motion Studio relies on the information provided by the client regarding the vehicle and is not responsible for any inaccurate, incomplete or misleading information supplied by the client that is subsequently reflected in the delivered content."
+          ]
+        },
+        {
+          "number": "07",
+          "title": "No Professional Advice",
+          "paragraphs": [
+            "Nothing produced by Maison Motion Studio constitutes automotive appraisal, valuation, financial or legal advice."
+          ]
+        },
+        {
+          "number": "08",
+          "title": "Limitation",
+          "paragraphs": [],
+          "linkParagraph": {
+            "pre": "This Disclaimer should be read together with our ",
+            "linkText": "Terms & Conditions",
+            "post": ", which set out the limitation of our liability in full."
+          }
+        },
+        {
+          "number": "09",
+          "title": "Contact Us",
+          "paragraphs": ["Questions about this Disclaimer can be sent to [Legal Email]."]
+        }
+      ]
+    }
+  }
+}

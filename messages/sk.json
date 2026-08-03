@@ -1,0 +1,692 @@
+{
+  "nav": {
+    "home": "Domov",
+    "portfolio": "Portfólio",
+    "services": "Služby",
+    "about": "O nás",
+    "contact": "Kontakt",
+    "enquire": "Kontaktujte nás"
+  },
+  "footer": {
+    "description": "Maison Motion Studio vytvára prémiové prezentácie vozidiel prostredníctvom profesionálnej fotografie, filmového videa a vylepšenia obrazu pre súkromných predajcov a autobazáre.",
+    "navigate": "Navigácia",
+    "studio": "Štúdio",
+    "facebook": "Facebook",
+    "rights": "Maison Motion Studio. Všetky práva vyhradené."
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Štúdio automobilovej vizuálnej prezentácie",
+      "titleLine1": "Prvý dojem je rozhodujúci.",
+      "titleLine2": "My z neho robíme",
+      "titleAccent": "výnimočný zážitok.",
+      "paragraph": "Prémiová automobilová fotografia, filmové video a prirodzené vylepšenie obrazu. Vytvorené tak, aby každé vozidlo zapôsobilo nezabudnuteľným prvým dojmom.",
+      "viewPortfolio": "Zobraziť portfólio",
+      "requestPresentation": "Vyžiadať prezentáciu",
+      "scroll": "Posunúť"
+    },
+    "services": {
+      "heading": "Naše služby",
+      "items": [
+        {
+          "title": "Profesionálna fotografia",
+          "description": "Prémiová automobilová fotografia optimalizovaná pre inzertné portály, autobazáre a súkromných predajcov."
+        },
+        {
+          "title": "Filmové video",
+          "description": "Krátke filmové automobilové videá, ktoré predstavia každé vozidlo s prémiovou prezentáciou."
+        },
+        {
+          "title": "Vylepšenie obrazu",
+          "description": "Prirodzené vylepšenie pomocou AI, ktoré zachováva pôvodné vozidlo a zároveň zvyšuje jeho vizuálny dojem."
+        }
+      ]
+    },
+    "why": {
+      "eyebrow": "Prečo Maison Motion",
+      "headingLine1": "Vozidlo je značka.",
+      "headingLine2": "My k nemu tak",
+      "headingAccent": "aj pristupujeme.",
+      "points": ["Prémiová prezentácia", "Prirodzená úprava", "Autentický výsledok", "Kvalita ako u predajcu"]
+    },
+    "cta": {
+      "eyebrow": "Na základe súkromnej konzultácie",
+      "title": "Zarezervujte si svoju prezentáciu.",
+      "subtitle": "Každú sezónu prijímame len obmedzený počet zákaziek. Povedzte nám o svojom vozidle a do jedného pracovného dňa potvrdíme dostupný termín.",
+      "ctaLabel": "Vyžiadať súkromnú konzultáciu"
+    }
+  },
+  "portfolioListing": {
+    "pageHeader": {
+      "eyebrow": "Portfólio",
+      "title": "Prezentácie vozidiel",
+      "subtitle": "Výber prémiových automobilových prezentácií vytvorených pre súkromných predajcov a autobazáre. Každý projekt kombinuje profesionálnu fotografiu, filmové video a prirodzené vylepšenie obrazu s cieľom vytvoriť silnejší prvý dojem."
+    },
+    "categories": {
+      "all": "Všetko",
+      "photography": "Fotografia",
+      "cinematicVideo": "Filmové video",
+      "imageEnhancement": "Vylepšenie obrazu",
+      "completePresentations": "Kompletné prezentácie"
+    },
+    "items": {
+      "audi-rs5": "Prémiová filmová prezentácia vozidla vytvorená tak, aby upútala pozornosť a predstavila každý detail dizajnu s luxusným reklamným nádychom.",
+      "audi-rs6": "Profesionálna automobilová fotografia vylepšená prirodzenou úpravou pomocou AI a realistickým prostredím pre prémiové online inzeráty vozidiel.",
+      "bmw-m3": "Kompletná prémiová prezentácia kombinujúca fotografiu, filmové video a prirodzené vylepšenie obrazu s maximálnym vizuálnym dojmom.",
+      "bmw-m5": "Luxusné automobilové video zamerané na pohyb, atmosféru a emocionálne rozprávanie inšpirované prémiovou reklamou výrobcov.",
+      "mercedes-amg-c63-s": "Prirodzené vylepšenie pomocou AI, ktoré zachováva pôvodné vozidlo a zároveň zlepšuje osvetlenie, odrazy, pozadie a celkovú prezentáciu.",
+      "porsche-911": "Prémiová exteriérová automobilová fotografia vytvorená tak, aby zdôraznila charakter vozidla s autentickým osvetlením a elegantnou kompozíciou.",
+      "lamborghini-huracan": "Fotografia, filmové video a prémiové vylepšenie obrazu spojené do jednej luxusnej prezentácie vozidla."
+    },
+    "cta": {
+      "eyebrow": "Vaše vozidlo je na rade",
+      "title": "Chcete vidieť svoje auto v tomto svetle?",
+      "subtitle": "Každá produkcia začína rozhovorom o vozidle a príbehu, ktorý si zaslúži rozpovedať."
+    }
+  },
+  "portfolioCommon": {
+    "backToPortfolio": "Späť na portfólio",
+    "vehiclePresentation": "Prezentácia vozidla",
+    "gallery": {
+      "eyebrow": "Galéria",
+      "heading": "Kompletná prezentácia"
+    },
+    "after": {
+      "eyebrow": "Po úprave"
+    },
+    "originalPhoto": "Pôvodná fotografia",
+    "before": {
+      "eyebrow": "Pred úpravou",
+      "headingPre": "",
+      "headingAccent": "Pôvodný",
+      "headingPost": " záber"
+    },
+    "difference": {
+      "eyebrow": "Rozdiel",
+      "headingPre": "Pôvodný záber. ",
+      "headingAccent": "Maison",
+      "headingPost": " úprava.",
+      "description": "Potiahnutím posúvača porovnajte pôvodnú fotografiu s prirodzeným vylepšením Maison Motion. Každá úprava zachováva autentickosť vozidla a zároveň vytvára silnejší prvý dojem.",
+      "maisonGrade": "Maison úprava",
+      "original": "Originál",
+      "footnote": "Každé vylepšenie je navrhnuté tak, aby zachovalo pôvodný lak, proporcie a charakter vozidla a zároveň zlepšilo osvetlenie, odrazy, kompozíciu a celkovú prezentáciu."
+    },
+    "videoShowcase": {
+      "eyebrow": "Filmové video",
+      "headingPre": "Pohyb, ",
+      "headingAccent": "s režisérskym rukopisom."
+    },
+    "cinematicFilm": {
+      "title": "Filmové video",
+      "subtitle": "Zažite {vehicle} prostredníctvom filmového pohybu."
+    },
+    "projectOverview": {
+      "project": "Projekt",
+      "vehicle": "Vozidlo",
+      "services": "Služby",
+      "year": "Rok"
+    },
+    "specs": {
+      "engine": "Motor",
+      "power": "Výkon",
+      "transmission": "Prevodovka",
+      "firstRegistered": "Prvá registrácia",
+      "displacement": "Objem motora",
+      "modelYear": "Modelový rok",
+      "automatic": "Automatická"
+    },
+    "cta": {
+      "eyebrow": "Vaše vozidlo je na rade",
+      "title": "Chcete prezentovať svoje vlastné vozidlo?",
+      "subtitle": "Každá prezentácia začína rozhovorom o vozidle a dojme, ktorý si zaslúži vytvoriť.",
+      "ctaLabel": "Vyžiadať prezentáciu"
+    }
+  },
+  "bmwM3": {
+    "kicker": "Prémiová prezentácia vozidla",
+    "description": "Tento projekt BMW M3 ukazuje, ako môže prémiová fotografia, filmové video a prirodzené vylepšenie obrazu pomocou AI premeniť vozidlo na prezentáciu, ktorá upúta pozornosť, budí dôveru a vytvára silnejší prvý dojem pri zachovaní každého pôvodného detailu.",
+    "vehicle": "BMW M3 Competition",
+    "videoCaption": "Filmové spracovanie vytvorené tak, aby BMW M3 dodalo vlastný pocit pohybu — s cieleným svetlom, premysleným tempom a prémiovým reklamným nádychom."
+  },
+  "audiRs5": {
+    "kicker": "Prémiová filmová prezentácia",
+    "description": "Tento projekt Audi RS5 ukazuje, ako môže prémiové filmové video a prirodzené vylepšenie obrazu pomocou AI premeniť vozidlo na prezentáciu, ktorá upúta pozornosť, budí dôveru a vytvára silnejší prvý dojem pri zachovaní každého pôvodného detailu.",
+    "vehicle": "Audi RS5",
+    "videoCaption": "Filmové spracovanie vytvorené tak, aby Audi RS5 dodalo vlastný pocit pohybu — s cieleným svetlom, premysleným tempom a prémiovým reklamným nádychom."
+  },
+  "lamborghini": {
+    "heroTitle": "Lamborghini Huracán",
+    "heroSubtitle": "Filmová automobilová prezentácia"
+  },
+  "services": {
+    "pageHeader": {
+      "eyebrow": "Služby",
+      "title": "Prémiová prezentácia vozidla",
+      "subtitle": "Profesionálna automobilová fotografia, filmové videá vozidiel a prémiové vylepšenie obrazu navrhnuté tak, aby súkromným predajcom a autobazárom pomohli vytvoriť silnejší prvý dojem, budovať dôveru a predstaviť každé vozidlo v jeho najlepšom svetle."
+    },
+    "items": [
+      {
+        "title": "Prémiová automobilová fotografia",
+        "description": "Profesionálna fotografia vozidiel v kvalite autobazáru, ktorá vytvára prémiový prvý dojem pre súkromných predajcov a autobazáre.",
+        "deliverables": ["Exteriér", "Interiér", "Detailné zábery", "Inzeráty pre autobazáre"]
+      },
+      {
+        "title": "Filmové video vozidla",
+        "description": "Prémiové filmové videá navrhnuté špeciálne pre reklamy vozidiel, inzertné portály a sociálne siete.",
+        "deliverables": ["4K video", "Zábery z drona", "Reklamy na inzertných portáloch", "Sociálne siete"]
+      },
+      {
+        "title": "Profesionálne vylepšenie obrazu",
+        "description": "Prirodzená prémiová úprava zahŕňajúca výmenu pozadia, zlepšenie osvetlenia, farebnú korekciu a autentickú retuš vozidla.",
+        "deliverables": ["Výmena pozadia", "Zlepšenie osvetlenia", "Farebná korekcia", "Retuš"]
+      },
+      {
+        "title": "Kompletná prezentácia vozidla",
+        "description": "Kompletný prémiový balík kombinujúci fotografiu a filmové video pre najvyššiu kvalitu prezentácie vozidla.",
+        "deliverables": ["Foto + video", "Prémiový balík", "Pripravené pre inzertné portály", "Pripravené pre autobazár"]
+      }
+    ],
+    "process": {
+      "eyebrow": "Náš postup",
+      "title": "Od zadania po finálne dodanie",
+      "titleAccent": "finálne dodanie",
+      "subtitle": "Šesť dôsledných krokov spája prvý rozhovor s hotovým finálnym súborom.",
+      "steps": [
+        { "title": "Konzultácia", "description": "Súkromný rozhovor o vozidle, značke a dojme, ktorý má vzniknúť." },
+        { "title": "Plánovanie", "description": "Miesto, svetlo a príbeh sú naplánované do prispôsobeného spracovania ešte pred príchodom na miesto." },
+        { "title": "Fotografia", "description": "Ateliérové a exteriérové zábery s riadeným svetlom, komponované s rovnakou starostlivosťou ako socha." },
+        { "title": "Filmové video", "description": "Pohyb zachytený na filmovú optiku, režírovaný záber po zábere, aby auto získalo vlastnú drámu." },
+        { "title": "Profesionálna úprava", "description": "Náš charakteristický spôsob farebnej korekcie sa uplatňuje v postprodukcii a zjednocuje všetok materiál do jedného tónu." },
+        { "title": "Finálne dodanie", "description": "Finálne súbory dodané podľa špecifikácie, pripravené pre showroom, autobazár alebo globálnu kampaň." }
+      ]
+    },
+    "cta": {
+      "eyebrow": "Zákazky na mieru",
+      "title": "Povedzte nám, čo pripravujete.",
+      "subtitle": "Každá zákazka je naplánovaná podľa vozidla, trhu a termínu — vyžiadajte si ponuku na mieru.",
+      "ctaLabel": "Vyžiadať ponuku"
+    }
+  },
+  "about": {
+    "pageHeader": {
+      "eyebrow": "O Maison Motion",
+      "title": "O Maison Motion",
+      "subtitle": "Pomáhame súkromným predajcom a autobazárom prezentovať vozidlá prostredníctvom prémiovej fotografie a filmového videa, ktoré vytvárajú silnejší prvý dojem."
+    },
+    "mission": {
+      "eyebrow": "01 Naša misia",
+      "headingPre": "Naša ",
+      "headingAccent": "misia",
+      "paragraph": "Maison Motion vzniklo s jedným cieľom: premeniť bežné inzeráty vozidiel na prémiové vizuálne prezentácie pri zachovaní každého autentického detailu."
+    },
+    "whyItMatters": {
+      "eyebrow": "02 Prečo je to dôležité",
+      "headingPre": "Prečo je to ",
+      "headingAccent": "dôležité",
+      "paragraph": "Kupujúci si vytvorí názor v priebehu niekoľkých sekúnd. Profesionálna prezentácia budí dôveru, zvyšuje vnímanú hodnotu a pomáha každému vozidlu vyniknúť."
+    },
+    "whatWeBelieve": {
+      "eyebrow": "03 V čo veríme",
+      "headingPre": "V čo ",
+      "headingAccent": "veríme",
+      "paragraph": "Každé vozidlo si zaslúži prémiovú prezentáciu, bez ohľadu na cenu alebo značku."
+    },
+    "process": {
+      "eyebrow": "04 Náš postup",
+      "headingPre": "Náš ",
+      "headingAccent": "postup",
+      "steps": ["Konzultácia", "Fotografia", "Profesionálna úprava", "Filmové video", "Finálne dodanie"]
+    },
+    "cta": {
+      "eyebrow": "Začnime",
+      "title": "Chcete predstaviť svoje vozidlo v najlepšom svetle?",
+      "subtitle": "Povedzte nám o svojom vozidle a vytvoríme prémiovú prezentáciu prostredníctvom profesionálnej fotografie, filmového videa a autentického vylepšenia obrazu, ktorá mu pomôže vyniknúť.",
+      "ctaLabel": "Vyžiadať prezentáciu",
+      "assurances": ["Odpoveď do jedného pracovného dňa", "Súkromní predajcovia aj autobazáre", "Prémiová prezentácia vozidla"]
+    }
+  },
+  "contact": {
+    "pageHeader": {
+      "eyebrow": "Kontakt",
+      "title": "Začnite rozhovor",
+      "subtitle": "Povedzte nám o svojom vozidle a osobne vám odpovieme do 24 hodín."
+    },
+    "sendEmail": "Odoslať e-mail",
+    "visitFacebook": "Navštíviť Facebook",
+    "responseTimeLabel": "Čas odpovede",
+    "responseTimeValue": "Do 24 hodín",
+    "locationLabel": "Lokalita",
+    "locationValue": "Slovensko — dostupné po celej krajine"
+  },
+  "legal": {
+    "privacy": {
+      "eyebrow": "Právne informácie",
+      "title": "Zásady ochrany osobných údajov",
+      "subtitle": "Ako zhromažďujeme, používame a chránime vaše osobné údaje.",
+      "sections": [
+        {
+          "number": "01",
+          "title": "Úvod",
+          "paragraphs": [
+            "Maison Motion Studio („my“, „nás“, „naše“ alebo „Štúdio“) poskytuje profesionálnu automobilovú fotografiu, vylepšenie obrazu pomocou AI a filmové automobilové video pre súkromných predajcov a autobazáre. Tieto Zásady ochrany osobných údajov vysvetľujú, ako zhromažďujeme, používame, poskytujeme a chránime osobné údaje, keď navštívite našu webovú stránku, kontaktujete nás e-mailom alebo prostredníctvom Facebooku, alebo si objednáte naše služby.",
+            "Zaväzujeme sa chrániť vaše súkromie v súlade so Všeobecným nariadením o ochrane údajov (EÚ) 2016/679 („GDPR“) a platným slovenským zákonom o ochrane osobných údajov."
+          ]
+        },
+        {
+          "number": "02",
+          "title": "Kto sme",
+          "paragraphs": ["Za vaše osobné údaje zodpovedá tento správca:"],
+          "list": ["[Názov spoločnosti]", "[Adresa spoločnosti]", "IČO: [IČO]", "IČ DPH: [IČ DPH]", "Kontakt: [E-mail pre právne otázky]"]
+        },
+        {
+          "number": "03",
+          "title": "Osobné údaje, ktoré zhromažďujeme",
+          "paragraphs": ["V závislosti od toho, ako s nami komunikujete, môžeme zhromažďovať:"],
+          "list": [
+            "Kontaktné údaje, ako je vaše meno, e-mailová adresa a telefónne číslo.",
+            "Informácie o vozidle a fotografie, ktoré nám odošlete na účely fotografického, video alebo obrazového projektu.",
+            "Obsah korešpondencie vymenenej s nami e-mailom alebo prostredníctvom Facebook Messenger."
+          ],
+          "listLinkItem": {
+            "pre": "Základné technické údaje zhromaždené prostredníctvom cookies, ako je typ prehliadača a všeobecné používanie našej webovej stránky (pozri naše ",
+            "linkText": "Zásady používania cookies",
+            "post": ")."
+          }
+        },
+        {
+          "number": "04",
+          "title": "Ako používame vaše údaje",
+          "paragraphs": ["Osobné údaje používame na:"],
+          "list": [
+            "Odpovedanie na dotazy a poskytovanie cenových ponúk.",
+            "Plánovanie, harmonogram a dodanie fotografických, video a obrazových služieb.",
+            "Komunikáciu s vami o aktívnom alebo pripravovanom projekte.",
+            "Vedenie účtovných a právnych záznamov v súlade so slovenským právom.",
+            "Zlepšovanie našej webovej stránky a služieb."
+          ]
+        },
+        {
+          "number": "05",
+          "title": "Právny základ spracovania",
+          "paragraphs": ["Osobné údaje spracovávame na týchto právnych základoch podľa článku 6 GDPR:"],
+          "list": [
+            "Zmluva — na poskytnutie služby, ktorú ste si vyžiadali alebo na ktorej ste sa dohodli.",
+            "Súhlas — ak ste nám dobrovoľne poskytli informácie, napríklad kontaktovaním nás e-mailom alebo prostredníctvom Facebooku.",
+            "Oprávnený záujem — na vedenie našich obchodných záznamov a odpovedanie na všeobecné dotazy.",
+            "Zákonná povinnosť — na splnenie účtovných, daňových a iných zákonných požiadaviek na Slovensku."
+          ]
+        },
+        {
+          "number": "06",
+          "title": "E-mailová komunikácia",
+          "paragraphs": [
+            "Keď nás kontaktujete e-mailom, spracúvame obsah tejto korešpondencie, vašu e-mailovú adresu a všetky prílohy (napríklad fotografie vozidla) výlučne na zodpovedanie vášho dotazu a správu potenciálneho alebo aktívneho projektu. Vašu e-mailovú adresu nepoužívame na nevyžiadaný marketing."
+          ]
+        },
+        {
+          "number": "07",
+          "title": "Komunikácia prostredníctvom Facebooku",
+          "paragraphs": [
+            "Ak nás kontaktujete prostredníctvom našej Facebook stránky, vaša správa sa spracúva na zodpovedanie vášho dotazu a správu potenciálneho alebo aktívneho projektu. Komunikácia prostredníctvom Facebooku podlieha aj vlastným zásadám ochrany osobných údajov a podmienkam spoločnosti Meta, ktoré vám odporúčame si preštudovať, pretože nemáme kontrolu nad tým, ako Meta spracúva údaje na svojej platforme."
+          ]
+        },
+        {
+          "number": "08",
+          "title": "Cookies",
+          "paragraphs": [],
+          "linkParagraph": {
+            "pre": "Naša webová stránka používa obmedzený počet nevyhnutných cookies potrebných na správne fungovanie stránky. Sme pripravení v budúcnosti používať analytické a marketingové cookies, ako je popísané v našich ",
+            "linkText": "Zásadách používania cookies",
+            "post": ". Žiadne takéto cookies nie sú aktívne, kým nebudú povolené a, ak je to potrebné, kým nezískame váš súhlas."
+          }
+        },
+        {
+          "number": "09",
+          "title": "Uchovávanie údajov",
+          "paragraphs": [
+            "Osobné údaje uchovávame len tak dlho, ako je to potrebné na účely popísané v týchto Zásadách. Korešpondencia a súbory súvisiace s projektom sa vo všeobecnosti uchovávajú počas primeraného obdobia po dodaní na účely podpory ďalších požiadaviek, po ktorom môžu byť vymazané. Záznamy potrebné na účtovné a daňové účely sa uchovávajú počas obdobia stanoveného slovenským právom."
+          ]
+        },
+        {
+          "number": "10",
+          "title": "Poskytovanie údajov",
+          "paragraphs": [
+            "Osobné údaje nepredávame. Obmedzené údaje môžeme poskytnúť dôveryhodným poskytovateľom služieb, ktorí sú nevyhnutne potrební na fungovanie našej firmy, ako sú poskytovatelia e-mailových a webhostingových služieb, a spoločnosti Meta (Facebook), ak sa rozhodnete nás kontaktovať prostredníctvom tejto platformy. Takíto poskytovatelia spracúvajú údaje len v rozsahu potrebnom na poskytovanie svojich služieb nám."
+          ]
+        },
+        {
+          "number": "11",
+          "title": "Vaše práva",
+          "paragraphs": ["Podľa GDPR máte právo:"],
+          "list": [
+            "Na prístup k osobným údajom, ktoré o vás uchovávame.",
+            "Požadovať opravu nepresných alebo neúplných údajov.",
+            "Požadovať vymazanie vašich údajov („právo na zabudnutie“).",
+            "Požadovať obmedzenie alebo namietať proti určitému spracovaniu.",
+            "Požadovať kópiu svojich údajov v prenosnom formáte.",
+            "Kedykoľvek odvolať súhlas, ak je spracovanie založené na súhlase.",
+            "Podať sťažnosť na Úrad na ochranu osobných údajov Slovenskej republiky."
+          ],
+          "paragraphsAfterList": ["Na uplatnenie ktoréhokoľvek z týchto práv nás kontaktujte na [E-mail pre právne otázky]."]
+        },
+        {
+          "number": "12",
+          "title": "Bezpečnosť údajov",
+          "paragraphs": [
+            "Uplatňujeme primerané technické a organizačné opatrenia na ochranu osobných údajov proti neoprávnenému prístupu, strate alebo zneužitiu. Žiadny spôsob prenosu alebo uloženia údajov nie je úplne bezpečný a nemôžeme zaručiť absolútnu bezpečnosť."
+          ]
+        },
+        {
+          "number": "13",
+          "title": "Zmeny týchto zásad",
+          "paragraphs": [
+            "Tieto Zásady ochrany osobných údajov môžeme z času na čas aktualizovať, aby odrážali zmeny v našich postupoch alebo platnom práve. Aktualizovaná verzia bude zverejnená na tejto stránke s revidovaným dátumom platnosti."
+          ]
+        },
+        {
+          "number": "14",
+          "title": "Kontaktujte nás",
+          "paragraphs": ["Ak máte akékoľvek otázky týkajúce sa týchto Zásad ochrany osobných údajov alebo spôsobu, akým spracúvame vaše osobné údaje, kontaktujte nás na [E-mail pre právne otázky]."]
+        }
+      ]
+    },
+    "terms": {
+      "eyebrow": "Právne informácie",
+      "title": "Obchodné podmienky",
+      "subtitle": "Podmienky, ktoré upravujú každý projekt realizovaný so štúdiom Maison Motion.",
+      "sections": [
+        {
+          "number": "01",
+          "title": "Prijatie podmienok",
+          "paragraphs": [
+            "Tieto Obchodné podmienky („Podmienky“) upravujú používanie webovej stránky Maison Motion Studio a akýchkoľvek služieb objednaných u nás. Kontaktovaním nás, zadaním objednávky alebo používaním našich služieb súhlasíte s tým, že budete viazaní týmito Podmienkami."
+          ]
+        },
+        {
+          "number": "02",
+          "title": "Poskytované služby",
+          "paragraphs": ["Maison Motion Studio poskytuje tieto služby:"],
+          "list": [
+            "Profesionálna automobilová fotografia.",
+            "Vylepšenie obrazu pomocou AI.",
+            "Filmové automobilové video.",
+            "Kompletné balíky prezentácie vozidla pre súkromných predajcov a autobazáre."
+          ]
+        },
+        {
+          "number": "03",
+          "title": "Postup objednávania",
+          "paragraphs": [
+            "Projekty začínajú dotazom e-mailom alebo prostredníctvom Facebooku. Po krátkej konzultácii potvrdíme rozsah projektu, naplánujeme termín a poskytneme cenovú ponuku. Projekt sa považuje za potvrdený, keď sa obe strany dohodnú na rozsahu, cene a termíne."
+          ]
+        },
+        {
+          "number": "04",
+          "title": "Cenotvorba",
+          "paragraphs": [
+            "Cena je stanovená individuálne pre každý projekt na základe požadovaného rozsahu práce. Všetky ceny sú komunikované a dohodnuté písomne pred naplánovaním termínu. Ak nie je uvedené inak, ceny sú uvedené v EUR."
+          ]
+        },
+        {
+          "number": "05",
+          "title": "Dodanie",
+          "paragraphs": [
+            "Termíny dodania sú dohodnuté individuálne pre každý projekt a potvrdené písomne pred termínom. Finálne fotografie a video sa dodávajú digitálne."
+          ]
+        },
+        {
+          "number": "06",
+          "title": "Zodpovednosti klienta",
+          "paragraphs": ["Rezerváciou termínu klient súhlasí s tým, že:"],
+          "list": [
+            "Zabezpečí, aby bolo vozidlo primerane čisté, prístupné a pripravené na dohodnutý termín.",
+            "Potvrdí, že je vlastníkom vozidla alebo má súhlas vlastníka na jeho vyfotografovanie a prezentáciu.",
+            "Poskytne presné informácie o vozidle a zamýšľanom použití obsahu.",
+            "Potvrdí, že vlastní alebo má súhlas na použitie akýchkoľvek fotografií alebo materiálov, ktoré nám poskytne."
+          ]
+        },
+        {
+          "number": "07",
+          "title": "Duševné vlastníctvo",
+          "paragraphs": [
+            "Pokiaľ nie je písomne dohodnuté inak, Maison Motion Studio si zachováva všetky autorské a iné práva duševného vlastníctva k fotografiám, videám a vylepšeným obrázkom, ktoré vytvorí."
+          ]
+        },
+        {
+          "number": "08",
+          "title": "Licencovanie",
+          "paragraphs": [
+            "Po úplnom zaplatení získava klient licenciu na použitie dodaného obsahu na dohodnutý účel, ako je napríklad inzerát vozidla, reklama na inzertnom portáli alebo marketing autobazáru. Táto licencia neprevádza vlastníctvo ani autorské práva, ktoré zostávajú Maison Motion Studio, pokiaľ nie je písomne dohodnuté inak."
+          ]
+        },
+        {
+          "number": "09",
+          "title": "Platby",
+          "paragraphs": [
+            "Platobné podmienky, vrátane akéhokoľvek zálohy potrebnej na rezerváciu termínu, sú dohodnuté písomne pred začatím práce. Finálne súbory sú dodané po prijatí platby v plnej výške, pokiaľ nie je dohodnuté inak."
+          ]
+        },
+        {
+          "number": "10",
+          "title": "Zásady vrátenia peňazí",
+          "paragraphs": [
+            "Zálohy sú vo všeobecnosti nevratné po naplánovaní termínu, pretože na tomto základe je rezervovaný čas a zdroje štúdia. Žiadosti o vrátenie peňazí nad rámec tohto budú posúdené individuálne."
+          ]
+        },
+        {
+          "number": "11",
+          "title": "Zrušenie",
+          "paragraphs": [
+            "Klienti sú žiadaní, aby pri zrušení alebo presunutí termínu poskytli čo najviac času na oznámenie. Zrušenia s krátkym oznámením môžu byť spojené s poplatkom za zrušenie, ktorý sa dohodne individuálne."
+          ]
+        },
+        {
+          "number": "12",
+          "title": "Obmedzenie zodpovednosti",
+          "paragraphs": [
+            "V maximálnom rozsahu povolenom zákonom Maison Motion Studio nezodpovedá za žiadne nepriame, náhodné alebo následné škody vzniknuté v súvislosti s používaním našich služieb alebo dodaného obsahu. Naša celková zodpovednosť v súvislosti s akýmkoľvek projektom je obmedzená na sumu zaplatenú klientom za daný projekt.",
+            "Maison Motion Studio nezaručuje predaj žiadneho vozidla ani konkrétnu predajnú cenu v dôsledku našich služieb."
+          ]
+        },
+        {
+          "number": "13",
+          "title": "Vyššia moc",
+          "paragraphs": [
+            "Maison Motion Studio nenesie zodpovednosť za žiadne zdržanie alebo neschopnosť plniť povinnosti spôsobené príčinami mimo našej primeranej kontroly, vrátane, ale nie výlučne, nepriaznivého počasia, choroby, nehody, poruchy zariadenia alebo iných nepredvídateľných okolností. Postihnuté termíny budú presunuté hneď, ako to bude primerane možné."
+          ]
+        },
+        {
+          "number": "14",
+          "title": "Rozhodné právo",
+          "paragraphs": [
+            "Tieto Podmienky sa riadia a vykladajú v súlade s právnym poriadkom Slovenskej republiky. Akékoľvek spory vzniknuté z týchto Podmienok alebo v súvislosti s nimi podliehajú výlučnej jurisdikcii príslušných súdov Slovenskej republiky."
+          ]
+        },
+        {
+          "number": "15",
+          "title": "Kontaktujte nás",
+          "paragraphs": ["Otázky týkajúce sa týchto Obchodných podmienok môžete zaslať na [E-mail pre právne otázky]."]
+        }
+      ]
+    },
+    "cookies": {
+      "eyebrow": "Právne informácie",
+      "title": "Zásady používania cookies",
+      "subtitle": "Ako naša webová stránka používa cookies a ako ich môžete správne nastaviť.",
+      "sections": [
+        {
+          "number": "01",
+          "title": "Čo sú cookies",
+          "paragraphs": [
+            "Cookies sú malé textové súbory uložené v vašom zariadení pri návšteve webovej stránky. Pomáhajú webovým stránkam správne fungovať a môžu sa použiť na uchovanie predvolieb alebo pochopenie toho, ako sa stránka používa."
+          ]
+        },
+        {
+          "number": "02",
+          "title": "Nevyhnutné cookies",
+          "paragraphs": [
+            "Používame obmedzený počet nevyhnutných cookies, ktoré sú absolútne potrebné na správne fungovanie našej webovej stránky, ako je zachovanie základnej funkčnosti a bezpečnosti stránky. Tieto cookies nevyžadujú súhlas a nemôžu byť deaktivované, pretože webová stránka by bez nich nefungovala správne."
+          ]
+        },
+        {
+          "number": "03",
+          "title": "Analytické cookies",
+          "paragraphs": [
+            "V súčasnosti nepoužívame analytické cookies. Naša webová stránka je pripravená na budúcu integráciu so službou Google Analytics, aby nám pomohla pochopiť, ako návštevníci používajú našu stránku. Ak a keď bude táto funkcia zapnutá, tieto Zásady používania cookies budú aktualizované a, ak to zákon vyžaduje, bude si vyžiadaný váš súhlas pred nastavením akýchkoľvek analytických cookies."
+          ]
+        },
+        {
+          "number": "04",
+          "title": "Marketingové cookies",
+          "paragraphs": [
+            "V súčasnosti nepoužívame marketingové cookies. Naša webová stránka je pripravená na budúcu integráciu s Meta Pixel, aby nám pomohla pochopiť efektivitu našej komunikácie. Ak a keď bude táto funkcia zapnutá, tieto Zásady používania cookies budú aktualizované a, ak to zákon vyžaduje, bude si vyžiadaný váš súhlas pred nastavením akýchkoľvek marketingových cookies."
+          ]
+        },
+        {
+          "number": "05",
+          "title": "Správa cookies",
+          "paragraphs": [
+            "Cookies môžete kontrolovať a správne nastaviť prostredníctvom nastavení svojho prehliadača, vrátane ich blokovania alebo vymazania kedykoľvek. Upozorňujeme, že deaktivácia nevyhnutných cookies môže ovplyvniť funkčnosť našej webovej stránky. Väčšina prehliadačov umožňuje preskúmať a správne nastaviť cookies v nastaveniach ochrany súkromia alebo bezpečnosti."
+          ]
+        },
+        {
+          "number": "06",
+          "title": "Zmeny týchto zásad",
+          "paragraphs": [
+            "Tieto Zásady používania cookies môžeme z času na čas aktualizovať, najmä pri zavedení analytických alebo marketingových cookies. Akékoľvek zmeny budú zverejnené na tejto stránke s revidovaným dátumom platnosti."
+          ]
+        },
+        {
+          "number": "07",
+          "title": "Kontaktujte nás",
+          "paragraphs": ["Otázky týkajúce sa týchto Zásad používania cookies môžete zaslať na [E-mail pre právne otázky]."]
+        }
+      ]
+    },
+    "copyright": {
+      "eyebrow": "Právne informácie",
+      "title": "Autorské práva a licencovanie",
+      "subtitle": "Vlastnícke a užívacie práva k práci, ktorú vytvárame.",
+      "sections": [
+        {
+          "number": "01",
+          "title": "Vlastníctvo tvorivej práce",
+          "paragraphs": [
+            "Maison Motion Studio vlastní všetky autorské a iné práva duševného vlastníctva k fotografiám, filmovému videu a AI vylepšeným obrázkom, ktoré vytvorí, pokiaľ nie je písomne dohodnuté inak pred začiatkom projektu."
+          ]
+        },
+        {
+          "number": "02",
+          "title": "Licencia udelená klientom",
+          "paragraphs": [
+            "Po úplnom zaplatení získava klient licenciu na použitie dodaného obsahu na účel dohodnutý v čase rezervácie, ako je napríklad prezentácia vozidla na súkromný predaj, na inzertnom portáli alebo v marketingu autobazáru. Táto licencia umožňuje klientovi používať dodaný obsah na daný dohodnutý účel."
+          ]
+        },
+        {
+          "number": "03",
+          "title": "Obmedzenia použitia",
+          "paragraphs": [
+            "Pokiaľ nie je písomne dohodnuté inak, klient nemôže ďalej predávať, poskytovať sublicenciu ani šíriť dodané fotografie alebo video tretím stranám na účely nad rámec dohodnutého použitia a nemôže obsah prezentovať tak, ako by bol vytvorený inou stranou."
+          ]
+        },
+        {
+          "number": "04",
+          "title": "Portfólio a propagačné použitie",
+          "paragraphs": [
+            "Maison Motion Studio môže zobrazovať dokončenú prácu v svojom portfóliu, na svojej webovej stránke a na svojich sociálnych sieťach na propagačné účely. Ak klient požaduje dôvernosť pre konkrétny projekt, je potrebné o to písomne požiadať pred začiatkom projektu."
+          ]
+        },
+        {
+          "number": "05",
+          "title": "Ochranné známky tretích strán",
+          "paragraphs": [
+            "Názvy, logá a ochranné známky výrobcov vozidiel, ktoré sa môžu objaviť v dodaných fotografiách alebo videu, zostávajú vlastníctvom ich príslušných vlastníkov. Ich výskyt v našej práci neznamená žiadne prepojenie s výrobcom vozidla ani jeho podporu."
+          ]
+        },
+        {
+          "number": "06",
+          "title": "Vymáhanie",
+          "paragraphs": [
+            "Neoprávnené použitie, ďalší predaj alebo šírenie našej práce mimo podmienok udelenej licencie môže vyústiť do právnych krokov na ochranu našich práv duševného vlastníctva."
+          ]
+        },
+        {
+          "number": "07",
+          "title": "Kontaktujte nás",
+          "paragraphs": ["Otázky týkajúce sa autorských práv alebo licencovania môžete zaslať na [E-mail pre právne otázky]."]
+        }
+      ]
+    },
+    "disclaimer": {
+      "eyebrow": "Právne informácie",
+      "title": "Vyhlásenie o vylúčení zodpovednosti",
+      "subtitle": "Dôležité informácie o tom, ako by sa mala naša práca chápať a používať.",
+      "sections": [
+        {
+          "number": "01",
+          "title": "Žiadna záruka predaja",
+          "paragraphs": [
+            "Maison Motion Studio nezaručuje predaj žiadneho vozidla prezentovaného prostredníctvom našich fotografických, video alebo obrazových služieb."
+          ]
+        },
+        {
+          "number": "02",
+          "title": "Žiadna záruka ceny",
+          "paragraphs": [
+            "Nezaručujeme, že vozidlo dosiahne konkrétnu predajnú cenu v dôsledku našich služieb. Konečné výsledky predaja závisia od faktorov mimo našej kontroly, vrátane trhových podmienok, samotného vozidla a rokovaní predajcu."
+          ]
+        },
+        {
+          "number": "03",
+          "title": "Povaha vylepšenia pomocou AI",
+          "paragraphs": [
+            "Naše vylepšenie obrazu pomocou AI je určené na zlepšenie kvality prezentácie vozidla — napríklad prostredníctvom osvetlenia, pozadia a vylepšenia farieb — pri zachovaní autentického stavu a charakteru vozidla. Vylepšenie nemá za cieľ skresliť vozidlo ani zakryť závažné nedostatky."
+          ]
+        },
+        {
+          "number": "04",
+          "title": "Marketingový materiál",
+          "paragraphs": [
+            "Všetky finálne fotografie a video dodané spoločnosťou Maison Motion Studio predstavujú marketingový materiál určený na atraktívnu prezentáciu vozidla. Nie sú náhradou za nezávislú mechanickú kontrolu, overenie historie vozidla alebo odbornú oceňovaciu správu, a potenciálnym kupujúcim odporúčame vykonať vlastnú dôkladnú kontrolu."
+          ]
+        },
+        {
+          "number": "05",
+          "title": "Vyhlásenia klienta",
+          "paragraphs": [
+            "Objednaním našich služieb klient potvrdzuje, že je vlastníkom prezentovaného vozidla, alebo má súhlas vlastníka na jeho vyfotografovanie a prezentáciu, a že vlastní alebo má súhlas na použitie akýchkoľvek fotografií alebo materiálov, ktoré nám poskytne."
+          ]
+        },
+        {
+          "number": "06",
+          "title": "Presnosť informácií poskytnutých klientom",
+          "paragraphs": [
+            "Maison Motion Studio sa spolieha na informácie poskytnuté klientom o vozidle a nezodpovedá za akékoľvek nepresné, neúplné alebo zavádzajúce informácie poskytnuté klientom, ktoré sa následne odrazia v dodanom obsahu."
+          ]
+        },
+        {
+          "number": "07",
+          "title": "Žiadne odborné poradenstvo",
+          "paragraphs": [
+            "Nič, čo vytvorí Maison Motion Studio, nepredstavuje automobilové oceňovanie, finančné ani právne poradenstvo."
+          ]
+        },
+        {
+          "number": "08",
+          "title": "Obmedzenie",
+          "paragraphs": [],
+          "linkParagraph": {
+            "pre": "Toto Vyhlásenie o vylúčení zodpovednosti by sa malo čítať spolu s našimi ",
+            "linkText": "Obchodnými podmienkami",
+            "post": ", ktoré v plnom rozsahu upravujú obmedzenie našej zodpovednosti."
+          }
+        },
+        {
+          "number": "09",
+          "title": "Kontaktujte nás",
+          "paragraphs": ["Otázky týkajúce sa tohto Vyhlásenia o vylúčení zodpovednosti môžete zaslať na [E-mail pre právne otázky]."]
+        }
+      ]
+    }
+  }
+}

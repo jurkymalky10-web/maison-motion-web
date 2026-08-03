@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { Bodoni_Moda, Inter } from "next/font/google";
+import { NextIntlClientProvider } from "next-intl";
+import { getLocale, getMessages } from "next-intl/server";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -55,19 +57,24 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const locale = await getLocale();
+  const messages = await getMessages();
+
   return (
-    <html lang="en" className={`${bodoni.variable} ${inter.variable}`}>
+    <html lang={locale} className={`${bodoni.variable} ${inter.variable}`}>
       <body className="grain min-h-screen bg-background font-sans text-foreground">
-        <SmoothScroller>
-          <Navbar />
-          <main>{children}</main>
-          <Footer />
-        </SmoothScroller>
+        <NextIntlClientProvider messages={messages}>
+          <SmoothScroller>
+            <Navbar />
+            <main>{children}</main>
+            <Footer />
+          </SmoothScroller>
+        </NextIntlClientProvider>
       </body>
     </html>
   );

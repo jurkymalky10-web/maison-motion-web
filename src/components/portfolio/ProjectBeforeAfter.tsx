@@ -3,23 +3,25 @@
 import { useState } from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import { useTranslations } from "next-intl";
 import RevealOnScroll from "@/components/RevealOnScroll";
 
 export default function ProjectBeforeAfter({ image, alt }: { image: string; alt: string }) {
   const [value, setValue] = useState(50);
+  const t = useTranslations("portfolioCommon.difference");
 
   return (
     <section className="relative bg-black py-24 md:py-32">
       <div className="container-lux">
         <RevealOnScroll className="max-w-2xl">
-          <p className="text-xs uppercase tracking-[0.35em] text-bronze">The Difference</p>
+          <p className="text-xs uppercase tracking-[0.35em] text-bronze">{t("eyebrow")}</p>
           <h2 className="mt-6 font-display text-3xl leading-tight tracking-tight sm:text-4xl">
-            Raw Capture. <span className="italic bronze-gradient-text">Maison</span> Grade.
+            {t("headingPre")}
+            <span className="italic bronze-gradient-text">{t("headingAccent")}</span>
+            {t("headingPost")}
           </h2>
           <p className="mt-4 max-w-xl text-sm leading-relaxed text-foreground/55">
-            Drag the slider to compare the original image with Maison Motion&rsquo;s natural
-            enhancement. Every edit preserves the vehicle&rsquo;s authenticity while creating a
-            stronger first impression.
+            {t("description")}
           </p>
         </RevealOnScroll>
 
@@ -41,10 +43,10 @@ export default function ProjectBeforeAfter({ image, alt }: { image: string; alt:
             </div>
 
             <span className="pointer-events-none absolute left-4 top-4 z-30 text-[10px] uppercase tracking-[0.25em] text-bronze sm:left-6 sm:top-6 sm:text-[11px]">
-              Maison Grade
+              {t("maisonGrade")}
             </span>
             <span className="pointer-events-none absolute right-4 top-4 z-30 text-[10px] uppercase tracking-[0.25em] text-foreground/50 sm:right-6 sm:top-6 sm:text-[11px]">
-              Original
+              {t("original")}
             </span>
 
             <motion.div
@@ -71,9 +73,7 @@ export default function ProjectBeforeAfter({ image, alt }: { image: string; alt:
           </div>
 
           <p className="mx-auto mt-6 max-w-xl text-center text-xs leading-relaxed text-foreground/40">
-            Every enhancement is designed to preserve the vehicle&rsquo;s original paint,
-            proportions and character while improving lighting, reflections, composition and
-            overall presentation.
+            {t("footnote")}
           </p>
         </RevealOnScroll>
       </div>

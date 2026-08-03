@@ -1,5 +1,10 @@
 import RevealOnScroll from "@/components/RevealOnScroll";
-import { processSteps } from "@/lib/data";
+import { processSteps as defaultProcessSteps } from "@/lib/data";
+
+export interface ProcessStep {
+  title: string;
+  description: string;
+}
 
 export default function ProcessTimeline({
   eyebrow = "How We Work",
@@ -7,13 +12,16 @@ export default function ProcessTimeline({
   titleAccent = "Process",
   subtitle = "Six disciplined stages stand between a first conversation and a finished master file — nothing rushed, nothing skipped.",
   bgClassName = "bg-black",
+  steps,
 }: {
   eyebrow?: string;
   title?: string;
   titleAccent?: string;
   subtitle?: string;
   bgClassName?: string;
+  steps?: ProcessStep[];
 }) {
+  const processSteps = steps ?? defaultProcessSteps;
   const [before, accent] = title.includes(titleAccent)
     ? title.split(titleAccent)
     : [title, ""];
@@ -35,10 +43,10 @@ export default function ProcessTimeline({
 
           <div className="space-y-12 md:space-y-14">
             {processSteps.map((step, i) => (
-              <RevealOnScroll key={step.index} delay={0.06 * i}>
+              <RevealOnScroll key={step.title} delay={0.06 * i}>
                 <div className="relative flex gap-6 md:gap-10">
                   <div className="relative z-10 flex h-12 w-12 shrink-0 items-center justify-center rounded-full border border-bronze bg-black font-display text-sm text-bronze md:h-14 md:w-14 md:text-base">
-                    {step.index}
+                    {String(i + 1).padStart(2, "0")}
                   </div>
                   <div className="pt-1 md:pt-2">
                     <h3 className="font-display text-2xl tracking-tight md:text-3xl">{step.title}</h3>

@@ -3,13 +3,24 @@
 import { useState } from "react";
 import Link from "next/link";
 import { AnimatePresence, motion } from "framer-motion";
+import { useTranslations } from "next-intl";
 import PageHeader from "@/components/PageHeader";
 import CTASection from "@/components/CTASection";
 import GradientArt from "@/components/GradientArt";
 import { portfolioCategories, portfolioItems, type PortfolioCategory } from "@/lib/data";
 
+const categoryKeyMap: Record<PortfolioCategory | "All", string> = {
+  All: "all",
+  Photography: "photography",
+  "Cinematic Video": "cinematicVideo",
+  "Image Enhancement": "imageEnhancement",
+  "Complete Presentations": "completePresentations",
+};
+
 export default function PortfolioContent() {
   const [active, setActive] = useState<PortfolioCategory | "All">("All");
+  const t = useTranslations("portfolioListing");
+  const tCategories = useTranslations("portfolioListing.categories");
 
   const filtered =
     active === "All" ? portfolioItems : portfolioItems.filter((item) => item.category === active);
@@ -17,9 +28,9 @@ export default function PortfolioContent() {
   return (
     <>
       <PageHeader
-        eyebrow="Portfolio"
-        title="Vehicle Presentations"
-        subtitle="A selection of premium automotive presentations created for private sellers and dealerships. Every project combines professional photography, cinematic video and natural image enhancement to create a stronger first impression."
+        eyebrow={t("pageHeader.eyebrow")}
+        title={t("pageHeader.title")}
+        subtitle={t("pageHeader.subtitle")}
       />
 
       <section className="relative bg-black pb-28 pt-16 md:pb-36">
@@ -35,7 +46,7 @@ export default function PortfolioContent() {
                     : "border-hairline text-foreground/60 hover:border-bronze/60 hover:text-foreground"
                 }`}
               >
-                {category}
+                {tCategories(categoryKeyMap[category])}
               </button>
             ))}
           </div>
@@ -65,12 +76,12 @@ export default function PortfolioContent() {
                     <div className="absolute inset-x-0 bottom-0 flex items-end justify-between p-7">
                       <div>
                         <p className="text-[10px] uppercase tracking-[0.25em] text-bronze">
-                          {item.category}
+                          {tCategories(categoryKeyMap[item.category])}
                         </p>
                         <h3 className="mt-2 font-display text-2xl tracking-tight">
                           {item.title}
                         </h3>
-                        <p className="mt-1 text-sm text-foreground/55">{item.subtitle}</p>
+                        <p className="mt-1 text-sm text-foreground/55">{t(`items.${item.slug}`)}</p>
                       </div>
                       <span className="translate-x-2 text-bronze opacity-0 transition-all duration-500 group-hover:translate-x-0 group-hover:opacity-100">
                         &rarr;
@@ -85,9 +96,9 @@ export default function PortfolioContent() {
       </section>
 
       <CTASection
-        eyebrow="Your Vehicle, Next"
-        title="Ready to See Your Car in This Light?"
-        subtitle="Every production begins with a conversation about the vehicle and the story it deserves to tell."
+        eyebrow={t("cta.eyebrow")}
+        title={t("cta.title")}
+        subtitle={t("cta.subtitle")}
       />
     </>
   );

@@ -1,3 +1,4 @@
+import { useTranslations } from "next-intl";
 import RevealOnScroll from "@/components/RevealOnScroll";
 
 export default function ProjectOverview({
@@ -15,6 +16,8 @@ export default function ProjectOverview({
   services: string[];
   year: string;
 }) {
+  const t = useTranslations("portfolioCommon.projectOverview");
+
   return (
     <section className="relative bg-black py-24 md:py-32">
       <div className="container-lux grid grid-cols-1 gap-16 md:grid-cols-[1.6fr_1fr] md:gap-24">
@@ -32,15 +35,15 @@ export default function ProjectOverview({
           delay={0.1}
           className="border-t border-hairline pt-10 md:border-t-0 md:border-l md:pl-16 md:pt-0"
         >
-          <p className="text-[11px] uppercase tracking-[0.3em] text-bronze">Project</p>
+          <p className="text-[11px] uppercase tracking-[0.3em] text-bronze">{t("project")}</p>
 
           <div className="mt-8">
-            <p className="text-[10px] uppercase tracking-[0.2em] text-foreground/40">Vehicle</p>
+            <p className="text-[10px] uppercase tracking-[0.2em] text-foreground/40">{t("vehicle")}</p>
             <p className="mt-2 text-sm text-foreground/70">{vehicle}</p>
           </div>
 
           <div className="mt-8">
-            <p className="text-[10px] uppercase tracking-[0.2em] text-foreground/40">Services</p>
+            <p className="text-[10px] uppercase tracking-[0.2em] text-foreground/40">{t("services")}</p>
             <div className="mt-3 flex flex-wrap gap-2">
               {services.map((service) => (
                 <span
@@ -54,7 +57,7 @@ export default function ProjectOverview({
           </div>
 
           <div className="mt-8">
-            <p className="text-[10px] uppercase tracking-[0.2em] text-foreground/40">Year</p>
+            <p className="text-[10px] uppercase tracking-[0.2em] text-foreground/40">{t("year")}</p>
             <p className="mt-2 text-sm text-foreground/70">{year}</p>
           </div>
         </RevealOnScroll>

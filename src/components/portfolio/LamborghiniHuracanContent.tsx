@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
+import { useTranslations } from "next-intl";
 import RevealOnScroll from "@/components/RevealOnScroll";
 import ProjectGallery from "./ProjectGallery";
 import HeroSpecs from "./HeroSpecs";
@@ -9,10 +10,10 @@ import HeroSpecs from "./HeroSpecs";
 const HERO = "/portfolio/lamborghini-huracan/hero.png";
 const FILM = "/portfolio/lamborghini-huracan/cinematic.mp4";
 
-const BEFORE_GALLERY = [
-  { src: "/portfolio/lamborghini-huracan/pred1.png", alt: "Lamborghini Huracán — original photo 1" },
-  { src: "/portfolio/lamborghini-huracan/pred2.png", alt: "Lamborghini Huracán — original photo 2" },
-  { src: "/portfolio/lamborghini-huracan/pred3.png", alt: "Lamborghini Huracán — original photo 3" },
+const BEFORE_GALLERY_BASE = [
+  { src: "/portfolio/lamborghini-huracan/pred1.png", index: 1 },
+  { src: "/portfolio/lamborghini-huracan/pred2.png", index: 2 },
+  { src: "/portfolio/lamborghini-huracan/pred3.png", index: 3 },
 ];
 
 const GALLERY = [
@@ -25,62 +26,72 @@ const GALLERY = [
   { src: "/portfolio/lamborghini-huracan/eb3f3672-70c3-42fb-91e7-55dbace4f421.png", alt: "Lamborghini Huracán — enhanced detail" },
 ];
 
-const specs = [
-  {
-    label: "Power",
-    value: "640 HP (471 kW)",
-    icon: (
-      <path
-        d="M12.5 3 5 13h5l-1 8 7.5-10h-5l1-8Z"
-        stroke="currentColor"
-        strokeWidth="1.3"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-    ),
-  },
-  {
-    label: "Engine",
-    value: "5.2L V10",
-    icon: (
-      <path
-        d="M4 15V9h3l2-2h5l1 2h2a2 2 0 0 1 2 2v4M4 15h14M4 15v2h3v-2M15 15v2h3v-2M9 9V6M13 9V6"
-        stroke="currentColor"
-        strokeWidth="1.3"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-    ),
-  },
-  {
-    label: "Transmission",
-    value: "Automatic",
-    icon: (
-      <path
-        d="M12 3v6m0 0-3-3m3 3 3-3M12 9v9m-5-5h10M7 13a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm10 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Z"
-        stroke="currentColor"
-        strokeWidth="1.3"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-    ),
-  },
-  {
-    label: "Model Year",
-    value: "2023",
-    icon: (
-      <path
-        d="M5 5h14a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1Zm0 5h14M8 3v4M16 3v4"
-        stroke="currentColor"
-        strokeWidth="1.3"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-    ),
-  },
-];
-
 export default function LamborghiniHuracanContent() {
+  const t = useTranslations("lamborghini");
+  const tNav = useTranslations("portfolioCommon");
+  const tSpecs = useTranslations("portfolioCommon.specs");
+  const tHero = useTranslations("home.hero");
+
+  const BEFORE_GALLERY = BEFORE_GALLERY_BASE.map((img) => ({
+    src: img.src,
+    alt: `Lamborghini Huracán — ${tNav("originalPhoto")} ${img.index}`,
+  }));
+
+  const specs = [
+    {
+      label: tSpecs("power"),
+      value: "640 HP (471 kW)",
+      icon: (
+        <path
+          d="M12.5 3 5 13h5l-1 8 7.5-10h-5l1-8Z"
+          stroke="currentColor"
+          strokeWidth="1.3"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      ),
+    },
+    {
+      label: tSpecs("engine"),
+      value: "5.2L V10",
+      icon: (
+        <path
+          d="M4 15V9h3l2-2h5l1 2h2a2 2 0 0 1 2 2v4M4 15h14M4 15v2h3v-2M15 15v2h3v-2M9 9V6M13 9V6"
+          stroke="currentColor"
+          strokeWidth="1.3"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      ),
+    },
+    {
+      label: tSpecs("transmission"),
+      value: tSpecs("automatic"),
+      icon: (
+        <path
+          d="M12 3v6m0 0-3-3m3 3 3-3M12 9v9m-5-5h10M7 13a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm10 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Z"
+          stroke="currentColor"
+          strokeWidth="1.3"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      ),
+    },
+    {
+      label: tSpecs("modelYear"),
+      value: "2023",
+      icon: (
+        <path
+          d="M5 5h14a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1Zm0 5h14M8 3v4M16 3v4"
+          stroke="currentColor"
+          strokeWidth="1.3"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      ),
+    },
+  ];
+
   return (
     <>
       <section className="relative h-[100vh] min-h-[720px] w-full overflow-hidden bg-black">
@@ -101,7 +112,7 @@ export default function LamborghiniHuracanContent() {
             transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1], delay: 0.2 }}
             className="text-xs uppercase tracking-[0.35em] text-bronze"
           >
-            Cinematic Automotive Presentation
+            {t("heroSubtitle")}
           </motion.p>
           <motion.h1
             initial={{ opacity: 0, y: 32 }}
@@ -109,7 +120,7 @@ export default function LamborghiniHuracanContent() {
             transition={{ duration: 1, ease: [0.16, 1, 0.3, 1], delay: 0.35 }}
             className="mt-6 max-w-4xl font-display text-5xl leading-[1.05] tracking-tight text-balance sm:text-6xl md:text-7xl"
           >
-            Lamborghini Huracán
+            {t("heroTitle")}
           </motion.h1>
         </div>
 
@@ -124,7 +135,7 @@ export default function LamborghiniHuracanContent() {
           className="absolute inset-x-0 bottom-10 z-10 hidden flex-col items-center gap-3 md:flex"
         >
           <span className="text-[10px] uppercase tracking-[0.3em] text-foreground/40">
-            Scroll
+            {tHero("scroll")}
           </span>
           <motion.div
             animate={{ y: [0, 10, 0] }}
@@ -137,9 +148,11 @@ export default function LamborghiniHuracanContent() {
       <section className="relative bg-charcoal py-24 md:py-32">
         <div className="container-lux">
           <RevealOnScroll className="max-w-2xl">
-            <p className="text-xs uppercase tracking-[0.35em] text-bronze">Before</p>
+            <p className="text-xs uppercase tracking-[0.35em] text-bronze">{tNav("before.eyebrow")}</p>
             <h2 className="mt-6 font-display text-3xl tracking-tight md:text-4xl">
-              The <span className="italic bronze-gradient-text">Original</span> Capture
+              {tNav("before.headingPre")}
+              <span className="italic bronze-gradient-text">{tNav("before.headingAccent")}</span>
+              {tNav("before.headingPost")}
             </h2>
           </RevealOnScroll>
           <div className="mt-14">
@@ -151,9 +164,9 @@ export default function LamborghiniHuracanContent() {
       <section className="relative bg-black py-24 md:py-32">
         <div className="container-lux">
           <RevealOnScroll className="max-w-2xl">
-            <p className="text-xs uppercase tracking-[0.35em] text-bronze">Gallery</p>
+            <p className="text-xs uppercase tracking-[0.35em] text-bronze">{tNav("gallery.eyebrow")}</p>
             <h2 className="mt-6 font-display text-3xl tracking-tight md:text-4xl">
-              The Full Presentation
+              {tNav("gallery.heading")}
             </h2>
           </RevealOnScroll>
           <div className="mt-14">
@@ -165,9 +178,9 @@ export default function LamborghiniHuracanContent() {
       <section className="relative bg-charcoal py-24 md:py-32">
         <div className="container-lux">
           <RevealOnScroll className="mx-auto max-w-2xl text-center">
-            <h2 className="font-display text-3xl tracking-tight md:text-4xl">Cinematic Film</h2>
+            <h2 className="font-display text-3xl tracking-tight md:text-4xl">{tNav("cinematicFilm.title")}</h2>
             <p className="mt-4 text-sm leading-relaxed text-foreground/55">
-              Experience the Lamborghini Huracán through cinematic motion.
+              {tNav("cinematicFilm.subtitle", { vehicle: t("heroTitle") })}
             </p>
           </RevealOnScroll>
 

@@ -2,15 +2,16 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import { useTranslations } from "next-intl";
 import RevealOnScroll from "@/components/RevealOnScroll";
 import ProjectGallery, { type GalleryImage } from "./ProjectGallery";
 
 const HERO = "/portfolio/rs6/hero.png";
 
-const BEFORE_GALLERY = [
-  { src: "/portfolio/rs6/pred.png", alt: "Audi RS6 — original photo 1" },
-  { src: "/portfolio/rs6/pred2.png", alt: "Audi RS6 — original photo 2" },
-  { src: "/portfolio/rs6/pred3.png", alt: "Audi RS6 — original photo 3" },
+const BEFORE_GALLERY_BASE = [
+  { src: "/portfolio/rs6/pred.png", index: 1 },
+  { src: "/portfolio/rs6/pred2.png", index: 2 },
+  { src: "/portfolio/rs6/pred3.png", index: 3 },
 ];
 
 export default function AudiRs6Content({
@@ -20,6 +21,13 @@ export default function AudiRs6Content({
   afterImages: GalleryImage[];
   videoSrc: string | null;
 }) {
+  const tNav = useTranslations("portfolioCommon");
+
+  const BEFORE_GALLERY = BEFORE_GALLERY_BASE.map((img) => ({
+    src: img.src,
+    alt: `Audi RS6 — ${tNav("originalPhoto")} ${img.index}`,
+  }));
+
   return (
     <>
       <section className="relative h-[85vh] min-h-[560px] w-full overflow-hidden bg-black">
@@ -39,12 +47,12 @@ export default function AudiRs6Content({
               href="/portfolio"
               className="inline-flex items-center gap-2 text-xs uppercase tracking-[0.2em] text-foreground/70 transition-colors hover:text-bronze"
             >
-              &larr; Back to Portfolio
+              &larr; {tNav("backToPortfolio")}
             </Link>
           </RevealOnScroll>
           <RevealOnScroll delay={0.1}>
             <p className="mt-6 text-xs uppercase tracking-[0.35em] text-bronze">
-              Vehicle Presentation
+              {tNav("vehiclePresentation")}
             </p>
           </RevealOnScroll>
         </div>
@@ -53,9 +61,11 @@ export default function AudiRs6Content({
       <section className="relative bg-charcoal py-24 md:py-32">
         <div className="container-lux">
           <RevealOnScroll className="max-w-2xl">
-            <p className="text-xs uppercase tracking-[0.35em] text-bronze">Before</p>
+            <p className="text-xs uppercase tracking-[0.35em] text-bronze">{tNav("before.eyebrow")}</p>
             <h2 className="mt-6 font-display text-3xl tracking-tight md:text-4xl">
-              The <span className="italic bronze-gradient-text">Original</span> Capture
+              {tNav("before.headingPre")}
+              <span className="italic bronze-gradient-text">{tNav("before.headingAccent")}</span>
+              {tNav("before.headingPost")}
             </h2>
           </RevealOnScroll>
           <div className="mt-14">
@@ -67,9 +77,9 @@ export default function AudiRs6Content({
       <section className="relative bg-black py-24 md:py-32">
         <div className="container-lux">
           <RevealOnScroll className="max-w-2xl">
-            <p className="text-xs uppercase tracking-[0.35em] text-bronze">After</p>
+            <p className="text-xs uppercase tracking-[0.35em] text-bronze">{tNav("after.eyebrow")}</p>
             <h2 className="mt-6 font-display text-3xl tracking-tight md:text-4xl">
-              The Full Presentation
+              {tNav("gallery.heading")}
             </h2>
           </RevealOnScroll>
           <div className="mt-14">
@@ -83,10 +93,10 @@ export default function AudiRs6Content({
           <div className="container-lux">
             <RevealOnScroll className="mx-auto max-w-2xl text-center">
               <h2 className="font-display text-3xl tracking-tight md:text-4xl">
-                Cinematic Film
+                {tNav("cinematicFilm.title")}
               </h2>
               <p className="mt-4 text-sm leading-relaxed text-foreground/55">
-                Experience the Audi RS6 through cinematic motion.
+                {tNav("cinematicFilm.subtitle", { vehicle: "Audi RS6" })}
               </p>
             </RevealOnScroll>
 
@@ -95,7 +105,6 @@ export default function AudiRs6Content({
                 <video
                   controls
                   preload="metadata"
-                
                   playsInline
                   poster={HERO}
                   className="h-full w-full object-cover"

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 import RevealOnScroll from "@/components/RevealOnScroll";
 import CornerFrame from "@/components/CornerFrame";
 
@@ -11,13 +12,15 @@ export default function ProjectVideoShowcase({
   alt: string;
   caption: string;
 }) {
+  const t = useTranslations("portfolioCommon.videoShowcase");
+
   return (
     <section className="relative bg-charcoal py-24 md:py-32">
       <div className="container-lux">
         <RevealOnScroll className="max-w-2xl">
-          <p className="text-xs uppercase tracking-[0.35em] text-bronze">Cinematic Video</p>
+          <p className="text-xs uppercase tracking-[0.35em] text-bronze">{t("eyebrow")}</p>
           <h2 className="mt-6 font-display text-3xl leading-tight tracking-tight sm:text-4xl">
-            Motion, <span className="italic bronze-gradient-text">Directed.</span>
+            {t("headingPre")}<span className="italic bronze-gradient-text">{t("headingAccent")}</span>
           </h2>
           <p className="mt-4 max-w-xl text-sm leading-relaxed text-foreground/55">{caption}</p>
         </RevealOnScroll>

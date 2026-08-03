@@ -1,16 +1,19 @@
 "use client";
 
+import { useTranslations } from "next-intl";
 import PageHeader from "@/components/PageHeader";
 import RevealOnScroll from "@/components/RevealOnScroll";
 import { siteConfig } from "@/lib/site";
 
 export default function ContactContent() {
+  const t = useTranslations("contact");
+
   return (
     <>
       <PageHeader
-        eyebrow="Contact"
-        title="Start the Conversation"
-        subtitle="Tell us about your vehicle and we'll respond personally within 24 hours."
+        eyebrow={t("pageHeader.eyebrow")}
+        title={t("pageHeader.title")}
+        subtitle={t("pageHeader.subtitle")}
       />
 
       <section className="relative bg-black py-28 md:py-36">
@@ -20,7 +23,7 @@ export default function ContactContent() {
               href={`mailto:${siteConfig.email}`}
               className="inline-flex items-center bg-bronze px-10 py-4 text-xs uppercase tracking-[0.25em] text-black transition-all duration-[400ms] ease-out hover:shadow-[0_0_24px_rgba(198,138,78,0.45)]"
             >
-              Send Email
+              {t("sendEmail")}
             </a>
             <a
               href={siteConfig.social.facebook}
@@ -28,7 +31,7 @@ export default function ContactContent() {
               rel="noopener noreferrer"
               className="inline-flex items-center border border-foreground/30 px-10 py-4 text-xs uppercase tracking-[0.25em] text-foreground transition-all duration-[400ms] ease-out hover:border-bronze hover:text-bronze hover:shadow-[0_0_24px_rgba(198,138,78,0.3)]"
             >
-              Visit Facebook
+              {t("visitFacebook")}
             </a>
           </RevealOnScroll>
 
@@ -43,12 +46,12 @@ export default function ContactContent() {
 
           <RevealOnScroll delay={0.15} className="mt-20 grid grid-cols-1 gap-12 sm:grid-cols-2">
             <div>
-              <p className="text-xs uppercase tracking-[0.25em] text-bronze">Response Time</p>
-              <p className="mt-4 text-lg text-foreground/70">{siteConfig.responseTime}</p>
+              <p className="text-xs uppercase tracking-[0.25em] text-bronze">{t("responseTimeLabel")}</p>
+              <p className="mt-4 text-lg text-foreground/70">{t("responseTimeValue")}</p>
             </div>
             <div>
-              <p className="text-xs uppercase tracking-[0.25em] text-bronze">Location</p>
-              <p className="mt-4 text-lg text-foreground/70">{siteConfig.location}</p>
+              <p className="text-xs uppercase tracking-[0.25em] text-bronze">{t("locationLabel")}</p>
+              <p className="mt-4 text-lg text-foreground/70">{t("locationValue")}</p>
             </div>
           </RevealOnScroll>
         </div>

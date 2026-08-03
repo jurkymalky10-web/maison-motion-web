@@ -1,15 +1,23 @@
+"use client";
+
 import Link from "next/link";
+import { useTranslations } from "next-intl";
 import { navLinks, siteConfig } from "@/lib/site";
 
 const legalLinks = [
-  { href: "/legal/privacy-policy", label: "Privacy Policy" },
-  { href: "/legal/terms-and-conditions", label: "Terms & Conditions" },
-  { href: "/legal/cookie-policy", label: "Cookie Policy" },
-  { href: "/legal/copyright-licensing", label: "Copyright & Licensing" },
-  { href: "/legal/disclaimer", label: "Disclaimer" },
+  { href: "/legal/privacy-policy", key: "privacy" },
+  { href: "/legal/terms-and-conditions", key: "terms" },
+  { href: "/legal/cookie-policy", key: "cookies" },
+  { href: "/legal/copyright-licensing", key: "copyright" },
+  { href: "/legal/disclaimer", key: "disclaimer" },
 ];
 
 export default function Footer() {
+  const t = useTranslations("nav");
+  const tFooter = useTranslations("footer");
+  const tLegal = useTranslations("legal");
+  const tContact = useTranslations("contact");
+
   return (
     <footer className="relative border-t border-hairline bg-black">
       <div className="container-lux py-20">
@@ -18,12 +26,12 @@ export default function Footer() {
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img src="/brand/logo-master.png" alt="Maison Motion Studio" className="h-16 w-auto" />
             <p className="mt-6 max-w-sm text-sm leading-relaxed text-foreground/60">
-              {siteConfig.description}
+              {tFooter("description")}
             </p>
           </div>
 
           <div>
-            <p className="text-xs uppercase tracking-[0.25em] text-bronze">Navigate</p>
+            <p className="text-xs uppercase tracking-[0.25em] text-bronze">{tFooter("navigate")}</p>
             <ul className="mt-6 space-y-3">
               {navLinks.map((link) => (
                 <li key={link.href}>
@@ -31,7 +39,7 @@ export default function Footer() {
                     href={link.href}
                     className="text-sm text-foreground/70 transition-colors hover:text-foreground"
                   >
-                    {link.label}
+                    {t(link.key)}
                   </Link>
                 </li>
               ))}
@@ -39,9 +47,9 @@ export default function Footer() {
           </div>
 
           <div>
-            <p className="text-xs uppercase tracking-[0.25em] text-bronze">Studio</p>
+            <p className="text-xs uppercase tracking-[0.25em] text-bronze">{tFooter("studio")}</p>
             <ul className="mt-6 space-y-3 text-sm text-foreground/70">
-              <li>{siteConfig.location}</li>
+              <li>{tContact("locationValue")}</li>
               <li>
                 <a
                   href={`mailto:${siteConfig.email}`}
@@ -57,7 +65,7 @@ export default function Footer() {
                   rel="noopener noreferrer"
                   className="transition-colors hover:text-foreground"
                 >
-                  Facebook
+                  {tFooter("facebook")}
                 </a>
               </li>
             </ul>
@@ -69,14 +77,14 @@ export default function Footer() {
             <span key={link.href} className="flex items-center gap-3">
               {i > 0 && <span className="text-bronze/50">&middot;</span>}
               <Link href={link.href} className="transition-colors hover:text-foreground">
-                {link.label}
+                {tLegal(`${link.key}.title`)}
               </Link>
             </span>
           ))}
         </div>
 
         <div className="mt-8 flex flex-col items-center justify-between gap-6 text-xs uppercase tracking-[0.2em] text-foreground/40 md:flex-row">
-          <p>&copy; {new Date().getFullYear()} Maison Motion Studio. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} {tFooter("rights")}</p>
           <div className="flex gap-8">
             <a
               href={siteConfig.social.facebook}
@@ -84,7 +92,7 @@ export default function Footer() {
               rel="noopener noreferrer"
               className="transition-colors hover:text-bronze"
             >
-              Facebook
+              {tFooter("facebook")}
             </a>
           </div>
         </div>

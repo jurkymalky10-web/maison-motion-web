@@ -4,9 +4,11 @@ import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
+import { useTranslations } from "next-intl";
 import CornerFrame from "@/components/CornerFrame";
 
 export default function Hero() {
+  const t = useTranslations("home.hero");
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
     target: ref,
@@ -44,7 +46,7 @@ export default function Hero() {
           transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1], delay: 0.2 }}
           className="text-xs uppercase tracking-[0.4em] text-bronze"
         >
-          Automotive Visual Presentation Studio
+          {t("eyebrow")}
         </motion.p>
 
         <motion.h1
@@ -53,9 +55,9 @@ export default function Hero() {
           transition={{ duration: 0.75, ease: [0.16, 1, 0.3, 1], delay: 0.3 }}
           className="mt-7 max-w-4xl font-display text-[11.3vw] leading-[1.15] tracking-tight text-balance sm:text-[3.25rem] md:text-[4.1rem] lg:text-[4.9rem]"
         >
-          First Impressions Matter.
+          {t("titleLine1")}
           <br />
-          We Make Them <span className="italic bronze-gradient-text">Exceptional.</span>
+          {t("titleLine2")} <span className="italic bronze-gradient-text">{t("titleAccent")}</span>
         </motion.h1>
 
         <motion.p
@@ -64,9 +66,7 @@ export default function Hero() {
           transition={{ duration: 0.75, ease: [0.16, 1, 0.3, 1], delay: 0.4 }}
           className="mt-12 max-w-[580px] text-base leading-relaxed text-foreground/60 md:text-lg"
         >
-          Premium automotive photography, cinematic films and natural image
-          enhancement. Designed to help every vehicle make an unforgettable
-          first impression.
+          {t("paragraph")}
         </motion.p>
 
         <motion.div
@@ -79,13 +79,13 @@ export default function Hero() {
             href="/portfolio"
             className="inline-flex items-center bg-bronze px-8 py-4 text-xs uppercase tracking-[0.25em] text-black transition-all duration-300 ease-out hover:scale-[1.02] hover:shadow-[0_0_24px_rgba(198,138,78,0.45)]"
           >
-            View Portfolio
+            {t("viewPortfolio")}
           </Link>
           <Link
             href="/contact"
             className="inline-flex items-center border border-foreground/30 px-8 py-4 text-xs uppercase tracking-[0.25em] text-foreground transition-all duration-300 ease-out hover:scale-[1.02] hover:border-bronze hover:text-bronze hover:shadow-[0_0_24px_rgba(198,138,78,0.3)]"
           >
-            Request Presentation
+            {t("requestPresentation")}
           </Link>
         </motion.div>
       </motion.div>
@@ -98,7 +98,7 @@ export default function Hero() {
         className="absolute inset-x-0 bottom-10 z-10 hidden flex-col items-center gap-3 md:flex"
       >
         <span className="text-[10px] uppercase tracking-[0.3em] text-foreground/40">
-          Scroll
+          {t("scroll")}
         </span>
         <motion.div
           animate={{ y: [0, 10, 0] }}
