@@ -17,7 +17,6 @@ export default function Footer() {
   const t = useTranslations("nav");
   const tFooter = useTranslations("footer");
   const tLegal = useTranslations("legal");
-  const tContact = useTranslations("contact");
 
   return (
     <footer className="relative border-t border-hairline bg-black">
@@ -55,7 +54,6 @@ export default function Footer() {
           <div>
             <p className="text-xs uppercase tracking-[0.25em] text-bronze">{tFooter("studio")}</p>
             <ul className="mt-6 space-y-3 text-sm text-foreground/70">
-              <li>{tContact("locationValue")}</li>
               <li>
                 <a
                   href={`mailto:${siteConfig.email}`}
