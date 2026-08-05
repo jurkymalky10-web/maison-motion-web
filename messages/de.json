@@ -13,7 +13,8 @@
     "navigate": "Navigation",
     "studio": "Studio",
     "facebook": "Facebook",
-    "rights": "Maison Motion Studio. Alle Rechte vorbehalten."
+    "rights": "Maison Motion Studio. Alle Rechte vorbehalten.",
+    "cookieSettings": "Cookie-Einstellungen"
   },
   "home": {
     "hero": {
@@ -746,6 +747,32 @@
           "paragraphs": ["Fragen zu diesem Haftungsausschluss können an [Rechtliche E-Mail] gesendet werden."]
         }
       ]
+    }
+  },
+  "cookieConsent": {
+    "banner": {
+      "title": "Wir Respektieren Ihre Privatsphäre",
+      "description": "Wir verwenden Cookies, um sicherzustellen, dass unsere Website ordnungsgemäß funktioniert, und mit Ihrer Zustimmung, um zu verstehen, wie Besucher unsere Seite nutzen. Sie können alle Cookies akzeptieren, nicht notwendige ablehnen oder Ihre Einstellungen anpassen.",
+      "acceptAll": "Alle Akzeptieren",
+      "rejectNonEssential": "Nicht Notwendige Ablehnen",
+      "customize": "Einstellungen Anpassen"
+    },
+    "modal": {
+      "title": "Cookie-Einstellungen",
+      "description": "Verwalten Sie unten Ihre Cookie-Einstellungen. Notwendige Cookies sind immer aktiv, da sie für die korrekte Funktion der Website unerlässlich sind.",
+      "necessary": {
+        "title": "Notwendige Cookies",
+        "description": "Erforderlich für grundlegende Funktionen und Sicherheit der Website. Diese können nicht deaktiviert werden.",
+        "alwaysActive": "Immer Aktiv"
+      },
+      "analytics": {
+        "title": "Analyse-Cookies",
+        "description": "Helfen uns zu verstehen, wie Besucher mit unserer Website interagieren (Google Analytics). Nur mit Ihrer Zustimmung."
+      },
+      "rejectAll": "Nicht Notwendige Ablehnen",
+      "save": "Einstellungen Speichern",
+      "acceptAll": "Alle Akzeptieren",
+      "close": "Schließen"
     }
   }
 }

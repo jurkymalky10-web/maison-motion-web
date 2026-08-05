@@ -13,7 +13,8 @@
     "navigate": "Navigate",
     "studio": "Studio",
     "facebook": "Facebook",
-    "rights": "Maison Motion Studio. All rights reserved."
+    "rights": "Maison Motion Studio. All rights reserved.",
+    "cookieSettings": "Cookie Settings"
   },
   "home": {
     "hero": {
@@ -746,6 +747,32 @@
           "paragraphs": ["Questions about this Disclaimer can be sent to [Legal Email]."]
         }
       ]
+    }
+  },
+  "cookieConsent": {
+    "banner": {
+      "title": "We Value Your Privacy",
+      "description": "We use cookies to ensure our website works properly and, with your consent, to understand how visitors use our site. You can accept all cookies, reject non-essential ones, or customize your preferences.",
+      "acceptAll": "Accept All",
+      "rejectNonEssential": "Reject Non-Essential",
+      "customize": "Customize Preferences"
+    },
+    "modal": {
+      "title": "Cookie Preferences",
+      "description": "Manage your cookie preferences below. Necessary cookies are always active as they are essential for the website to function correctly.",
+      "necessary": {
+        "title": "Necessary Cookies",
+        "description": "Required for core site functionality and security. These cannot be disabled.",
+        "alwaysActive": "Always Active"
+      },
+      "analytics": {
+        "title": "Analytics Cookies",
+        "description": "Help us understand how visitors interact with our website via Google Analytics. Only used with your consent."
+      },
+      "rejectAll": "Reject Non-Essential",
+      "save": "Save Preferences",
+      "acceptAll": "Accept All",
+      "close": "Close"
     }
   }
 }

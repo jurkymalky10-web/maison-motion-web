@@ -1,12 +1,15 @@
 import type { Metadata } from "next";
 import { Bodoni_Moda, Inter } from "next/font/google";
-import { GoogleAnalytics } from "@next/third-parties/google";
 import { NextIntlClientProvider } from "next-intl";
 import { getLocale, getMessages } from "next-intl/server";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import SmoothScroller from "@/components/SmoothScroller";
+import AnalyticsLoader from "@/components/analytics/AnalyticsLoader";
+import { CookieConsentProvider } from "@/components/cookies/CookieConsentContext";
+import CookieConsentBanner from "@/components/cookies/CookieConsentBanner";
+import CookiePreferencesModal from "@/components/cookies/CookiePreferencesModal";
 import { siteConfig } from "@/lib/site";
 
 const bodoni = Bodoni_Moda({
@@ -70,13 +73,17 @@ export default async function RootLayout({
     <html lang={locale} className={`${bodoni.variable} ${inter.variable}`}>
       <body className="grain min-h-screen bg-background font-sans text-foreground">
         <NextIntlClientProvider messages={messages}>
-          <SmoothScroller>
-            <Navbar />
-            <main>{children}</main>
-            <Footer />
-          </SmoothScroller>
+          <CookieConsentProvider>
+            <SmoothScroller>
+              <Navbar />
+              <main>{children}</main>
+              <Footer />
+            </SmoothScroller>
+            <CookieConsentBanner />
+            <CookiePreferencesModal />
+            <AnalyticsLoader />
+          </CookieConsentProvider>
         </NextIntlClientProvider>
-        <GoogleAnalytics gaId="G-EC4KHCDMEW" />
       </body>
     </html>
   );

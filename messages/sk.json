@@ -13,7 +13,8 @@
     "navigate": "Navigácia",
     "studio": "Štúdio",
     "facebook": "Facebook",
-    "rights": "Maison Motion Studio. Všetky práva vyhradené."
+    "rights": "Maison Motion Studio. Všetky práva vyhradené.",
+    "cookieSettings": "Nastavenia Cookies"
   },
   "home": {
     "hero": {
@@ -746,6 +747,32 @@
           "paragraphs": ["Otázky týkajúce sa tohto Vyhlásenia o vylúčení zodpovednosti môžete zaslať na [E-mail pre právne otázky]."]
         }
       ]
+    }
+  },
+  "cookieConsent": {
+    "banner": {
+      "title": "Rešpektujeme Vaše Súkromie",
+      "description": "Používame cookies, aby naša webová stránka fungovala správne, a s vaším súhlasom aj na pochopenie toho, ako návštevníci našu stránku používajú. Môžete prijať všetky cookies, odmietnuť nepodstatné alebo si prispôsobiť nastavenia.",
+      "acceptAll": "Prijať Všetko",
+      "rejectNonEssential": "Odmietnuť Nepodstatné",
+      "customize": "Prispôsobiť Nastavenia"
+    },
+    "modal": {
+      "title": "Nastavenia Cookies",
+      "description": "Nižšie môžete spravovať svoje nastavenia cookies. Nevyhnutné cookies sú vždy aktívne, keďže sú potrebné pre správne fungovanie webovej stránky.",
+      "necessary": {
+        "title": "Nevyhnutné Cookies",
+        "description": "Potrebné pre základnú funkčnosť a bezpečnosť webovej stránky. Tieto nie je možné vypnúť.",
+        "alwaysActive": "Vždy Aktívne"
+      },
+      "analytics": {
+        "title": "Analytické Cookies",
+        "description": "Pomáhajú nám pochopiť, ako návštevníci používajú našu webovú stránku (Google Analytics). Používajú sa len s vaším súhlasom."
+      },
+      "rejectAll": "Odmietnuť Nepodstatné",
+      "save": "Uložiť Nastavenia",
+      "acceptAll": "Prijať Všetko",
+      "close": "Zavrieť"
     }
   }
 }

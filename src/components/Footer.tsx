@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
 import { navLinks, siteConfig } from "@/lib/site";
+import { useCookieConsent } from "@/components/cookies/CookieConsentContext";
 
 const legalLinks = [
   { href: "/legal/privacy-policy", key: "privacy" },
@@ -17,6 +18,7 @@ export default function Footer() {
   const t = useTranslations("nav");
   const tFooter = useTranslations("footer");
   const tLegal = useTranslations("legal");
+  const { openPreferences } = useCookieConsent();
 
   return (
     <footer className="relative border-t border-hairline bg-black">
@@ -85,6 +87,16 @@ export default function Footer() {
               </Link>
             </span>
           ))}
+          <span className="flex items-center gap-3">
+            <span className="text-bronze/50">&middot;</span>
+            <button
+              type="button"
+              onClick={openPreferences}
+              className="uppercase transition-colors hover:text-foreground"
+            >
+              {tFooter("cookieSettings")}
+            </button>
+          </span>
         </div>
 
         <div className="mt-8 flex flex-col items-center justify-between gap-6 text-xs uppercase tracking-[0.2em] text-foreground/40 md:flex-row">
