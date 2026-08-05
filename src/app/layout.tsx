@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Bodoni_Moda, Inter } from "next/font/google";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import { NextIntlClientProvider } from "next-intl";
 import { getLocale, getMessages } from "next-intl/server";
 import "./globals.css";
@@ -75,6 +76,7 @@ export default async function RootLayout({
             <Footer />
           </SmoothScroller>
         </NextIntlClientProvider>
+        <GoogleAnalytics gaId="G-EC4KHCDMEW" />
       </body>
     </html>
   );
