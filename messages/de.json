@@ -253,8 +253,23 @@
     },
     "sendEmail": "E-Mail senden",
     "visitFacebook": "Facebook besuchen",
+    "copyEmail": "E-Mail-Adresse kopieren",
+    "emailCopied": "In die Zwischenablage kopiert",
     "responseTimeLabel": "Antwortzeit",
-    "responseTimeValue": "Innerhalb von 24 Stunden"
+    "responseTimeValue": "Innerhalb von 24 Stunden",
+    "form": {
+      "name": "Vollständiger Name",
+      "email": "E-Mail-Adresse",
+      "subject": "Betreff",
+      "message": "Nachricht",
+      "required": "Dieses Feld ist erforderlich.",
+      "invalidEmail": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
+      "submit": "Nachricht senden",
+      "sending": "Wird gesendet...",
+      "successTitle": "Nachricht gesendet",
+      "successMessage": "Vielen Dank. Ihre Nachricht wurde erfolgreich gesendet. Wir melden uns innerhalb von 24 Stunden bei Ihnen.",
+      "errorMessage": "Beim Senden Ihrer Nachricht ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut oder schreiben Sie uns direkt per E-Mail."
+    }
   },
   "pricing": {
     "pageHeader": {

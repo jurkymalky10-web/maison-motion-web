@@ -253,8 +253,23 @@
     },
     "sendEmail": "Odoslať e-mail",
     "visitFacebook": "Navštíviť Facebook",
+    "copyEmail": "Kopírovať e-mailovú adresu",
+    "emailCopied": "Skopírované do schránky",
     "responseTimeLabel": "Čas odpovede",
-    "responseTimeValue": "Do 24 hodín"
+    "responseTimeValue": "Do 24 hodín",
+    "form": {
+      "name": "Celé meno",
+      "email": "E-mailová adresa",
+      "subject": "Predmet",
+      "message": "Správa",
+      "required": "Toto pole je povinné.",
+      "invalidEmail": "Zadajte platnú e-mailovú adresu.",
+      "submit": "Odoslať správu",
+      "sending": "Odosielam...",
+      "successTitle": "Správa odoslaná",
+      "successMessage": "Ďakujeme. Vaša správa bola úspešne odoslaná. Ozveme sa vám do 24 hodín.",
+      "errorMessage": "Pri odosielaní správy nastala chyba. Skúste to znova alebo nám napíšte priamo na e-mail."
+    }
   },
   "pricing": {
     "pageHeader": {

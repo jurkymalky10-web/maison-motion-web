@@ -253,8 +253,23 @@
     },
     "sendEmail": "Send Email",
     "visitFacebook": "Visit Facebook",
+    "copyEmail": "Copy email address",
+    "emailCopied": "Copied to clipboard",
     "responseTimeLabel": "Response Time",
-    "responseTimeValue": "Within 24 hours"
+    "responseTimeValue": "Within 24 hours",
+    "form": {
+      "name": "Full Name",
+      "email": "Email Address",
+      "subject": "Subject",
+      "message": "Message",
+      "required": "This field is required.",
+      "invalidEmail": "Please enter a valid email address.",
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "successTitle": "Message Sent",
+      "successMessage": "Thank you. Your message has been sent successfully. We will contact you within 24 hours.",
+      "errorMessage": "Something went wrong while sending your message. Please try again or email us directly."
+    }
   },
   "pricing": {
     "pageHeader": {

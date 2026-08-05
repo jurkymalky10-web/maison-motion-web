@@ -1,12 +1,14 @@
 import type { Metadata } from "next";
 import ContactContent from "@/components/contact/ContactContent";
+import { buildMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title: "Contact",
+export const metadata: Metadata = buildMetadata({
+  title: "Contact Maison Motion Studio",
   description:
-    "Get in touch with Maison Motion Studio by email or Facebook to discuss premium automotive photography and cinematic video for your vehicle.",
-  alternates: { canonical: "/contact" },
-};
+    "Get in touch with Maison Motion Studio to discuss automotive photography, cinematic videography and premium vehicle advertising for your car.",
+  path: "/contact",
+  keywords: ["automotive photography", "automotive videography", "vehicle advertising"],
+});
 
 export default function ContactPage() {
   return <ContactContent />;
