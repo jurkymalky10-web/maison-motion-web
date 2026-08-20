@@ -1,12 +1,14 @@
 import type { Metadata } from "next";
 import AboutContent from "@/components/about/AboutContent";
+import { buildMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title: "About",
+export const metadata: Metadata = buildMetadata({
+  title: "About Maison Motion Studio",
   description:
-    "Maison Motion Studio helps private sellers and dealerships present vehicles with premium photography and cinematic video that create stronger first impressions.",
-  alternates: { canonical: "/about" },
-};
+    "Maison Motion Studio is a premium automotive creative agency helping private sellers and dealerships present vehicles through professional photography and cinematic video that create stronger first impressions.",
+  path: "/about",
+  keywords: ["premium automotive media", "automotive content creation", "dealership marketing"],
+});
 
 export default function AboutPage() {
   return <AboutContent />;

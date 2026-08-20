@@ -6,6 +6,7 @@ import { useTranslations } from "next-intl";
 import RevealOnScroll from "@/components/RevealOnScroll";
 import ProjectGallery from "./ProjectGallery";
 import HeroSpecs from "./HeroSpecs";
+import { isOriginalPhoto } from "@/lib/portfolioMedia";
 
 const HERO = "/portfolio/lamborghini-huracan/hero.png";
 const FILM = "/portfolio/lamborghini-huracan/cinematic.mp4";
@@ -17,14 +18,18 @@ const BEFORE_GALLERY_BASE = [
 ];
 
 const GALLERY = [
-  { src: "/portfolio/lamborghini-huracan/0c9230e0-cff7-4299-b441-8a11f8be14de.png", alt: "Lamborghini Huracán — enhanced detail" },
-  { src: "/portfolio/lamborghini-huracan/0fffdd08-77fe-4f4e-a95c-172f07e58954.png", alt: "Lamborghini Huracán — enhanced detail" },
-  { src: "/portfolio/lamborghini-huracan/3-zaber.png", alt: "Lamborghini Huracán — enhanced detail" },
-  { src: "/portfolio/lamborghini-huracan/7-zaber.png", alt: "Lamborghini Huracán — enhanced detail" },
-  { src: "/portfolio/lamborghini-huracan/8776ed94-07ca-443d-ae3b-4590980eb703.png", alt: "Lamborghini Huracán — enhanced detail" },
-  { src: "/portfolio/lamborghini-huracan/840597fc-7400-4519-b39f-09a124c7f6b1.png", alt: "Lamborghini Huracán — enhanced detail" },
-  { src: "/portfolio/lamborghini-huracan/eb3f3672-70c3-42fb-91e7-55dbace4f421.png", alt: "Lamborghini Huracán — enhanced detail" },
+  { src: "/portfolio/lamborghini-huracan/0c9230e0-cff7-4299-b441-8a11f8be14de.png", alt: "Lamborghini Huracán — enhanced automotive photograph 1" },
+  { src: "/portfolio/lamborghini-huracan/0fffdd08-77fe-4f4e-a95c-172f07e58954.png", alt: "Lamborghini Huracán — enhanced automotive photograph 2" },
+  { src: "/portfolio/lamborghini-huracan/3-zaber.png", alt: "Lamborghini Huracán — enhanced automotive photograph 3" },
+  { src: "/portfolio/lamborghini-huracan/7-zaber.png", alt: "Lamborghini Huracán — enhanced automotive photograph 4" },
+  { src: "/portfolio/lamborghini-huracan/8776ed94-07ca-443d-ae3b-4590980eb703.png", alt: "Lamborghini Huracán — enhanced automotive photograph 5" },
+  { src: "/portfolio/lamborghini-huracan/840597fc-7400-4519-b39f-09a124c7f6b1.png", alt: "Lamborghini Huracán — enhanced automotive photograph 6" },
+  { src: "/portfolio/lamborghini-huracan/eb3f3672-70c3-42fb-91e7-55dbace4f421.png", alt: "Lamborghini Huracán — enhanced automotive photograph 7" },
 ];
+
+// "Full Presentation" must only ever show edited photos — original
+// (pred-prefixed) source images belong solely to the Before/After section.
+const PRESENTATION_GALLERY = GALLERY.filter((img) => !isOriginalPhoto(img.src));
 
 export default function LamborghiniHuracanContent() {
   const t = useTranslations("lamborghini");
@@ -170,7 +175,7 @@ export default function LamborghiniHuracanContent() {
             </h2>
           </RevealOnScroll>
           <div className="mt-14">
-            <ProjectGallery images={GALLERY} />
+            <ProjectGallery images={PRESENTATION_GALLERY} />
           </div>
         </div>
       </section>

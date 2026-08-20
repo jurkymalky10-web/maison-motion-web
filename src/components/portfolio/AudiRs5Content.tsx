@@ -10,6 +10,7 @@ import ProjectGallery from "./ProjectGallery";
 import ProjectBeforeAfter from "./ProjectBeforeAfter";
 import ProjectVideoShowcase from "./ProjectVideoShowcase";
 import HeroSpecs from "./HeroSpecs";
+import { isOriginalPhoto } from "@/lib/portfolioMedia";
 
 const HERO = "/portfolio/audi-rs5/hero1.png";
 
@@ -17,13 +18,13 @@ const GALLERY_BASE = [
   { src: "/portfolio/audi-rs5/pred1.png", isOriginal: true, originalIndex: 1, labelKey: "originalPhoto" },
   { src: "/portfolio/audi-rs5/pred2.png", isOriginal: true, originalIndex: 2 },
   { src: "/portfolio/audi-rs5/pred3.png", isOriginal: true, originalIndex: 3 },
-  { src: "/portfolio/audi-rs5/00a8544c-3965-4548-a80c-20b7cbf5fba7.png", alt: "Audi RS5 — enhanced detail" },
-  { src: "/portfolio/audi-rs5/17ef88e8-d3dc-49b4-8825-5b0ff5609251.png", alt: "Audi RS5 — enhanced detail" },
-  { src: "/portfolio/audi-rs5/19dc69e8-3393-4fd1-9323-ae6b94598069.png", alt: "Audi RS5 — enhanced detail" },
-  { src: "/portfolio/audi-rs5/33c53a19-f888-4122-b073-072e556fc6fc.png", alt: "Audi RS5 — enhanced detail" },
-  { src: "/portfolio/audi-rs5/6efbcb63-b44b-4304-bef4-ac92ed3b6b56.png", alt: "Audi RS5 — enhanced detail" },
-  { src: "/portfolio/audi-rs5/7d26ea9d-db28-4a7f-9c50-eef3b11bda43.png", alt: "Audi RS5 — enhanced detail" },
-  { src: "/portfolio/audi-rs5/c39d04be-242d-4f6c-9979-d9065f22475d.png", alt: "Audi RS5 — enhanced detail" },
+  { src: "/portfolio/audi-rs5/00a8544c-3965-4548-a80c-20b7cbf5fba7.png", alt: "Audi RS5 — enhanced automotive photograph 1" },
+  { src: "/portfolio/audi-rs5/17ef88e8-d3dc-49b4-8825-5b0ff5609251.png", alt: "Audi RS5 — enhanced automotive photograph 2" },
+  { src: "/portfolio/audi-rs5/19dc69e8-3393-4fd1-9323-ae6b94598069.png", alt: "Audi RS5 — enhanced automotive photograph 3" },
+  { src: "/portfolio/audi-rs5/33c53a19-f888-4122-b073-072e556fc6fc.png", alt: "Audi RS5 — enhanced automotive photograph 4" },
+  { src: "/portfolio/audi-rs5/6efbcb63-b44b-4304-bef4-ac92ed3b6b56.png", alt: "Audi RS5 — enhanced automotive photograph 5" },
+  { src: "/portfolio/audi-rs5/7d26ea9d-db28-4a7f-9c50-eef3b11bda43.png", alt: "Audi RS5 — enhanced automotive photograph 6" },
+  { src: "/portfolio/audi-rs5/c39d04be-242d-4f6c-9979-d9065f22475d.png", alt: "Audi RS5 — enhanced automotive photograph 7" },
 ];
 
 const TRANSFORMATION = {
@@ -43,6 +44,10 @@ export default function AudiRs5Content() {
     alt: img.isOriginal ? `Audi RS5 — ${tNav("originalPhoto")} ${img.originalIndex}` : img.alt!,
     label: img.labelKey ? tNav(img.labelKey) : undefined,
   }));
+
+  // "Full Presentation" must only ever show edited photos — original
+  // (pred-prefixed) source images belong solely to the Before/After section.
+  const PRESENTATION_GALLERY = GALLERY.filter((img) => !isOriginalPhoto(img.src));
 
   const services = [tCategories("cinematicVideo"), tCategories("imageEnhancement")];
 
@@ -104,14 +109,37 @@ export default function AudiRs5Content() {
   return (
     <>
       <section className="relative h-[58vh] min-h-[440px] w-full overflow-hidden bg-black md:h-[85vh] md:min-h-[560px]">
-        <Image
-          src={HERO}
-          alt="Audi RS5 — premium vehicle presentation"
-          fill
-          priority
-          sizes="100vw"
-          className="object-cover hero-image-bright"
-        />
+        <div className="absolute inset-0 md:hidden">
+          <Image
+            src={HERO}
+            alt=""
+            aria-hidden
+            fill
+            sizes="100vw"
+            className="scale-110 object-cover blur-2xl brightness-[0.45]"
+          />
+          <div className="absolute inset-0 bg-black/25" />
+          <Image
+            src={HERO}
+            alt="Audi RS5 — premium vehicle presentation"
+            fill
+            priority
+            sizes="100vw"
+            className="object-contain hero-image-bright"
+          />
+        </div>
+
+        <div className="absolute inset-0 hidden md:block">
+          <Image
+            src={HERO}
+            alt="Audi RS5 — premium vehicle presentation"
+            fill
+            priority
+            sizes="100vw"
+            className="object-cover hero-image-bright"
+          />
+        </div>
+
         <div className="absolute inset-0 hero-overlay" />
 
         <div className="container-lux absolute inset-x-0 bottom-0 z-10 pb-16">
@@ -141,20 +169,6 @@ export default function AudiRs5Content() {
         services={services}
         year="2025"
       />
-
-      <section className="relative bg-charcoal py-24 md:py-32">
-        <div className="container-lux">
-          <RevealOnScroll className="max-w-2xl">
-            <p className="text-xs uppercase tracking-[0.35em] text-bronze">{tNav("gallery.eyebrow")}</p>
-            <h2 className="mt-6 font-display text-3xl tracking-tight md:text-4xl">
-              {tNav("gallery.heading")}
-            </h2>
-          </RevealOnScroll>
-          <div className="mt-14">
-            <ProjectGallery images={GALLERY} />
-          </div>
-        </div>
-      </section>
 
       <section className="relative bg-black py-24 md:py-32">
         <div className="container-lux">
@@ -214,6 +228,20 @@ export default function AudiRs5Content() {
       </section>
 
       <ProjectBeforeAfter image={GALLERY[3].src} alt="Audi RS5" />
+
+      <section className="relative bg-charcoal py-24 md:py-32">
+        <div className="container-lux">
+          <RevealOnScroll className="max-w-2xl">
+            <p className="text-xs uppercase tracking-[0.35em] text-bronze">{tNav("gallery.eyebrow")}</p>
+            <h2 className="mt-6 font-display text-3xl tracking-tight md:text-4xl">
+              {tNav("gallery.heading")}
+            </h2>
+          </RevealOnScroll>
+          <div className="mt-14">
+            <ProjectGallery images={PRESENTATION_GALLERY} />
+          </div>
+        </div>
+      </section>
 
       <ProjectVideoShowcase
         image={GALLERY[4].src}

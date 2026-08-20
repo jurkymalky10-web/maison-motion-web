@@ -24,6 +24,15 @@ export default function PageHeader({
         >
           {eyebrow}
         </motion.p>
+
+        <motion.div
+          aria-hidden
+          initial={{ opacity: 0, scaleX: 0 }}
+          animate={{ opacity: 1, scaleX: 1 }}
+          transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1], delay: 0.15 }}
+          className="mt-5 mb-5 h-px w-16 origin-left bg-gradient-to-r from-bronze-soft via-bronze to-bronze-deep md:hidden"
+        />
+
         <motion.h1
           initial={{ opacity: 0, y: 24 }}
           animate={{ opacity: 1, y: 0 }}

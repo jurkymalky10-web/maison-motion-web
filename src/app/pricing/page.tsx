@@ -1,12 +1,14 @@
 import type { Metadata } from "next";
 import PricingContent from "@/components/pricing/PricingContent";
+import { buildMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Investment & Pricing",
   description:
-    "Every project is individually tailored. See what's included in a Maison Motion Studio presentation, starting from €149.",
-  alternates: { canonical: "/pricing" },
-};
+    "Transparent pricing for premium dealership marketing, vehicle advertising and car sales marketing. Every project is individually tailored, starting from €149.",
+  path: "/pricing",
+  keywords: ["dealership marketing", "vehicle advertising", "car sales marketing"],
+});
 
 export default function PricingPage() {
   return <PricingContent />;

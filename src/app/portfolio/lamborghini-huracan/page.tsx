@@ -1,12 +1,15 @@
 import type { Metadata } from "next";
 import LamborghiniHuracanContent from "@/components/portfolio/LamborghiniHuracanContent";
+import { buildMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Lamborghini Huracán — Cinematic Automotive Presentation",
   description:
     "A cinematic automotive presentation for the Lamborghini Huracán combining premium photography, cinematic video and natural image enhancement.",
-  alternates: { canonical: "/portfolio/lamborghini-huracan" },
-};
+  path: "/portfolio/lamborghini-huracan",
+  image: "/portfolio/lamborghini-huracan/hero.png",
+  keywords: ["luxury car photography", "cinematic car videos", "automotive photography"],
+});
 
 export default function LamborghiniHuracanPage() {
   return <LamborghiniHuracanContent />;

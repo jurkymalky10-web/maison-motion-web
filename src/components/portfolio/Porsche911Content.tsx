@@ -23,9 +23,9 @@ export default function Porsche911Content({
     alt: `Porsche 911 — ${tNav("originalPhoto")} ${i + 1}`,
   }));
 
-  const AFTER_GALLERY: GalleryImage[] = afterImages.map((img) => ({
+  const AFTER_GALLERY: GalleryImage[] = afterImages.map((img, i) => ({
     src: img.src,
-    alt: "Porsche 911 — enhanced detail",
+    alt: `Porsche 911 — enhanced automotive photograph ${i + 1}`,
   }));
 
   return (

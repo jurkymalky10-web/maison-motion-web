@@ -10,6 +10,7 @@ import ProjectGallery from "./ProjectGallery";
 import ProjectBeforeAfter from "./ProjectBeforeAfter";
 import ProjectVideoShowcase from "./ProjectVideoShowcase";
 import HeroSpecs from "./HeroSpecs";
+import { isOriginalPhoto } from "@/lib/portfolioMedia";
 
 const HERO = "/portfolio/bmw-m3/fd69a54a-dab2-45c2-acb7-eefb0291977f.webp";
 
@@ -19,8 +20,8 @@ const GALLERY_BASE = [
   { src: "/portfolio/bmw-m3/1bdcb74b-56d8-42dc-a080-89afda27892c.webp", alt: "BMW M3 — rear three-quarter view" },
   { src: "/portfolio/bmw-m3/d0aedfac-ccac-41f8-a063-bdf98d5fa985.webp", alt: "BMW M3 — dynamic driving shot" },
   { src: "/portfolio/bmw-m3/d2b6dbb9-3951-47f2-bacc-0d11ab1f3a14.webp", alt: "BMW M3 — rear detail" },
-  { src: "/portfolio/bmw-m3/after5.png", alt: "BMW M3 — enhanced detail" },
-  { src: "/portfolio/bmw-m3/after6.png", alt: "BMW M3 — enhanced detail" },
+  { src: "/portfolio/bmw-m3/after5.png", alt: "BMW M3 — enhanced automotive photograph, studio detail" },
+  { src: "/portfolio/bmw-m3/after6.png", alt: "BMW M3 — enhanced automotive photograph, cinematic still" },
 ];
 
 export default function BmwM3Content() {
@@ -34,6 +35,10 @@ export default function BmwM3Content() {
     alt: img.isOriginal ? `BMW M3 — ${tNav("originalPhoto")}` : img.alt!,
     label: img.labelKey ? tNav(img.labelKey) : undefined,
   }));
+
+  // "Full Presentation" must only ever show edited photos — original
+  // (pred-prefixed) source images belong solely to the Before/After section.
+  const PRESENTATION_GALLERY = GALLERY.filter((img) => !isOriginalPhoto(img.src));
 
   const services = [tCategories("photography"), tCategories("cinematicVideo"), tCategories("imageEnhancement")];
 
@@ -95,14 +100,37 @@ export default function BmwM3Content() {
   return (
     <>
       <section className="relative h-[58vh] min-h-[440px] w-full overflow-hidden bg-black md:h-[85vh] md:min-h-[560px]">
-        <Image
-          src={HERO}
-          alt="BMW M3 — premium vehicle presentation"
-          fill
-          priority
-          sizes="100vw"
-          className="object-cover hero-image-bright"
-        />
+        <div className="absolute inset-0 md:hidden">
+          <Image
+            src={HERO}
+            alt=""
+            aria-hidden
+            fill
+            sizes="100vw"
+            className="scale-110 object-cover blur-2xl brightness-[0.45]"
+          />
+          <div className="absolute inset-0 bg-black/25" />
+          <Image
+            src={HERO}
+            alt="BMW M3 — premium vehicle presentation"
+            fill
+            priority
+            sizes="100vw"
+            className="object-contain hero-image-bright"
+          />
+        </div>
+
+        <div className="absolute inset-0 hidden md:block">
+          <Image
+            src={HERO}
+            alt="BMW M3 — premium vehicle presentation"
+            fill
+            priority
+            sizes="100vw"
+            className="object-cover hero-image-bright"
+          />
+        </div>
+
         <div className="absolute inset-0 hero-overlay" />
 
         <div className="container-lux absolute inset-x-0 bottom-0 z-10 pb-16">
@@ -142,7 +170,7 @@ export default function BmwM3Content() {
             </h2>
           </RevealOnScroll>
           <div className="mt-14">
-            <ProjectGallery images={GALLERY} />
+            <ProjectGallery images={PRESENTATION_GALLERY} />
           </div>
         </div>
       </section>

@@ -23,9 +23,9 @@ export default function BmwM5Content({
     alt: `BMW M5 — ${tNav("originalPhoto")} ${i + 1}`,
   }));
 
-  const AFTER_GALLERY: GalleryImage[] = afterImages.map((img) => ({
+  const AFTER_GALLERY: GalleryImage[] = afterImages.map((img, i) => ({
     src: img.src,
-    alt: "BMW M5 — enhanced detail",
+    alt: `BMW M5 — enhanced automotive photograph ${i + 1}`,
   }));
 
   return (

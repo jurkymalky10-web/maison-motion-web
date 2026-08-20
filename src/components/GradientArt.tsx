@@ -25,7 +25,7 @@ export default function GradientArt({
       {showSweep && (
         <motion.div
           aria-hidden
-          className="absolute -inset-x-1/4 top-1/3 h-px"
+          className="absolute -inset-x-1/4 top-1/3 hidden h-px md:block"
           style={{
             background: `linear-gradient(90deg, transparent, ${primary}aa, transparent)`,
           }}
@@ -35,7 +35,7 @@ export default function GradientArt({
       )}
 
       <svg
-        className="absolute inset-0 h-full w-full opacity-[0.02] md:opacity-[0.056]"
+        className="absolute inset-0 hidden h-full w-full opacity-[0.056] md:block"
         aria-hidden
       >
         <defs>

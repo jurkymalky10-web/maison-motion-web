@@ -6,6 +6,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import SmoothScroller from "@/components/SmoothScroller";
+import StructuredData from "@/components/StructuredData";
 import AnalyticsLoader from "@/components/analytics/AnalyticsLoader";
 import { CookieConsentProvider } from "@/components/cookies/CookieConsentContext";
 import CookieConsentBanner from "@/components/cookies/CookieConsentBanner";
@@ -32,12 +33,16 @@ export const metadata: Metadata = {
   },
   description: siteConfig.description,
   keywords: [
-    "automotive film studio",
-    "car photography studio",
-    "luxury automotive CGI",
-    "car launch film production",
-    "automotive motion design",
-    "supercar photography",
+    "automotive photography",
+    "automotive videography",
+    "cinematic car videos",
+    "dealership marketing",
+    "vehicle advertising",
+    "premium automotive media",
+    "luxury car photography",
+    "car sales marketing",
+    "AI automotive content",
+    "automotive content creation",
   ],
   authors: [{ name: siteConfig.name }],
   creator: siteConfig.name,
@@ -58,6 +63,13 @@ export const metadata: Metadata = {
   robots: {
     index: true,
     follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
+    },
   },
   icons: {
     icon: [
@@ -82,6 +94,7 @@ export default async function RootLayout({
   return (
     <html lang={locale} className={`${bodoni.variable} ${inter.variable}`}>
       <body className="grain min-h-screen bg-background font-sans text-foreground">
+        <StructuredData />
         <NextIntlClientProvider messages={messages}>
           <CookieConsentProvider>
             <SmoothScroller>

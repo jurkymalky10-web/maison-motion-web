@@ -2,16 +2,18 @@ import fs from "node:fs";
 import path from "node:path";
 import type { Metadata } from "next";
 import Porsche911Content from "@/components/portfolio/Porsche911Content";
+import { isOriginalPhoto } from "@/lib/portfolioMedia";
+import { buildMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Porsche 911 — Premium Vehicle Presentation",
   description:
     "A premium vehicle presentation for the Porsche 911 combining professional automotive photography and natural image enhancement.",
-  alternates: { canonical: "/portfolio/porsche-911" },
-};
+  path: "/portfolio/porsche-911",
+  keywords: ["luxury car photography", "automotive photography", "vehicle advertising"],
+});
 
 const FOLDER = "porsche";
-const BEFORE_PATTERN = /^pred\d+\.png$/i;
 const VIDEO_EXTENSIONS = [".mp4", ".mov", ".webm"];
 
 export default function Porsche911Page() {
@@ -19,10 +21,10 @@ export default function Porsche911Page() {
   const files = fs.readdirSync(dir);
 
   const beforeImages = files
-    .filter((file) => BEFORE_PATTERN.test(file))
+    .filter((file) => isOriginalPhoto(file))
     .sort((a, b) => {
-      const numA = parseInt(a.match(/\d+/)![0], 10);
-      const numB = parseInt(b.match(/\d+/)![0], 10);
+      const numA = parseInt(a.match(/\d+/)?.[0] ?? "0", 10);
+      const numB = parseInt(b.match(/\d+/)?.[0] ?? "0", 10);
       return numA - numB;
     })
     .map((file) => ({
@@ -30,7 +32,7 @@ export default function Porsche911Page() {
     }));
 
   const afterImages = files
-    .filter((file) => file.toLowerCase().endsWith(".png") && !BEFORE_PATTERN.test(file))
+    .filter((file) => file.toLowerCase().endsWith(".png") && !isOriginalPhoto(file))
     .sort()
     .map((file) => ({
       src: `/portfolio/${FOLDER}/${file}`,

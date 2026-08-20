@@ -20,16 +20,40 @@ export default function Hero() {
   const opacity = useTransform(scrollYProgress, [0, 0.8], [1, 0]);
 
   return (
-    <section ref={ref} className="relative h-[68svh] min-h-[480px] overflow-hidden bg-black md:h-[100svh] md:min-h-[720px]">
+    <section ref={ref} className="relative min-h-[640px] overflow-hidden bg-black md:h-[100svh] md:min-h-[720px]">
       <motion.div style={{ y, scale }} className="absolute inset-0">
-        <Image
-          src="/hero/hero-1.webp"
-          alt="Maison Motion Studio — cinematic automotive presentation"
-          fill
-          priority
-          sizes="100vw"
-          className="object-cover object-[80%_center] hero-image-bright md:object-right"
-        />
+        {/* mobile only: full uncropped car over a blurred, darkened fill — desktop untouched below */}
+        <div className="absolute inset-0 md:hidden">
+          <Image
+            src="/hero/hero-1.webp"
+            alt=""
+            aria-hidden
+            fill
+            sizes="100vw"
+            className="scale-110 object-cover object-right blur-2xl brightness-[0.45]"
+          />
+          <div className="absolute inset-0 bg-black/25" />
+          <Image
+            src="/hero/hero-1.webp"
+            alt="Maison Motion Studio — cinematic automotive presentation"
+            fill
+            priority
+            sizes="100vw"
+            className="object-contain hero-image-bright"
+          />
+        </div>
+
+        <div className="absolute inset-0 hidden md:block">
+          <Image
+            src="/hero/hero-1.webp"
+            alt="Maison Motion Studio — cinematic automotive presentation"
+            fill
+            priority
+            sizes="100vw"
+            className="object-cover object-right hero-image-bright"
+          />
+        </div>
+
         <div className="absolute inset-0 bg-gradient-to-b from-black/35 via-black/20 to-black/55" />
         <div className="absolute inset-0 bg-gradient-to-r from-black/40 via-black/10 to-transparent" />
       </motion.div>
@@ -38,7 +62,7 @@ export default function Hero() {
 
       <motion.div
         style={{ opacity }}
-        className="container-lux relative z-10 flex h-full flex-col justify-center pt-20 md:pt-28"
+        className="container-lux relative z-10 flex h-full flex-col justify-center py-16 md:py-0 md:pt-28"
       >
         <motion.p
           initial={{ opacity: 0, y: 16 }}
@@ -53,7 +77,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 28 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.75, ease: [0.16, 1, 0.3, 1], delay: 0.3 }}
-          className="mt-7 max-w-4xl font-display text-[11.3vw] leading-[1.15] tracking-tight text-balance sm:text-[3.25rem] md:text-[4.1rem] lg:text-[4.9rem]"
+          className="mt-6 max-w-4xl font-display text-[clamp(2.1rem,9vw,2.9rem)] leading-[1.1] tracking-tight text-balance sm:text-[3.25rem] md:text-[4.1rem] lg:text-[4.9rem]"
         >
           {t("titleLine1")}
           <br />
@@ -64,7 +88,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.75, ease: [0.16, 1, 0.3, 1], delay: 0.4 }}
-          className="mt-12 max-w-[580px] text-base leading-relaxed text-foreground/60 md:text-lg"
+          className="mt-6 max-w-[580px] text-base leading-relaxed text-foreground/60 md:mt-12 md:text-lg"
         >
           {t("paragraph")}
         </motion.p>
@@ -73,7 +97,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.75, ease: [0.16, 1, 0.3, 1], delay: 0.5 }}
-          className="mt-14 flex flex-wrap items-center gap-6"
+          className="mt-8 flex flex-wrap items-center gap-6 md:mt-14"
         >
           <Link
             href="/portfolio"
